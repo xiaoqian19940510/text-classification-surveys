@@ -81,7 +81,9 @@ We report on a series of experiments with convolutional neural networks (CNN) tr
 The MR is a movie review dataset, each of which correspondsto a sentence. The corpus has 5,331 positive data and 5,331 negative data. 10-fold cross-validationby random splitting is commonly used to test MR.
 </p></blockquote></details>
 
-* <a href="http://www.cs.uic.edu/∼liub/FBS/sentiment-analysis.html">SST-1</a>
+* <a href="http://www.cs.uic.edu/∼liub/FBS/sentiment-analysis.html">Stanford Sentiment Treebank (SST)</a></summary><blockquote><p align="justify">
+The SST [175] is an extension of MR. It has two cate-gories. SST-1 with fine-grained labels with five classes. It has 8,544 training texts and 2,210 testtexts, respectively. Furthermore, SST-2 has 9,613 texts with binary labels being partitioned into6,920 training texts, 872 development texts, and 1,821 testing texts.
+</p></blockquote></details>
 
 ## Tools and Repos
 
