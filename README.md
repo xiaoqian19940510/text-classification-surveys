@@ -50,11 +50,10 @@ Deep learning based models have surpassed classical machine learning based appro
 
 ## Shallow Learning Models
 [:arrow_up:](#table-of-contents)
-### 2006 
+### 1961 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/W06-0901/">The stages of event extraction</a> by<i> David Ahn</i></summary><blockquote><p align="justify">
-Event detection and recognition is a complex task consisting of multiple sub-tasks of varying difficulty. In this paper, we present a simple, modular approach to event extraction that allows us to experiment with a variety of machine learning methods for these sub-tasks, as well as to evaluate the impact on performance these sub-tasks have on the overall task. 
+<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">NB</a> </summary><blockquote><p align="justify">
 </p></blockquote></details>
 
 
