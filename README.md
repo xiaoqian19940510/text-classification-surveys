@@ -108,6 +108,22 @@ The AM is a popular corpus formed by collecting Amazon websiteproduct reviews [1
 ### News Classification (NC) 
 News content is one of the most crucial information sources which hasa critical influence on people. The NC system facilitates users to get vital knowledge in real-time.News classification applications mainly encompass: recognizing news topics and recommendingrelated news according to user interest. The news classification datasets include 20NG, AG, R8, R52,Sogou, and so on. Here we detail several of the primary datasets.
 
+* <a href="http://ana.cachopo.org/datasets-for-single-label-text-categorization">20 Newsgroups (20NG)</a></summary><blockquote><p align="justify">
+ The 20NG is a newsgroup text dataset. It has 20 categories withthe same number of each category and includes 18,846 texts.
+</p></blockquote></details>
+
+* <a href="http://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html">AG News (AG)</a></summary><blockquote><p align="justify">
+The AG News is a search engine for news from academia, choosingthe four largest classes. It uses the title and description fields of each news. AG contains 120,000texts for training and 7,600 texts for testing.
+</p></blockquote></details>
+
+* <a href="https://www.cs.umb.edu/~smimarog/textmining/datasets/">R8 and R52</a></summary><blockquote><p align="justify">
+R8 and R52 are two subsets which are the subset of Reuters. R8 has 8categories, divided into 2,189 test files and 5,485 training courses. R52 has 52 categories, split into6,532 training files and 2,568 test files.
+</p></blockquote></details>
+
+* <a href="https://dblp.org/rec/conf/cncl/SunQXH19.bib">Sogou News (Sogou)</a></summary><blockquote><p align="justify">
+The Sogou News combines two datasets, including SogouCA andSogouCS news sets. The label of each text is the domain names in the URL.
+</p></blockquote></details>
+
 
 
 ## Tools and Repos
