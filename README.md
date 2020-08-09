@@ -124,6 +124,21 @@ R8 and R52 are two subsets which are the subset of Reuters. R8 has 8categories, 
 The Sogou News combines two datasets, including SogouCA andSogouCS news sets. The label of each text is the domain names in the URL.
 </p></blockquote></details>
 
+### Topic Labeling (TL)
+The topic analysis attempts to get the meaning of the text by defining thesophisticated text theme. The topic labeling is one of the essential components of the topic analysistechnique, intending to assign one or more subjects for each document to simplify the topic analysis.
+
+* <a href="https://dblp.org/rec/journals/semweb/LehmannIJJKMHMK15.bib">DBpedia</a></summary><blockquote><p align="justify">
+The DBpedia is a large-scale multi-lingual knowledge base generated usingWikipedia’s most ordinarily used infoboxes. It publishes DBpedia each month, adding or deletingclasses and properties in every version. DBpedia’s most prevalent version has 14 classes and isdivided into 560,000 training data and 70,000 test data.
+</p></blockquote></details>
+
+* <a href="http://davis.wpi.edu/xmdv/datasets/ohsumed.html">Ohsumed</a></summary><blockquote><p align="justify">
+The Ohsumed belongs to the MEDLINE database. It includes 7,400 texts andhas 23 cardiovascular disease categories. All texts are medical abstracts and are labeled into one ormore classes.
+</p></blockquote></details>
+
+* <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Yahoo answers (YahooA)</a></summary><blockquote><p align="justify">
+The YahooA is a topic labeling task with 10 classes. It includes140,000 training data and 5,000 test data. All text contains three elements, being question titles,question contexts, and best answers, respectively.
+</p></blockquote></details>
+
 
 
 ## Tools and Repos
