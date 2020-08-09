@@ -90,6 +90,6 @@ The SST [175] is an extension of MR. It has two cate-gories. SST-1 with fine-gra
 
 
 <details>
-<summary><a href="https://github.com/ahsi/Multilingual_Event_Extraction">CMU Multilingual Event Extractor</a></summary><blockquote><p align="justify">
-Python code to run ACE-style event extraction on English, Chinese, or Spanish texts 
+<summary><a href="https://github.com/Tencent/NeuralNLP-NeuralClassifier">NeuralClassifier</a></summary><blockquote><p align="justify">
+腾讯的开源NLP项目
 </p></blockquote></details>
