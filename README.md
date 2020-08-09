@@ -50,6 +50,7 @@ Deep learning based models have surpassed classical machine learning based appro
 
 ## Shallow Learning Models
 [:arrow_up:](#table-of-contents)
+
 ### 1961 
 
 <details>
@@ -59,6 +60,7 @@ Deep learning based models have surpassed classical machine learning based appro
 
 ## Deep learning Models
 [:arrow_up:](#table-of-contents)
+
 ### 2014
 
 
