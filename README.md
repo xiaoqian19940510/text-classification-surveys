@@ -85,6 +85,22 @@ The MR is a movie review dataset, each of which correspondsto a sentence. The co
 The SST [175] is an extension of MR. It has two cate-gories. SST-1 with fine-grained labels with five classes. It has 8,544 training texts and 2,210 testtexts, respectively. Furthermore, SST-2 has 9,613 texts with binary labels being partitioned into6,920 training texts, 872 development texts, and 1,821 testing texts.
 </p></blockquote></details>
 
+* <a href="http://www.cs.pitt.edu/mpqa/">The Multi-Perspective Question Answering (MPQA)</a></summary><blockquote><p align="justify">
+The MPQA is an opiniondataset. It has two class labels and also an MPQA dataset of opinion polarity detection sub-tasks.MPQA includes 10,606 sentences extracted from news articles from various news sources. It shouldbe noted that it contains 3,311 positive texts and 7,293 negative texts without labels of each text.
+</p></blockquote></details>
+
+* <a href="https://dblp.org/rec/bib/conf/kdd/DiaoQWSJW14">IMDB reviews</a></summary><blockquote><p align="justify">
+The IMDB review is developed for binary sentiment classification of filmreviews with the same amount in each class. It can be separated into training and test groups onaverage, by 25,000 comments per group.
+</p></blockquote></details>
+
+* <a href="https://dblp.org/rec/bib/conf/kdd/DiaoQWSJW14">Yelp reviews</a></summary><blockquote><p align="justify">
+The Yelp review is summarized from the Yelp Dataset Challenges in 2013,2014, and 2015. This dataset has two categories. Yelp-2 of these were used for negative and positiveemotion classification tasks, including 560,000 training texts and 38,000 test texts. Yelp-5 is used todetect fine-grained affective labels with 650,000 training and 50,000 test texts in all classes.
+</p></blockquote></details>
+
+* <a href="https://dblp.org/rec/bib/conf/kdd/DiaoQWSJW14">Amazon Reviews (AM).</a></summary><blockquote><p align="justify">
+The AM is a popular corpus formed by collecting Amazon websiteproduct reviews [190]. This dataset has two categories. The Amazon-2 with two classes includes 3,600,000 training sets and 400,000 testing sets. Amazon-5, with five classes, includes 3,000,000 and650,000 comments for training and testing.
+</p></blockquote></details>
+
 
 
 ## Tools and Repos
