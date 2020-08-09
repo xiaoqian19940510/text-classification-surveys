@@ -75,7 +75,10 @@ We report on a series of experiments with convolutional neural networks (CNN) tr
 ## Data
 [:arrow_up:](#table-of-contents)
 
-* <a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/">MR</a>
+* <a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/">Movie Review (MR)</a></summary><blockquote><p align="justify">
+The MR is a movie review dataset, each of which correspondsto a sentence. The corpus has 5,331 positive data and 5,331 negative data. 10-fold cross-validationby random splitting is commonly used to test MR.
+</p></blockquote></details>
+
 * <a href="http://www.cs.uic.edu/∼liub/FBS/sentiment-analysis.html">SST-1</a>
 
 ## Tools and Repos
