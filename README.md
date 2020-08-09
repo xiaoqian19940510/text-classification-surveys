@@ -9,8 +9,8 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 <summary><b>Expand Table of Contents</b></summary><blockquote><p align="justify">
 
 - [Surveys](#Surveys)
-- [Shallow Learning Models](#Shallow Learning Models)
-- [Deep Learning models](#Deep Learning models)
+- [Shallow Learning Models](#Shallow-Learning-Models)
+- [Deep Learning Models](#Deep-Learning-Models)
 - [Datasets](#Datasets)
 - [Tools and Repos](#tools-and-repos)
 </p></blockquote></details>
@@ -58,7 +58,7 @@ Deep learning based models have surpassed classical machine learning based appro
 </p></blockquote></details>
 
 
-## Deep learning Models
+## Deep Learning Models
 [:arrow_up:](#table-of-contents)
 
 ### 2014
