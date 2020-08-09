@@ -53,7 +53,7 @@ Deep learning based models have surpassed classical machine learning based appro
 ### 1961 
 
 <details>
-<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (NB)</a> <a href="https://github.com/Gunjitbedi/Text-Classification">{Code}</a> </summary><blockquote><p align="justify">
+<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (NB)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
 </p></blockquote></details>
 
 
@@ -64,7 +64,7 @@ Deep learning based models have surpassed classical machine learning based appro
 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Convolutional Neural Networks for Sentence Classification</a> <a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">TextCNN</a>(<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Convolutional Neural Networks for Sentence Classification</a> TextCNN (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
 </p></blockquote></details>
 
 
