@@ -1,6 +1,6 @@
-# Event Extraction papers
+# Text Classification papers
 
-This repository contains resources for Natural Language Processing (NLP) with a focus on the task of Event Extraction.
+This repository contains resources for Natural Language Processing (NLP) with a focus on the task of Text Classification.
 
 # Table of Contents
 
