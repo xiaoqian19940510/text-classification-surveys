@@ -59,13 +59,12 @@ Deep learning based models have surpassed classical machine learning based appro
 
 ## Deep learning Models
 [:arrow_up:](#table-of-contents)
-### 2015 
+### 2014
 
 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/P15-2060/">Event detection and domain adaptation with convolutional neural networks</a> by<i> Thien Huu Nguyen, Ralph Grishman </i>(<a href="https://github.com/ThanhChinhBK/event_detector">Github</a>)</summary><blockquote><p align="justify">
-We study the event detection problem using convolutional neural networks (CNNs) that overcome the two fundamental limitations of the traditional feature-based approaches to this task: complicated feature engineering for rich feature sets and error propagation from the preceding stages which generate these features. The experimental results show that the CNNs outperform the best reported feature-based systems in the general setting as well as the domain adaptation setting without resorting to extensive external resources.
+<summary>1. <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Convolutional Neural Networks for Sentence Classification</a> <a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">TextCNN</a>(<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
 </p></blockquote></details>
 
 
