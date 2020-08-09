@@ -1,4 +1,4 @@
-# Text Classification papers（文本分类资料总结）
+# Text Classification papers（文本分类资料总结）更新中...
 
 This repository contains resources for Natural Language Processing (NLP) with a focus on the task of Text Classification. The content is mainly from paper 《A Survey on Text Classification: From Shallow to Deep Learning》
 
