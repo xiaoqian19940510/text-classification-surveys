@@ -77,6 +77,9 @@ We report on a series of experiments with convolutional neural networks (CNN) tr
 ## Data
 [:arrow_up:](#table-of-contents)
 
+### Sentiment Analysis (SA)
+SA is the process of analyzing and reasoning the subjective text withinemotional color. It is crucial to get information on whether it supports a particular point of view fromthe text that is distinct from the traditional text classification that analyzes the objective content ofthe text. SA can be binary or multi-class. Binary SA is to divide the text into two categories, includingpositive and negative. Multi-class SA classifies text to multi-level or fine-grained labels. 
+
 * <a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/">Movie Review (MR)</a></summary><blockquote><p align="justify">
 The MR is a movie review dataset, each of which correspondsto a sentence. The corpus has 5,331 positive data and 5,331 negative data. 10-fold cross-validationby random splitting is commonly used to test MR.
 </p></blockquote></details>
@@ -93,13 +96,17 @@ The MPQA is an opiniondataset. It has two class labels and also an MPQA dataset 
 The IMDB review is developed for binary sentiment classification of filmreviews with the same amount in each class. It can be separated into training and test groups onaverage, by 25,000 comments per group.
 </p></blockquote></details>
 
-* <a href="https://dblp.org/rec/bib/conf/kdd/DiaoQWSJW14">Yelp reviews</a></summary><blockquote><p align="justify">
+* <a href="https://dblp.org/rec/bib/conf/emnlp/TangQL15">Yelp reviews</a></summary><blockquote><p align="justify">
 The Yelp review is summarized from the Yelp Dataset Challenges in 2013,2014, and 2015. This dataset has two categories. Yelp-2 of these were used for negative and positiveemotion classification tasks, including 560,000 training texts and 38,000 test texts. Yelp-5 is used todetect fine-grained affective labels with 650,000 training and 50,000 test texts in all classes.
 </p></blockquote></details>
 
-* <a href="https://dblp.org/rec/bib/conf/kdd/DiaoQWSJW14">Amazon Reviews (AM).</a></summary><blockquote><p align="justify">
+* <a href="https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products">Amazon Reviews (AM)</a></summary><blockquote><p align="justify">
 The AM is a popular corpus formed by collecting Amazon websiteproduct reviews [190]. This dataset has two categories. The Amazon-2 with two classes includes 3,600,000 training sets and 400,000 testing sets. Amazon-5, with five classes, includes 3,000,000 and650,000 comments for training and testing.
 </p></blockquote></details>
+
+
+### News Classification (NC) 
+News content is one of the most crucial information sources which hasa critical influence on people. The NC system facilitates users to get vital knowledge in real-time.News classification applications mainly encompass: recognizing news topics and recommendingrelated news according to user interest. The news classification datasets include 20NG, AG, R8, R52,Sogou, and so on. Here we detail several of the primary datasets.
 
 
 
