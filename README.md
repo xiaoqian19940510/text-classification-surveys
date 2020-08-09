@@ -2,7 +2,7 @@
 
 This repository contains resources for Natural Language Processing (NLP) with a focus on the task of Text Classification. The content is mainly from paper 《A Survey on Text Classification: From Shallow to Deep Learning》
 
-该repository主要总结自然语言处理（NLP）中文本分类任务的资料。内容主要来自论文《A Survey on Text Classification: From Shallow to Deep Learning》。
+该repository主要总结自然语言处理（NLP）中文本分类任务的资料。内容主要来自文本分类综述论文《A Survey on Text Classification: From Shallow to Deep Learning》。
 
 # Table of Contents
 
