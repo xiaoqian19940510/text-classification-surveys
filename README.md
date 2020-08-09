@@ -8,7 +8,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 <summary><b>Expand Table of Contents</b></summary><blockquote><p align="justify">
 
-- [Pattern Matching](#pattern-matching)
+- [Survey](#Survey)
 - [Machine Learning](#machine-learning)
 - [Deep Learning](#deep-learning)
 - [Semi-supervised Learning](#semi-supervised-learning)
@@ -24,16 +24,16 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 ---
 
 
-## Pattern matching
+## Survey
 
 
-### 1993
+### 2020
 
 
 <details>
-<summary>1. <a href="https://aaai.org/Papers/AAAI/1993/AAAI93-121.pdf">Automatically Constructing a Dictionary for Information Extraction Tasks</a> by<i> Ellen Riloff
+<summary>1. <a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey on Text Classification: From Shallow to Deep Learning</a> by<i>Qian Li, Hao Peng, Jianxin Li, Congying Xia, Renyu Yang, Lichao Sun, Philip S. Yu, Lifang He
 </i></summary><blockquote><p align="justify">
-Knowledge-based natural language processing systems have achieved good success with certain tasks but they are often criticized because they depend on a domain-specific dictionary that requires a great deal of manual knowledge engineering. This knowledge engineering bottleneck makes knowledge-based NLP systems impractical for real-world applications because they cannot be easily scaled up orported to new domains. In response to this problem, we developed a system called AutoSlog that automatically builds a domain-specific dictionary of concepts for extracting information from text. Using AutoSlog. we constructed a dictionary for the domain of terrorist event descriptions in only 5 person-hours. We then compared the AutoSlog dictionary with a hand-crafted dictionary that was built by two highly skilled graduate students and required approximately 1500 person-hours of effort. We evaluated the two dictionaries using two blind test sets of 100 texts each. Overall, the AutoSlog dictionary achieved 98% of the performance of the hand-crafted dictionary. On the first test set, the Auto-Slog dictionary obtained 96.3% of the perfomlance of the hand-crafted dictionary. On the second test set, the overall scores were virtually indistinguishable with the AutoSlog dictionary achieving 99.7% of the performance of the handcrafted dictionary.
+Text classification is the most fundamental and essential task in natural language processing. The last decade has seen a surge of research in this area due to the unprecedented success of deep learning. Numerous methods, datasets, and evaluation metrics have been proposed in the literature, raising the need for a comprehensive and updated survey. This paper fills the gap by reviewing the state of the art approaches from 1961 to 2020, focusing on models from shallow to deep learning. We create a taxonomy for text classification according to the text involved and the models used for feature extraction and classification. We then discuss each of these categories in detail, dealing with both the technical developments and benchmark datasets that support tests of predictions. A comprehensive comparison between different techniques, as well as identifying the pros and cons of various evaluation metrics are also provided in this survey. Finally, we conclude by summarizing key implications, future research directions, and the challenges facing the research area.
 </p></blockquote></details>
 
 ### 1995
