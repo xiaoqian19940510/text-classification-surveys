@@ -93,3 +93,16 @@ The SST [175] is an extension of MR. It has two cate-gories. SST-1 with fine-gra
 <summary><a href="https://github.com/Tencent/NeuralNLP-NeuralClassifier">NeuralClassifier</a></summary><blockquote><p align="justify">
 腾讯的开源NLP项目
 </p></blockquote></details>
+
+
+<details>
+<summary><a href="https://github.com/nocater/baidu_nlp_project2">baidu_nlp_project2</a></summary><blockquote><p align="justify">
+百度NLP项目
+</p></blockquote></details>
+
+
+
+<details>
+<summary><a href="https://github.com/TianWuYuJiangHenShou/textClassifier">Multi-label</a></summary><blockquote><p align="justify">
+多标签文本分类项目
+</p></blockquote></details>
