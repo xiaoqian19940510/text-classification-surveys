@@ -266,6 +266,37 @@ WikiQA数据集包含没有正确答案的问题，需要对答案进行评估�
 
 
 
+### Natural Language Inference (NLI) 自然语言推理
+NLI is used to predict whether the meaning of one text canbe deduced from another. Paraphrasing is a generalized form of NLI. It uses the task of measuringthe semantic similarity of sentence pairs to decide whether one sentence is the interpretation ofanother. The NLI datasets include SNLI, MNLI, SICK, STS, RTE, SciTail, MSRP, etc. Here we detailseveral of the primary datasets.
+
+NLI是用来预测一个文本的意思是否可以从另一个文本中推断出来。释义是NLI的一种概括形式。它的任务是测量句子对的语义相似度，以决定一个句子是否是另一个句子的解释。NLI数据集包括SNLI, MNLI, SICK, STS, RTE, SciTail, MSRP等。这里我们详细介绍了几个主要数据集。
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">The Stanford Natural Language Inference (SNLI)</a></summary><blockquote><p align="justify">
+The SNLI is generally applied toNLI tasks. It contains 570,152 human-annotated sentence pairs, including training, development,and test sets, which are annotated with three categories: neutral, entailment, and contradiction.
+  SNLI一般应用于各种任务。它包含570,152对人注释句子，包括训练集、开发集和测试集，并以中性句、隐含句和矛盾句三大类注释.
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Multi-Genre Natural Language Inference (MNLI)</a></summary><blockquote><p align="justify">
+The Multi-NLI is an expansion of SNLI, embracing a broader scope of written and spoken text genres. It includes 433,000 sentencepairs annotated by textual entailment labels.
+  Multi-NLI是SNLI的扩展，包括更广泛的书面和口语文本类型。它包括433,000个句子，并附有文本蕴涵标签。
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Sentences Involving Compositional Knowledge (SICK)</a></summary><blockquote><p align="justify">
+The SICK contains almost10,000 English sentence pairs. It consists of neutral, entailment and contradictory labels.
+The SICK包含近10,000对英语句子。它由中性、含蓄和矛盾的标签构成。
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Microsoft Research Paraphrase (MSRP)</a></summary><blockquote><p align="justify">
+The MSRP consists of sentence pairs, usuallyfor the text-similarity task. Each pair is annotated by a binary label to discriminate whether theyare paraphrases. It respectively includes 1,725 training and 4,076 test sets.
+MSRP由句子对组成，通常用于文本相似任务。每一对都由一个二进制标签注释，以区分它们是否是意译。分别包含1725个训练集和4076个测试集。
+</p></blockquote></details>
+
+
+
 ## Tools and Repos
 
 
