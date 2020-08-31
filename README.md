@@ -139,7 +139,7 @@ We report on a series of experiments with convolutional neural networks (CNN) tr
 ## Data 数据
 [:arrow_up:](#table-of-contents)
 
-### Sentiment Analysis (SA) 情感分析
+#### Sentiment Analysis (SA) 情感分析
 SA is the process of analyzing and reasoning the subjective text withinemotional color. It is crucial to get information on whether it supports a particular point of view fromthe text that is distinct from the traditional text classification that analyzes the objective content ofthe text. SA can be binary or multi-class. Binary SA is to divide the text into two categories, includingpositive and negative. Multi-class SA classifies text to multi-level or fine-grained labels. 
 
 情感分析是对带有情感色彩的主观文本进行分析和推理的过程。从文本中获取是否支持特定观点的信息是至关重要的，而传统的文本分类是分析文本的客观内容。情感分析可以是二进制的或多类的。二元情感分类是将文本分为正反两类。多类情感分类将文本分类为多层或细粒度的标签。
@@ -180,7 +180,7 @@ The AM is a popular corpus formed by collecting Amazon websiteproduct reviews [1
 </p></blockquote></details>
 
 
-### News Classification (NC) 新闻分类数据集
+#### News Classification (NC) 新闻分类数据集
 News content is one of the most crucial information sources which hasa critical influence on people. The NC system facilitates users to get vital knowledge in real-time.News classification applications mainly encompass: recognizing news topics and recommendingrelated news according to user interest. The news classification datasets include 20NG, AG, R8, R52,Sogou, and so on. Here we detail several of the primary datasets.
 
 新闻内容是影响人们生活的最重要的信息来源之一。数控系统便于用户实时获取重要知识。新闻分类应用主要包括:识别新闻话题，根据用户兴趣推荐相关新闻。新闻分类数据集包括20NG、AG、R8、R52、Sogou等。这里我们详细介绍了几个主要数据集。
