@@ -30,6 +30,22 @@ Text classification is the most fundamental and essential task in natural langua
 ## Deep Learning Models（深度学习模型）
 [:arrow_up:](#table-of-contents)
 
+#### 2020
+ <details/>
+<summary/>
+  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Spanbert: Improving pre-training by representing and predicting spans</a> Paragraph-Vec (<a href="https://github.com/facebookresearch/SpanBERT">Github</a>)</summary><blockquote><p align="justify">
+We present SpanBERT, a pre-training method that is designed to better represent and predict spans of text. Our approach extends BERT by (1) masking contiguous random spans, rather than random tokens, and (2) training the span boundary representations to predict the entire content of the masked span, without relying on the individual token representations within it. SpanBERT consistently outperforms BERT and our better-tuned baselines, with substantial gains on span selection tasks such as question answering and coreference resolution. In particular, with the same training data and model size as BERT-Large, our single model obtains 94.6% and 88.7% F1 on SQuAD 1.1 and 2.0 respectively. We also achieve a new state of the art on the OntoNotes coreference resolution task (79.6% F1), strong performance on the TACRED relation extraction benchmark, and even gains on GLUE.
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://openreview.net/forum?id=H1eA7AEtvS">ALBERT: A lite BERT for self-supervised learning of language representations</a> Paragraph-Vec (<a href="https://github.com/google-research/ALBERT">Github</a>)</summary><blockquote><p align="justify">
+Increasing model size when pretraining natural language representations often results in improved performance on downstream tasks. However, at some point further model increases become harder due to GPU/TPU memory limitations and longer training times. To address these problems,  we present two parameter-reduction techniques to lower memory consumption and increase the training speed of BERT~\citep{devlin2018bert}. Comprehensive empirical evidence shows that our proposed methods lead to models that scale much better compared to the original BERT. We also use a self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks with multi-sentence inputs. As a result, our best model establishes new state-of-the-art results on the GLUE, RACE, and \squad benchmarks while having fewer parameters compared to BERT-large. The code and the pretrained models are available at https://github.com/google-research/ALBERT.
+</p></blockquote></details>
+
+
+
+
 #### 2014
  <details/>
 <summary/>
