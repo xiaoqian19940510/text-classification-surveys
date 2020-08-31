@@ -86,26 +86,30 @@ We introduce a novel machine learning frame-work based on recursive autoencoders
 
 ### 2012
  
-  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> MV-RNN (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
-
+  <a href="https://www.aclweb.org/anthology/D12-1110/">Semantic compositionality through recursive matrix-vector spaces</a> MV-RNN (<a href="https://github.com/github-pengge/MV_RNN">Github</a>)</summary><blockquote><p align="justify">
+Single-word vector space models have been very successful at learning lexical information. However, they cannot capture the compositional meaning of longer phrases, preventing them from a deeper understanding of language. We introduce a recursive neural network (RNN) model that learns compositional vector representations for phrases and sentences of arbitrary syntactic type and length. Our model assigns a vector and a matrix to every node in a parse tree: the vector captures the inherent meaning of the constituent, while the matrix captures how it changes the meaning of neighboring words or phrases. This matrix-vector RNN can learn the meaning of operators in propositional logic and natural language. The model obtains state of the art performance on three different experiments: predicting fine-grained sentiment distributions of adverb-adjective pairs; classifying sentiment labels of movie reviews and classifying semantic relationships such as cause-effect or topic-message between nouns using the syntactic path between them.
+  单词向量空间模型在学习词汇信息方面非常成功。然而，他们不能捕捉长短语的组成意义，阻碍了他们对语言的更深的理解。我们介绍了一个递归神经网络(RNN)模型，学习组合向量表示的短语和句子的任意句法类型和长度。我们的模型为解析树中的每个节点分配一个向量和一个矩阵:向量捕获组成部分的内在含义，而矩阵捕获它如何改变邻近单词或短语的含义。该矩阵向量神经网络可以学习算子在命题逻辑和自然语言中的意义。该模型通过三个不同的实验得到艺术表现的状态:预测副词-形容词对的精细情绪分布;对电影评论的情感标签进行分类，利用名词之间的句法路径对名词之间的因果关系、主题信息等语义关系进行分类。
 </p></blockquote></details>
 
 ### 2013
  
-  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> RNTN (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
-
+  <a href="https://www.aclweb.org/anthology/D13-1170/">Recursive deep models for semantic compositionality over a sentiment treebank</a> RNTN (<a href=" https://github.com/pondruska/DeepSentiment">Github</a>)</summary><blockquote><p align="justify">
+Semantic word spaces have been very useful but cannot express the meaning of longer phrases in a principled way. Further progress towards understanding compositionality in tasks such as sentiment detection requires richer supervised training and evaluation resources and more powerful models of composition. To remedy this, we introduce a Sentiment Treebank. It includes fine grained sentiment labels for 215,154 phrases in the parse trees of 11,855 sentences and presents new challenges for sentiment composition-ality. To address them, we introduce the Recursive Neural Tensor Network. When trained on the new treebank, this model outperforms all previous methods on several metrics. It pushes the state of the art in single sentence positive/negative classification from 80% up to 85.4%. The accuracy of predicting fine-grained sentiment labels for all phrases reaches 80.7%, an improvement of 9.7% over bag of features baselines. Lastly, it is the only model that can accurately capture the effects of negation and its scope at various tree levels for both positive and negative phrases.
+  语义词空间已经非常有用，但不能以一种原则的方式表达较长的短语的意义。在情感检测等任务中进一步理解作文性，需要更丰富的监督训练和评估资源以及更强大的作文模型。为了解决这个问题，我们引入了一个情绪树银行。它为11,855个句子的解析树中的215,154个短语包含了细粒度的情绪标签，并对情绪的组合提出了新的挑战。为了解决这个问题，我们引入递归神经张量网络。当在新的treebank上进行训练时，这个模型在几个指标上都优于之前所有的方法。它将单句肯定/否定分类的技术水平从80%提升到85.4%。预测所有短语的精细情绪标签的准确率达到80.7%，比包特征基线提高了9.7%。最后，该模型是唯一能够准确地捕捉否定语句在不同树级上的影响及其范围的模型。
 </p></blockquote></details>
 
 ### 2014
  
-  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> Paragraph-Vec (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
-
+  <a href="http://proceedings.mlr.press/v32/le14.html">Distributed representations of sentences and documents</a> Paragraph-Vec (<a href="https://github.com/inejc/paragraph-vectors">Github</a>)</summary><blockquote><p align="justify">
+Many machine learning algorithms require the input to be represented as a fixed length feature vector. When it comes to texts, one of the most common representations is bag-of-words. Despite their popularity, bag-of-words models have two major weaknesses: they lose the ordering of the words and they also ignore semantics of the words. For example, "powerful," "strong" and "Paris" are equally distant. In this paper, we propose an unsupervised algorithm that learns vector representations of sentences and text documents. This algorithm represents each document by a dense vector which is trained to predict words in the document. Its construction gives our algorithm the potential to overcome the weaknesses of bag-of-words models. Empirical results show that our technique outperforms bag-of-words models as well as other techniques for text representations. Finally, we achieve new state-of-the-art results on several text classification and sentiment analysis tasks.
+  许多机器学习算法要求输入以固定长度的特征向量表示。说到文本，最常见的一种表现形式是词汇袋。尽管词包模型很流行，但它们有两个主要的弱点:它们失去了单词的顺序，而且它们还忽略了单词的语义。例如，“powerful”、“strong”和“Paris”的距离一样远。在本文中，我们提出了一种学习句子和文本文档的向量表示的无监督算法。该算法通过密集向量来表示每个文档，密集向量被训练用来预测文档中的单词。它的构造使我们的算法有可能克服单词包模型的缺点。实验结果表明，我们的技术在文本表示方面优于词汇袋模型和其他技术。最后，我们在几个文本分类和情绪分析任务上取得了最新的结果。
 </p></blockquote></details>
 
 ### 2014
  
-  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> DCNN (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
-
+  <a href="https://doi.org/10.3115/v1/p14-1062">A convolutional neural network for modelling sentences</a> DCNN (<a href="https://github.com/kinimod23/ATS_Project">Github</a>)</summary><blockquote><p align="justify">
+The ability to accurately represent sentences is central to language understanding. We describe a convolutional architecture dubbed the Dynamic Convolutional Neural Network (DCNN) that we adopt for the semantic modelling of sentences. The network uses Dynamic k-Max Pooling, a global pooling operation over linear sequences. The network handles input sentences of varying length and induces a feature graph over the sentence that is capable of explicitly capturing short and long-range relations. The network does not rely on a parse tree and is easily applicable to any language. We test the DCNN in four experiments: small scale binary and multi-class sentiment prediction, six-way question classification and Twitter sentiment prediction by distant supervision. The network achieves excellent performance in the first three tasks and a greater than 25% error reduction in the last task with respect to the strongest baseline.
+  准确表达句子的能力是语言理解的核心。我们描述了一种称为动态卷积神经网络(DCNN)的卷积架构，我们将其用于句子的语义建模。该网络使用动态k-Max池，一种线性序列上的全局池操作。该网络处理不同长度的输入句子，并在句子上归纳出一个特征图，能够明确地捕捉短关系和长关系。该网络不依赖于解析树，并且很容易适用于任何语言。我们通过四组实验对DCNN进行了测试:小尺度二值多类情绪预测、六向问题分类和推特远程监控情绪预测。该网络在前三个任务中都取得了优异的性能，在最后一个任务中相对于最强基线的误差减少了25%以上。
 </p></blockquote></details>
 
 ### 2014
