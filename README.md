@@ -362,8 +362,46 @@ AAPD是计算机科学领域中用于website2多标签文本分类的大型数�
 
 ### Others 其他
 There are some datasets for other applications, such as Geonames toponyms, Twitter posts,and so on.
+
 还有一些用于其他应用程序的数据集，比如Geonames toponyms、Twitter帖子等等。
 
+
+##  Evaluation Metrics 评价指标
+
+In terms of evaluating text classification models, accuracy and F1 score are the most used to assessthe text classification methods. Later, with the increasing difficulty of classification tasks or theexistence of some particular tasks, the evaluation metrics are improved. For example, evaluationmetrics such as P@K and Micro-F1 are used to evaluate multi-label text classification performance,and MRR is usually used to estimate the performance of QA tasks.
+
+### Single-label metrics 单标签评价指标
+Single-label text classification divides the text into one of the most likelycategories applied in NLP tasks such as QA, SA, and dialogue systems [9]. For single-label textclassification, one text belongs to just one catalog, making it possible not to consider the relationsamong labels. Here we introduce some evaluation metrics used for single-label text classificationtasks.
+
+单标签文本分类将文本分成一个最可能应用于NLP任务的类别，如QA、SA和对话系统。对于单标签文本分类，一个文本只属于一个目录，使得不考虑标签之间的关系成为可能。在这里，我们介绍一些评价指标用于单标签文本分类任务。
+
+Accuracy and Error Rate. Accuracy and Error Rate are the fundamental metrics for a text classi-fication model. The Accuracy and Error Rate are respectively defined as
+
+Precision, Recall and F1.These are vital metrics utilized for unbalanced test sets regardless ofthe standard type and error rate. For example, most of the test samples have a class label. F1 is theharmonic average of Precision and Recall. Accuracy, Recall, and F1 as defined
+
+
+The desired results will be obtained when the accuracy, F1 and recall value reach 1. On the contrary,when the values become 0, the worst result is obtained. For the multi-class classification problem,the precision and recall value of each class can be calculated separately, and then the performanceof the individual and whole can be analyzed.
+
+Exact Match (EM).The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
+
+Mean Reciprocal Rank (MRR).The MRR is usually applied for assessing the performanceof ranking algorithms on QA and Information Retrieval (IR) tasks. 
+
+Hamming-loss (HL).The HL assesses the score of misclassified instance-label pairs wherea related label is omitted or an unrelated is predicted.
+
+
+### Multi-label metrics 多标签评价指标
+Compared with single-label text classification, multi-label text classifica-tion divides the text into multiple category labels, and the number of category labels is variable. These metrics are designed for single label text classification, which are not suitable for multi-label tasks. Thus, there are some metrics designed for multi-label text classification.
+
+
+Micro−F1. The Micro−F1 is a measure that considers the overall accuracy and recall of alllabels. The Micro−F1is defined as
+
+Macro−F1. The Macro−F1 calculates the average F1 of all labels. Unlike Micro−F1, which setseven weight to every example, Macro−F1 sets the same weight to all labels in the average process. Formally, Macro−F1is defined as
+
+In addition to the above evaluation metrics, there are some rank-based evaluation metrics forextreme multi-label classification tasks, including P@K and NDCG@K.
+
+Precision at Top K (P@K).The P@K is the precision at the top k. ForP@K, each text has a set of L ground truth labels Lt={l0,l1,l2...,lL−1}, in order of decreasing probability Pt=p0,p1,p2...,pQ−1.The precision at k is
+
+Normalized Discounted Cummulated Gains (NDCG@K).The NDCG at k is
 
 
 ## Tools and Repos
