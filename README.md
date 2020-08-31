@@ -360,31 +360,31 @@ Single-label text classification divides the text into one of the most likelycat
 
 
 <details/>
-<summary/> Accuracy and Error Rate</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Accuracy and Error Rate</a></summary><blockquote><p align="justify">
 Accuracy and Error Rate are the fundamental metrics for a text classification model. The Accuracy and Error Rate are respectively defined as
 </p></blockquote></details>
 
 <details/>
-<summary/> Precision, Recall and F1</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Precision, Recall and F1</a></summary><blockquote><p align="justify">
 These are vital metrics utilized for unbalanced test sets regardless ofthe standard type and error rate. For example, most of the test samples have a class label. F1 is theharmonic average of Precision and Recall. Accuracy, Recall, and F1 as defined
   
   The desired results will be obtained when the accuracy, F1 and recall value reach 1. On the contrary,when the values become 0, the worst result is obtained. For the multi-class classification problem,the precision and recall value of each class can be calculated separately, and then the performanceof the individual and whole can be analyzed.
 </p></blockquote></details>
 
 <details/>
-<summary/>Exact Match (EM)</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Exact Match (EM)</a></summary><blockquote><p align="justify">
 The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
 
 </p></blockquote></details>
 
 
 <details/>
-<summary/>Mean Reciprocal Rank (MRR)</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Mean Reciprocal Rank (MRR)</a></summary><blockquote><p align="justify">
 The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
 </p></blockquote></details>
 
 <details/>
-<summary/>Hamming-loss (HL)</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Hamming-loss (HL)</a></summary><blockquote><p align="justify">
 The HL assesses the score of misclassified instance-label pairs wherea related label is omitted or an unrelated is predicted.
 </p></blockquote></details>
 
