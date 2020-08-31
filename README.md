@@ -96,8 +96,45 @@ In this study, we explore capsule networks with dynamic routing for text classif
 Script event prediction requires a model to predict the subsequent event given an existing event context. Previous models based on event pairs or event chains cannot make full use of dense event connections, which may limit their capability of event prediction. To remedy this, we propose constructing an event graph to better utilize the event network information for script event prediction. In particular, we first extract narrative event chains from large quantities of news corpus, and then construct a narrative event evolutionary graph (NEEG) based on the extracted chains. NEEG can be seen as a knowledge base that describes event evolutionary principles and patterns. To solve the inference problem on NEEG, we present a scaled graph neural network (SGNN) to model event interactions and learn better event representations. Instead of computing the representations on the whole graph, SGNN processes only the concerned nodes each time, which makes our model feasible to large-scale graphs. By comparing the similarity between input context event representations and candidate event representations, we can choose the most reasonable subsequent event. Experimental results on widely used New York Times corpus demonstrate that our model significantly outperforms state-of-the-art baseline methods, by using standard multiple choice narrative cloze evaluation.
 </p></blockquote></details>
 
+ <details/>
+<summary/>
+  <a href="https://www.aclweb.org/anthology/C18-1330/">SGM: sequence generation model for multi-label classification</a> SGM (<a href="https://github.com/lancopku/SGM">Github</a>)</summary><blockquote><p align="justify">
+Multi-label classification is an important yet challenging task in natural language processing. It is more complex than single-label classification in that the labels tend to be correlated. Existing methods tend to ignore the correlations between labels. Besides, different parts of the text can contribute differently for predicting different labels, which is not considered by existing models. In this paper, we propose to view the multi-label classification task as a sequence generation problem, and apply a sequence generation model with a novel decoder structure to solve it. Extensive experimental results show that our proposed methods outperform previous work by a substantial margin. Further analysis of experimental results demonstrates that the proposed methods not only capture the correlations between labels, but also select the most informative words automatically when predicting different labels.
+</p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a href="https://www.aclweb.org/anthology/P18-1216/">Joint embedding of words and labelsfor text classification</a> LEAM (<a href="https://github.com/guoyinwang/LEAM">Github</a>)</summary><blockquote><p align="justify">
+Word embeddings are effective intermediate representations for capturing semantic regularities between words, when learning the representations of text sequences. We propose to view text classification as a label-word joint embedding problem: each label is embedded in the same space with the word vectors. We introduce an attention framework that measures the compatibility of embeddings between text sequences and labels. The attention is learned on a training set of labeled samples to ensure that, given a text sequence, the relevant words are weighted higher than the irrelevant ones. Our method maintains the interpretability of word embeddings, and enjoys a built-in ability to leverage alternative sources of information, in addition to input text sequences. Extensive results on the several large text datasets show that the proposed framework outperforms the state-of-the-art methods by a large margin, in terms of both accuracy and speed.
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://www.aclweb.org/anthology/P18-1031/">Universal language model fine-tuning for text classification</a> ULMFiT (<a href="http://nlp.fast.ai/category/classification.html">Github</a>)</summary><blockquote><p align="justify">
+Inductive transfer learning has greatly impacted computer vision, but existing approaches in NLP still require task-specific modifications and training from scratch. We propose Universal Language Model Fine-tuning (ULMFiT), an effective transfer learning method that can be applied to any task in NLP, and introduce techniques that are key for fine-tuning a language model. Our method significantly outperforms the state-of-the-art on six text classification tasks, reducing the error by 18-24% on the majority of datasets. Furthermore, with only 100 labeled examples, it matches the performance of training from scratch on 100 times more data. We open-source our pretrained models and code.
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://dl.acm.org/doi/10.1145/3178876.3186005">Large-scale hierarchical text classification withrecursively regularized deep graph-cnn</a> DGCNN (<a href="https://github.com/HKUST-KnowComp/DeepGraphCNNforTexts">Github</a>)</summary><blockquote><p align="justify">
+Text classification to a hierarchical taxonomy of topics is a common and practical problem. Traditional approaches simply use bag-of-words and have achieved good results. However, when there are a lot of labels with different topical granularities, bag-of-words representation may not be enough. Deep learning models have been proven to be effective to automatically learn different levels of representations for image data. It is interesting to study what is the best way to represent texts. In this paper, we propose a graph-CNN based deep learning model to first convert texts to graph-of-words, and then use graph convolution operations to convolve the word graph. Graph-of-words representation of texts has the advantage of capturing non-consecutive and long-distance semantics. CNN models have the advantage of learning different level of semantics. To further leverage the hierarchy of labels, we regularize the deep architecture with the dependency among labels. Our results on both RCV1 and NYTimes datasets show that we can significantly improve large-scale hierarchical text classification over traditional hierarchical text classification and existing deep models.
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://doi.org/10.18653/v1/n18-1202">Deep contextualized word rep-resentations</a> ELMo (<a href="https://github.com/flairNLP/flair">Github</a>)</summary><blockquote><p align="justify">
+We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.
+</p></blockquote></details>
+
+
+#### 2017
+ <details/>
+<summary/>
+  <a href="https://doi.org/10.18653/v1/n18-1202">Deep contextualized word rep-resentations</a> RAM (<a href="https://github.com/flairNLP/flair">Github</a>)</summary><blockquote><p align="justify">
+We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pre-trained on a large text corpus. We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, textual entailment and sentiment analysis. We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.
+</p></blockquote></details>
 
 
 #### 2014
