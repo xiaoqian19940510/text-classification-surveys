@@ -321,6 +321,49 @@ SwDA用于对话行为分类。它有43个培训课程，1,003,000个培训文�
 </p></blockquote></details>
 
 
+### Multi-label datasets 多标签数据集
+In multi-label classification, an instance has multiple labels, and each la-bel can only take one of the multiple classes. There are many datasets based on multi-label textclassification. It includes Reuters, Education, Patent, RCV1, RCV1-2K, AmazonCat-13K, BlurbGen-reCollection, WOS-11967, AAPD, etc. Here we detail several of the main datasets.
+
+在多标签分类中，一个实例有多个标签，每个la-bel只能获取多个类中的一个。有许多基于多标签文本分类的数据集。包括Reuters、Education、Patent、RCV1、RCV1-2k、AmazonCat-13K、BlurbGen-reCollection, WOS-11967、AAPD等。这里我们详细介绍了几个主要的数据集。
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Reuters news</a></summary><blockquote><p align="justify">
+The Reuters is a popularly used dataset for text classification fromReuters financial news services. It has 90 training classes, 7,769 training texts, and 3,019 testingtexts, containing multiple labels and single labels. There are also some Reuters sub-sets of data,such as R8, BR52, RCV1, and RCV1-v2.
+Reuters是一个广泛使用的数据集，用于Reuters财经新闻服务的文本分类。它有90个训练类别，7,769个训练文本和3,019个测试文本，包含多个标签和单个标签。还有一些Reuters数据子集，如R8、BR52、RCV1和RCV1-v2。
+</p></blockquote></details>
+
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Patent Dataset</a></summary><blockquote><p align="justify">
+The Patent Dataset is obtained from USPTO1, which is a patent system gratingU.S. patents containing textual details such title and abstract. It contains 100,000 US patents awardedin the real-world with multiple hierarchical categories.
+该数据集来自美国专利系统USPTO1。专利包含文本细节，如标题和摘要。它包含了现实世界中获得的10万项美国专利，具有多重等级类别。
+</p></blockquote></details>
+
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Reuters Corpus Volume I (RCV1) and RCV1-2K</a></summary><blockquote><p align="justify">
+The RCV1 is collected from Reuters News articles from 1996-1997, which is human-labeled with 103 categories. It consists of 23,149 training and 784,446 testing texts, respectively. The RCV1-2K dataset has the same features as the RCV1. However, the label set of RCV1-2K has been expanded with some new labels. It contains2456 labels.
+RCV1收集自1996-1997年Reuters News的新闻文章，被人为标记为103个类别。它分别由23,149个培训文本和784,446个测试文本组成。RCV1- 2k数据集具有与RCV1相同的特征。然而，RCV1-2K的标签集已经扩展了一些新的标签。它包含2456标签。
+</p></blockquote></details>
+
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Web of Science (WOS-11967)</a></summary><blockquote><p align="justify">
+The WOS-11967 is crawled from the Web of Science,consisting of abstracts of published papers with two labels for each example. It is shallower, butsignificantly broader, with fewer classes in total.
+WOS-11967抓取自Web of Science，其中包含已发表论文的摘要，每个例子有两个标签。它较浅，但明显较宽，类总数较少。
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Arxiv Academic Paper Dataset (AAPD)</a></summary><blockquote><p align="justify">
+The AAPD is a large dataset in the computer science field for the multi-label text classification from website2. It has 55,840 papers, including the abstract and the corresponding subjects with 54 labels in total. The aim is to predict the corresponding subjects of each paper according to the abstract.
+AAPD是计算机科学领域中用于website2多标签文本分类的大型数据集。论文55,840篇，包括摘要及相应科目，共计54个标签。目的是根据摘要预测每篇论文对应的主题。
+</p></blockquote></details>
+
+
+### Others 其他
+There are some datasets for other applications, such as Geonames toponyms, Twitter posts,and so on.
+还有一些用于其他应用程序的数据集，比如Geonames toponyms、Twitter帖子等等。
+
 
 
 ## Tools and Repos
