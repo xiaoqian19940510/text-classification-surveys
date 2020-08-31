@@ -137,9 +137,7 @@ We report on a series of experiments with convolutional neural networks (CNN) tr
 [:arrow_up:](#table-of-contents)
 
 #### Sentiment Analysis (SA) 情感分析
-SA is the process of analyzing and reasoning the subjective text withinemotional color. It is crucial to get information on whether it supports a particular point of view fromthe text that is distinct from the traditional text classification that analyzes the objective content ofthe text. SA can be binary or multi-class. Binary SA is to divide the text into two categories, includingpositive and negative. Multi-class SA classifies text to multi-level or fine-grained labels. 
-
-情感分析是对带有情感色彩的主观文本进行分析和推理的过程。从文本中获取是否支持特定观点的信息是至关重要的，而传统的文本分类是分析文本的客观内容。情感分析可以是二进制的或多类的。二元情感分类是将文本分为正反两类。多类情感分类将文本分类为多层或细粒度的标签。
+SA is the process of analyzing and reasoning the subjective text withinemotional color. It is crucial to get information on whether it supports a particular point of view fromthe text that is distinct from the traditional text classification that analyzes the objective content ofthe text. SA can be binary or multi-class. Binary SA is to divide the text into two categories, includingpositive and negative. Multi-class SA classifies text to multi-level or fine-grained labels. （情感分析是对带有情感色彩的主观文本进行分析和推理的过程。从文本中获取是否支持特定观点的信息是至关重要的，而传统的文本分类是分析文本的客观内容。情感分析可以是二进制的或多类的。二元情感分类是将文本分为正反两类。多类情感分类将文本分类为多层或细粒度的标签。）
 
 <details/>
 <summary/> <a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/">Movie Review (MR) 电影评论数据集</a></summary><blockquote><p align="justify">
@@ -178,9 +176,7 @@ The AM is a popular corpus formed by collecting Amazon websiteproduct reviews [1
 
 
 #### News Classification (NC) 新闻分类数据集
-News content is one of the most crucial information sources which hasa critical influence on people. The NC system facilitates users to get vital knowledge in real-time.News classification applications mainly encompass: recognizing news topics and recommendingrelated news according to user interest. The news classification datasets include 20NG, AG, R8, R52,Sogou, and so on. Here we detail several of the primary datasets.
-
-新闻内容是影响人们生活的最重要的信息来源之一。数控系统便于用户实时获取重要知识。新闻分类应用主要包括:识别新闻话题，根据用户兴趣推荐相关新闻。新闻分类数据集包括20NG、AG、R8、R52、Sogou等。这里我们详细介绍了几个主要数据集。
+News content is one of the most crucial information sources which hasa critical influence on people. The NC system facilitates users to get vital knowledge in real-time.News classification applications mainly encompass: recognizing news topics and recommendingrelated news according to user interest. The news classification datasets include 20NG, AG, R8, R52,Sogou, and so on. Here we detail several of the primary datasets.（新闻内容是影响人们生活的最重要的信息来源之一。数控系统便于用户实时获取重要知识。新闻分类应用主要包括:识别新闻话题，根据用户兴趣推荐相关新闻。新闻分类数据集包括20NG、AG、R8、R52、Sogou等。这里我们详细介绍了几个主要数据集。）
 
 <details/>
 <summary/>
@@ -208,9 +204,7 @@ The Sogou News combines two datasets, including SogouCA andSogouCS news sets. Th
 </p></blockquote></details>
 
 ### Topic Labeling (TL) 话题标签
-The topic analysis attempts to get the meaning of the text by defining thesophisticated text theme. The topic labeling is one of the essential components of the topic analysistechnique, intending to assign one or more subjects for each document to simplify the topic analysis.
-
-主题分析试图通过对文本主题的界定来获得文本的意义。话题标签是主题分析技术的重要组成部分之一，用于为每个文档分配一个或多个主题，以简化主题分析。
+The topic analysis attempts to get the meaning of the text by defining thesophisticated text theme. The topic labeling is one of the essential components of the topic analysistechnique, intending to assign one or more subjects for each document to simplify the topic analysis.（主题分析试图通过对文本主题的界定来获得文本的意义。话题标签是主题分析技术的重要组成部分之一，用于为每个文档分配一个或多个主题，以简化主题分析。）
 
 <details/>
 <summary/> <a href="https://dblp.org/rec/journals/semweb/LehmannIJJKMHMK15.bib">DBpedia</a></summary><blockquote><p align="justify">
@@ -232,9 +226,7 @@ The YahooA is a topic labeling task with 10 classes. It includes140,000 training
 
 
 ### Question Answering (QA) 问答
-The QA task can be divided into two types: the extractive QA and thegenerative QA. The extractive QA gives multiple candidate answers for each question to choosewhich one is the right answer. Thus, the text classification models can be used for the extractiveQA task. The QA discussed in this paper is all extractive QA. The QA system can apply the textclassification model to recognize the correct answer and set others as candidates. The questionanswering datasets include SQuAD, MS MARCO, TREC-QA, WikiQA, and Quora [209]. Here wedetail several of the primary datasets.
-
-QA任务可以分为两种类型:抽取型QA和生成型QA。抽取式QA为每个问题提供多个候选答案，以选择哪一个是正确答案。因此，文本分类模型可以用于抽取式QA任务。本文所讨论的质量保证都是抽取式质量保证。QA系统可以应用文本分类模型来识别正确答案，并将其他答案设置为考生。问答的数据集包括SQuAD、MS MARCO、treci - qa、WikiQA和Quora。这里我们详细介绍了几个主要的数据集。
+The QA task can be divided into two types: the extractive QA and thegenerative QA. The extractive QA gives multiple candidate answers for each question to choosewhich one is the right answer. Thus, the text classification models can be used for the extractiveQA task. The QA discussed in this paper is all extractive QA. The QA system can apply the textclassification model to recognize the correct answer and set others as candidates. The questionanswering datasets include SQuAD, MS MARCO, TREC-QA, WikiQA, and Quora [209]. Here wedetail several of the primary datasets.（QA任务可以分为两种类型:抽取型QA和生成型QA。抽取式QA为每个问题提供多个候选答案，以选择哪一个是正确答案。因此，文本分类模型可以用于抽取式QA任务。本文所讨论的质量保证都是抽取式质量保证。QA系统可以应用文本分类模型来识别正确答案，并将其他答案设置为考生。问答的数据集包括SQuAD、MS MARCO、treci - qa、WikiQA和Quora。这里我们详细介绍了几个主要的数据集。）
 
 
 <details/>
@@ -264,9 +256,7 @@ WikiQA数据集包含没有正确答案的问题，需要对答案进行评估�
 
 
 ### Natural Language Inference (NLI) 自然语言推理
-NLI is used to predict whether the meaning of one text canbe deduced from another. Paraphrasing is a generalized form of NLI. It uses the task of measuringthe semantic similarity of sentence pairs to decide whether one sentence is the interpretation ofanother. The NLI datasets include SNLI, MNLI, SICK, STS, RTE, SciTail, MSRP, etc. Here we detailseveral of the primary datasets.
-
-NLI是用来预测一个文本的意思是否可以从另一个文本中推断出来。释义是NLI的一种概括形式。它的任务是测量句子对的语义相似度，以决定一个句子是否是另一个句子的解释。NLI数据集包括SNLI, MNLI, SICK, STS, RTE, SciTail, MSRP等。这里我们详细介绍了几个主要数据集。
+NLI is used to predict whether the meaning of one text canbe deduced from another. Paraphrasing is a generalized form of NLI. It uses the task of measuringthe semantic similarity of sentence pairs to decide whether one sentence is the interpretation ofanother. The NLI datasets include SNLI, MNLI, SICK, STS, RTE, SciTail, MSRP, etc. Here we detailseveral of the primary datasets.（NLI是用来预测一个文本的意思是否可以从另一个文本中推断出来。释义是NLI的一种概括形式。它的任务是测量句子对的语义相似度，以决定一个句子是否是另一个句子的解释。NLI数据集包括SNLI, MNLI, SICK, STS, RTE, SciTail, MSRP等。这里我们详细介绍了几个主要数据集。）
 
 <details/>
 <summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">The Stanford Natural Language Inference (SNLI)</a></summary><blockquote><p align="justify">
@@ -295,9 +285,7 @@ MSRP由句子对组成，通常用于文本相似任务。每一对都由一个�
 
 
 ### Dialog Act Classification (DAC) 对话行为分类
-A dialog act describes an utterance in a dialog based on semantic,pragmatic, and syntactic criteria. DAC labels a piece of a dialog according to its category of meaningand helps learn the speaker’s intentions. It is to give a label according to dialog. Here we detailseveral of the primary datasets, including DSTC 4, MRDA, and SwDA.
-
-对话行为描述基于语义、语用和句法标准的对话中的话语。DAC根据对话的意义类别给对话片贴上标签，并帮助了解讲话者的意图。根据对话给一个标签。这里我们详细介绍了几个主要数据集，包括DSTC 4、MRDA和SwDA。
+A dialog act describes an utterance in a dialog based on semantic,pragmatic, and syntactic criteria. DAC labels a piece of a dialog according to its category of meaningand helps learn the speaker’s intentions. It is to give a label according to dialog. Here we detailseveral of the primary datasets, including DSTC 4, MRDA, and SwDA.（对话行为描述基于语义、语用和句法标准的对话中的话语。DAC根据对话的意义类别给对话片贴上标签，并帮助了解讲话者的意图。根据对话给一个标签。这里我们详细介绍了几个主要数据集，包括DSTC 4、MRDA和SwDA。）
 
 <details/>
 <summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Dialog State Tracking Challenge 4 (DSTC 4)</a></summary><blockquote><p align="justify">
@@ -319,9 +307,7 @@ SwDA用于对话行为分类。它有43个培训课程，1,003,000个培训文�
 
 
 ### Multi-label datasets 多标签数据集
-In multi-label classification, an instance has multiple labels, and each la-bel can only take one of the multiple classes. There are many datasets based on multi-label textclassification. It includes Reuters, Education, Patent, RCV1, RCV1-2K, AmazonCat-13K, BlurbGen-reCollection, WOS-11967, AAPD, etc. Here we detail several of the main datasets.
-
-在多标签分类中，一个实例有多个标签，每个la-bel只能获取多个类中的一个。有许多基于多标签文本分类的数据集。包括Reuters、Education、Patent、RCV1、RCV1-2k、AmazonCat-13K、BlurbGen-reCollection, WOS-11967、AAPD等。这里我们详细介绍了几个主要的数据集。
+In multi-label classification, an instance has multiple labels, and each la-bel can only take one of the multiple classes. There are many datasets based on multi-label textclassification. It includes Reuters, Education, Patent, RCV1, RCV1-2K, AmazonCat-13K, BlurbGen-reCollection, WOS-11967, AAPD, etc. Here we detail several of the main datasets.（在多标签分类中，一个实例有多个标签，每个la-bel只能获取多个类中的一个。有许多基于多标签文本分类的数据集。包括Reuters、Education、Patent、RCV1、RCV1-2k、AmazonCat-13K、BlurbGen-reCollection, WOS-11967、AAPD等。这里我们详细介绍了几个主要的数据集。）
 
 <details/>
 <summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Reuters news</a></summary><blockquote><p align="justify">
@@ -358,14 +344,12 @@ AAPD是计算机科学领域中用于website2多标签文本分类的大型数�
 
 
 ### Others 其他
-There are some datasets for other applications, such as Geonames toponyms, Twitter posts,and so on.
-
-还有一些用于其他应用程序的数据集，比如Geonames toponyms、Twitter帖子等等。
+There are some datasets for other applications, such as Geonames toponyms, Twitter posts,and so on.（还有一些用于其他应用程序的数据集，比如Geonames toponyms、Twitter帖子等等。）
 
 ## Evaluation Metrics 评价指标
 [:arrow_up:](#table-of-contents)
 
-In terms of evaluating text classification models, accuracy and F1 score are the most used to assessthe text classification methods. Later, with the increasing difficulty of classification tasks or theexistence of some particular tasks, the evaluation metrics are improved. For example, evaluationmetrics such as P@K and Micro-F1 are used to evaluate multi-label text classification performance,and MRR is usually used to estimate the performance of QA tasks.
+In terms of evaluating text classification models, accuracy and F1 score are the most used to assessthe text classification methods. Later, with the increasing difficulty of classification tasks or theexistence of some particular tasks, the evaluation metrics are improved. For example, evaluationmetrics such as P@K and Micro-F1 are used to evaluate multi-label text classification performance,and MRR is usually used to estimate the performance of QA tasks.（在评价文本分类模型方面，评价文本分类方法最常用的是accuracy和F1分。随后，随着分类任务难度的增加或某些特定任务的存在，改进了评价指标。例如，评价指标如P@K和Micro-F1用于评价多标签文本分类性能，MRR通常用于评价QA任务的性能。）
 
 ### Single-label metrics 单标签评价指标
 Single-label text classification divides the text into one of the most likelycategories applied in NLP tasks such as QA, SA, and dialogue systems [9]. For single-label textclassification, one text belongs to just one catalog, making it possible not to consider the relationsamong labels. Here we introduce some evaluation metrics used for single-label text classificationtasks.
