@@ -297,6 +297,32 @@ MSRP由句子对组成，通常用于文本相似任务。每一对都由一个�
 
 
 
+### Dialog Act Classification (DAC) 对话行为分类
+A dialog act describes an utterance in a dialog based on semantic,pragmatic, and syntactic criteria. DAC labels a piece of a dialog according to its category of meaningand helps learn the speaker’s intentions. It is to give a label according to dialog. Here we detailseveral of the primary datasets, including DSTC 4, MRDA, and SwDA.
+
+对话行为描述基于语义、语用和句法标准的对话中的话语。DAC根据对话的意义类别给对话片贴上标签，并帮助了解讲话者的意图。根据对话给一个标签。这里我们详细介绍了几个主要数据集，包括DSTC 4、MRDA和SwDA。
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Dialog State Tracking Challenge 4 (DSTC 4)</a></summary><blockquote><p align="justify">
+The DSTC 4 is used for dialog act classi-fication. It has 89 training classes, 24,000 training texts, and 6,000 testing texts.
+DSTC 4用于对话行为分类。它有89个培训班，24000个培训文本，6000个测试文本。
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">ICSI Meeting Recorder Dialog Act (MRDA)</a></summary><blockquote><p align="justify">
+The MRDA is used for dialog act classifi-cation. It has 5 training classes, 51,000 training texts, 11,000 testing texts, and 11,000 validation texts.
+MRDA用于对话行为分类。它有5个培训类、51,000个培训文本、11,000个测试文本和11,000个验证文本。
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Switchboard Dialog Act (SwDA)</a></summary><blockquote><p align="justify">
+The SwDA is used for dialog act classification. It has43 training classes, 1,003,000 training texts, 19,000 testing texts and 112,000 validation texts.
+SwDA用于对话行为分类。它有43个培训课程，1,003,000个培训文本，19,000个测试文本和112,000个验证文本。
+</p></blockquote></details>
+
+
+
+
 ## Tools and Repos
 
 
