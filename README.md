@@ -85,9 +85,7 @@ SA is the process of analyzing and reasoning the subjective text withinemotional
 情感分析是对带有情感色彩的主观文本进行分析和推理的过程。从文本中获取是否支持特定观点的信息是至关重要的，而传统的文本分类是分析文本的客观内容。情感分析可以是二进制的或多类的。二元情感分类是将文本分为正反两类。多类情感分类将文本分类为多层或细粒度的标签。
 
 * <a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/">Movie Review (MR) 电影评论数据集</a></summary><blockquote><p align="justify">
-The MR is a movie review dataset, each of which correspondsto a sentence. The corpus has 5,331 positive data and 5,331 negative data. 10-fold cross-validationby random splitting is commonly used to test MR.
- 
- MR是一个影评数据集，每个影评是一个句子。该语料库有正样本和负样本各5331个。十折交叉验证常用来测试MR。
+The MR is a movie review dataset, each of which correspondsto a sentence. The corpus has 5,331 positive data and 5,331 negative data. 10-fold cross-validationby random splitting is commonly used to test MR. MR是一个影评数据集，每个影评是一个句子。该语料库有正样本和负样本各5331个。十折交叉验证常用来测试MR。
 </p></blockquote></details>
 
 * <a href="http://www.cs.uic.edu/∼liub/FBS/sentiment-analysis.html">Stanford Sentiment Treebank (SST) 斯坦福情感库</a></summary><blockquote><p align="justify">
@@ -95,25 +93,31 @@ The SST [175] is an extension of MR. It has two cate-gories. SST-1 with fine-gra
  SST是MR的扩展版本，一共有两种类型。SST-1有五个类别标签，有8,544个训练文本和2,210个测试文本。SST-2有两个类别，共9,613个文本，被划分为6,920个训练文本、872个开发文本和1,821个测试文本。
 </p></blockquote></details>
 
-* <a href="http://www.cs.pitt.edu/mpqa/">The Multi-Perspective Question Answering (MPQA)</a></summary><blockquote><p align="justify">
-The MPQA is an opiniondataset. It has two class labels and also an MPQA dataset of opinion polarity detection sub-tasks.MPQA includes 10,606 sentences extracted from news articles from various news sources. It shouldbe noted that it contains 3,311 positive texts and 7,293 negative texts without labels of each text.
+* <a href="http://www.cs.pitt.edu/mpqa/">The Multi-Perspective Question Answering (MPQA)多视角问答数据集</a></summary><blockquote><p align="justify">
+The MPQA is an opinion dataset. It has two class labels and also an MPQA dataset of opinion polarity detection sub-tasks.MPQA includes 10,606 sentences extracted from news articles from various news sources. It shouldbe noted that it contains 3,311 positive texts and 7,293 negative texts without labels of each text.
+ MPQA是一个观点数据集。它有两个类标签和一个MPQA数据集的观点极性检测子任务。MPQA包含了10,606个句子，这些句子是从各种新闻来源的新闻文章中提取的。应当指出的是，其中有3311个正样本和7293个负样本，每个文本没有标签。
 </p></blockquote></details>
 
-* <a href="https://dblp.org/rec/bib/conf/kdd/DiaoQWSJW14">IMDB reviews</a></summary><blockquote><p align="justify">
+* <a href="https://dblp.org/rec/bib/conf/kdd/DiaoQWSJW14">IMDB reviews IMDB评论</a></summary><blockquote><p align="justify">
 The IMDB review is developed for binary sentiment classification of filmreviews with the same amount in each class. It can be separated into training and test groups onaverage, by 25,000 comments per group.
+ IMDB影评是对每类影评进行相同数量的二元情感分类。它平均可以被分成训练组和测试组，每组有25000条评论。
 </p></blockquote></details>
 
-* <a href="https://dblp.org/rec/bib/conf/emnlp/TangQL15">Yelp reviews</a></summary><blockquote><p align="justify">
+* <a href="https://dblp.org/rec/bib/conf/emnlp/TangQL15">Yelp reviews Yelp评论</a></summary><blockquote><p align="justify">
 The Yelp review is summarized from the Yelp Dataset Challenges in 2013,2014, and 2015. This dataset has two categories. Yelp-2 of these were used for negative and positiveemotion classification tasks, including 560,000 training texts and 38,000 test texts. Yelp-5 is used todetect fine-grained affective labels with 650,000 training and 50,000 test texts in all classes.
+ Yelp评论数据来自于2013年、2014年和2015年的Yelp数据集挑战。这个数据集有两个类别。其中的Yelp-2被用于消极和积极情绪分类任务，包括560,000篇训练文本和38,000篇测试文本。使用Yelp-5对65万篇训练文本和5万篇测试文本进行精细的情感标签检测。
 </p></blockquote></details>
 
-* <a href="https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products">Amazon Reviews (AM)</a></summary><blockquote><p align="justify">
+* <a href="https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products">Amazon Reviews (AM) 亚马逊评论数据集</a></summary><blockquote><p align="justify">
 The AM is a popular corpus formed by collecting Amazon websiteproduct reviews [190]. This dataset has two categories. The Amazon-2 with two classes includes 3,600,000 training sets and 400,000 testing sets. Amazon-5, with five classes, includes 3,000,000 and650,000 comments for training and testing.
+ AM是一个收集亚马逊网站产品评论的流行语料库。这个数据集有两个类别。带有两个类的Amazon-2包括360万个训练集和40万个测试集。Amazon-5有五个类，包含300万条和65万条培训和测试评论。
 </p></blockquote></details>
 
 
-### News Classification (NC) 
+### News Classification (NC) 新闻分类数据集
 News content is one of the most crucial information sources which hasa critical influence on people. The NC system facilitates users to get vital knowledge in real-time.News classification applications mainly encompass: recognizing news topics and recommendingrelated news according to user interest. The news classification datasets include 20NG, AG, R8, R52,Sogou, and so on. Here we detail several of the primary datasets.
+
+新闻内容是影响人们生活的最重要的信息来源之一。数控系统便于用户实时获取重要知识。新闻分类应用主要包括:识别新闻话题，根据用户兴趣推荐相关新闻。新闻分类数据集包括20NG、AG、R8、R52、Sogou等。这里我们详细介绍了几个主要数据集。
 
 * <a href="http://ana.cachopo.org/datasets-for-single-label-text-categorization">20 Newsgroups (20NG)</a></summary><blockquote><p align="justify">
  The 20NG is a newsgroup text dataset. It has 20 categories withthe same number of each category and includes 18,846 texts.
