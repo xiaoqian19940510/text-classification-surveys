@@ -12,7 +12,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Shallow Learning Models（浅层学习模型）](#Shallow-Learning-Models)
 - [Deep Learning Models（深度学习模型）](#Deep-Learning-Models)
 - [Datasets（数据集）](#Datasets)
-- [Evaluation Metrics（评价指标）](#Evaluation Metrics)
+- [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
 - [Tools and Repos（工具与资源）](#tools-and-repos)
 </p></blockquote></details>
 
@@ -365,8 +365,7 @@ There are some datasets for other applications, such as Geonames toponyms, Twitt
 
 还有一些用于其他应用程序的数据集，比如Geonames toponyms、Twitter帖子等等。
 
-
-## Evaluation Metrics（评价指标）
+## Evaluation Metrics 评价指标
 [:arrow_up:](#table-of-contents)
 
 In terms of evaluating text classification models, accuracy and F1 score are the most used to assessthe text classification methods. Later, with the increasing difficulty of classification tasks or theexistence of some particular tasks, the evaluation metrics are improved. For example, evaluationmetrics such as P@K and Micro-F1 are used to evaluate multi-label text classification performance,and MRR is usually used to estimate the performance of QA tasks.
