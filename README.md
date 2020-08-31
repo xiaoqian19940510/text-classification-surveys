@@ -234,6 +234,37 @@ The YahooA is a topic labeling task with 10 classes. It includes140,000 training
 </p></blockquote></details>
 
 
+### Question Answering (QA) 问答
+The QA task can be divided into two types: the extractive QA and thegenerative QA. The extractive QA gives multiple candidate answers for each question to choosewhich one is the right answer. Thus, the text classification models can be used for the extractiveQA task. The QA discussed in this paper is all extractive QA. The QA system can apply the textclassification model to recognize the correct answer and set others as candidates. The questionanswering datasets include SQuAD, MS MARCO, TREC-QA, WikiQA, and Quora [209]. Here wedetail several of the primary datasets.
+
+QA任务可以分为两种类型:抽取型QA和生成型QA。抽取式QA为每个问题提供多个候选答案，以选择哪一个是正确答案。因此，文本分类模型可以用于抽取式QA任务。本文所讨论的质量保证都是抽取式质量保证。QA系统可以应用文本分类模型来识别正确答案，并将其他答案设置为考生。问答的数据集包括SQuAD、MS MARCO、treci - qa、WikiQA和Quora。这里我们详细介绍了几个主要的数据集。
+
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Stanford Question Answering Dataset (SQuAD） 斯坦福问答数据集</a></summary><blockquote><p align="justify">
+The SQuAD is a set of question and answer pairs obtained from Wikipedia articles. The SQuAD has two categories. SQuAD1.1 contains 536 pairs of 107,785 Q&A items. SQuAD2.0 combines 100,000 questions in SQuAD1.1 with morethan 50,000 unanswerable questions that crowd workers face in a form similar to answerable questions.
+这个数据集是一组从维基百科文章中获得的问题和答案。球队分为两类。SQuAD1.1包含536对107,785个问答题。SQuAD2.0将SQuAD1.1中的100,000个问题与5万多个无法回答的问题组合在一起，这些问题以类似于可回答问题的形式出现。
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">MS MARCO</a></summary><blockquote><p align="justify">
+The MS MARCO contains questions and answers. The questions and part ofthe answers are sampled from actual web texts by the Bing search engine. Others are generative. Itis used for developing generative QA systems released by Microsoft.
+MS MARCO包含了问题和答案。这些问题和部分答案都是由Bing搜索引擎从实际的网络文本中抽取的，其他的则是生成式的。它用于开发由微软发布的生成式QA系统。
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">TREC-QA</a></summary><blockquote><p align="justify">
+The TREC-QA includes 5,452 training texts and 500 testing texts. It has two versions. TREC-6 contains 6 categories, and TREC-50 has 50 categories.
+TREC-QA包括5,452个训练文本和500个测试文本。它有两个版本。TREC-6包含6个类别，TREC-50包含50个类别。
+</p></blockquote></details>
+
+<details/>
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">WikiQA</a></summary><blockquote><p align="justify">
+The WikiQA dataset includes questions with no correct answer, which needs toevaluate the answer.
+WikiQA数据集包含没有正确答案的问题，需要对答案进行评估。
+</p></blockquote></details>
+
+
 
 ## Tools and Repos
 
