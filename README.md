@@ -27,7 +27,7 @@ Text classification is the most fundamental and essential task in natural langua
   文本分类是自然语言处理中最基本的任务。由于深度学习的空前成功，过去十年中该领域的研究激增。已有的文献提出了许多方法，数据集和评估指标，从而需要对这些内容进行全面的总结。本文回顾1961年至2020年的文本分类方法，重点是从浅层学习到深度学习的模型。根据所涉及的文本以及用于特征提取和分类的模型创建用于文本分类的分类法。然后，详细讨论这些类别中的每一个类别，涉及支持预测测试的技术发展和基准数据集。并提供了不同技术之间的全面比较，确定了各种评估指标的优缺点。最后，通过总结关键含义，未来的研究方向以及研究领域面临的挑战进行总结。
 </p></blockquote></details>
 
-## Deep Learning Models 深度学习模型
+## Deep Learning Models（深度学习模型）
 [:arrow_up:](#table-of-contents)
 
 #### 2014
@@ -135,7 +135,7 @@ We introduce a novel machine learning frame-work based on recursive autoencoders
 
 
 
-## Data 数据
+## Data（数据）
 [:arrow_up:](#table-of-contents)
 
 #### Sentiment Analysis (SA) 情感分析
@@ -348,7 +348,7 @@ AAPD是计算机科学领域中用于website2多标签文本分类的大型数�
 #### Others 其他
 There are some datasets for other applications, such as Geonames toponyms, Twitter posts,and so on.（还有一些用于其他应用程序的数据集，比如Geonames toponyms、Twitter帖子等等。）
 
-## Evaluation Metrics 评价指标
+## Evaluation Metrics（评价指标）
 [:arrow_up:](#table-of-contents)
 
 In terms of evaluating text classification models, accuracy and F1 score are the most used to assessthe text classification methods. Later, with the increasing difficulty of classification tasks or theexistence of some particular tasks, the evaluation metrics are improved. For example, evaluationmetrics such as P@K and Micro-F1 are used to evaluate multi-label text classification performance,and MRR is usually used to estimate the performance of QA tasks.（在评价文本分类模型方面，评价文本分类方法最常用的是accuracy和F1分。随后，随着分类任务难度的增加或某些特定任务的存在，改进了评价指标。例如，评价指标如P@K和Micro-F1用于评价多标签文本分类性能，MRR通常用于评价QA任务的性能。）
@@ -414,7 +414,7 @@ The NDCG at k is
 </p></blockquote></details>
 
 
-## Tools and Repos
+## Tools and Repos（工具与资源）
 [:arrow_up:](#table-of-contents)
 
 
