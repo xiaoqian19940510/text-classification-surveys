@@ -8,20 +8,20 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 <details>
 
-<summary><b>Expand Table of Contents</b></summary><blockquote><p align="justify">
+<summary><b>Contents 目录</b></summary><blockquote><p align="justify">
 
-- [Surveys](#Surveys)
-- [Shallow Learning Models](#Shallow-Learning-Models)
-- [Deep Learning Models](#Deep-Learning-Models)
-- [Datasets](#Datasets)
-- [Tools and Repos](#tools-and-repos)
+- [Surveys（综述论文）](#Surveys)
+- [Shallow Learning Models（浅层学习模型）](#Shallow-Learning-Models)
+- [Deep Learning Models（深度学习模型）](#Deep-Learning-Models)
+- [Datasets（数据集）](#Datasets)
+- [Tools and Repos（工具与资源）](#tools-and-repos)
 </p></blockquote></details>
 
 ---
 
 
 
-*<b>Expand Table of Contents</b></summary><blockquote><p align="justify">
+<b>Expand Table of Contents</b></summary><blockquote><p align="justify">
 
 - [Surveys](#Surveys)
 - [Shallow Learning Models](#Shallow-Learning-Models)
