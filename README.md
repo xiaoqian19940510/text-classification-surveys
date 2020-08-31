@@ -39,6 +39,34 @@ Text classification is the most fundamental and essential task in natural langua
 <summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (NB)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
 </p></blockquote></details>
 
+### 1967
+
+<details>
+<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (KNN)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+</p></blockquote></details>
+
+### 1984
+
+<details>
+<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (CART)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+</p></blockquote></details>
+
+
+### 1993
+
+<details>
+<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (C4.5)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+</p></blockquote></details>
+
+### 1998
+
+<a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (SVM)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+</p></blockquote></details>
+
+### 2001
+
+ <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (RF)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+</p></blockquote></details>
 
 ## Deep Learning Models
 [:arrow_up:](#table-of-contents)
