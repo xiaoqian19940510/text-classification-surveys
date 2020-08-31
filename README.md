@@ -375,6 +375,14 @@ Single-label text classification divides the text into one of the most likelycat
 
 单标签文本分类将文本分成一个最可能应用于NLP任务的类别，如QA、SA和对话系统。对于单标签文本分类，一个文本只属于一个目录，使得不考虑标签之间的关系成为可能。在这里，我们介绍一些评价指标用于单标签文本分类任务。
 
+
+<details/>
+<summary/> Accuracy and Error Rate</summary><blockquote><p align="justify">
+Accuracy and Error Rate are the fundamental metrics for a text classi-fication model. The Accuracy and Error Rate are respectively defined as
+
+</p></blockquote></details>
+
+
 Accuracy and Error Rate. Accuracy and Error Rate are the fundamental metrics for a text classi-fication model. The Accuracy and Error Rate are respectively defined as
 
 Precision, Recall and F1.These are vital metrics utilized for unbalanced test sets regardless ofthe standard type and error rate. For example, most of the test samples have a class label. F1 is theharmonic average of Precision and Recall. Accuracy, Recall, and F1 as defined
