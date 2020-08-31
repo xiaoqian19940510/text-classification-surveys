@@ -12,6 +12,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Shallow Learning Models（浅层学习模型）](#Shallow-Learning-Models)
 - [Deep Learning Models（深度学习模型）](#Deep-Learning-Models)
 - [Datasets（数据集）](#Datasets)
+- [Evaluation Metrics（评价指标）](#Evaluation Metrics)
 - [Tools and Repos（工具与资源）](#tools-and-repos)
 </p></blockquote></details>
 
