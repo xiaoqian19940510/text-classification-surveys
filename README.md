@@ -354,9 +354,7 @@ There are some datasets for other applications, such as Geonames toponyms, Twitt
 In terms of evaluating text classification models, accuracy and F1 score are the most used to assessthe text classification methods. Later, with the increasing difficulty of classification tasks or theexistence of some particular tasks, the evaluation metrics are improved. For example, evaluationmetrics such as P@K and Micro-F1 are used to evaluate multi-label text classification performance,and MRR is usually used to estimate the performance of QA tasks.（在评价文本分类模型方面，评价文本分类方法最常用的是accuracy和F1分。随后，随着分类任务难度的增加或某些特定任务的存在，改进了评价指标。例如，评价指标如P@K和Micro-F1用于评价多标签文本分类性能，MRR通常用于评价QA任务的性能。）
 
 #### Single-label metrics 单标签评价指标
-Single-label text classification divides the text into one of the most likelycategories applied in NLP tasks such as QA, SA, and dialogue systems [9]. For single-label textclassification, one text belongs to just one catalog, making it possible not to consider the relationsamong labels. Here we introduce some evaluation metrics used for single-label text classificationtasks.
-
-单标签文本分类将文本分成一个最可能应用于NLP任务的类别，如QA、SA和对话系统。对于单标签文本分类，一个文本只属于一个目录，使得不考虑标签之间的关系成为可能。在这里，我们介绍一些评价指标用于单标签文本分类任务。
+Single-label text classification divides the text into one of the most likelycategories applied in NLP tasks such as QA, SA, and dialogue systems [9]. For single-label textclassification, one text belongs to just one catalog, making it possible not to consider the relationsamong labels. Here we introduce some evaluation metrics used for single-label text classificationtasks.（单标签文本分类将文本分成一个最可能应用于NLP任务的类别，如QA、SA和对话系统。对于单标签文本分类，一个文本只属于一个目录，使得不考虑标签之间的关系成为可能。在这里，我们介绍一些评价指标用于单标签文本分类任务。）
 
 
 <details/>
@@ -390,28 +388,28 @@ The HL assesses the score of misclassified instance-label pairs wherea related l
 
 
 #### Multi-label metrics 多标签评价指标
-Compared with single-label text classification, multi-label text classifica-tion divides the text into multiple category labels, and the number of category labels is variable. These metrics are designed for single label text classification, which are not suitable for multi-label tasks. Thus, there are some metrics designed for multi-label text classification.
+Compared with single-label text classification, multi-label text classifica-tion divides the text into multiple category labels, and the number of category labels is variable. These metrics are designed for single label text classification, which are not suitable for multi-label tasks. Thus, there are some metrics designed for multi-label text classification.（与单标签文本分类相比，多标签文本分类将文本分为多个类别标签，类别标签的数量是可变的。这些度量标准是针对单标签文本分类而设计的，不适用于多标签任务。因此，有一些度量标准为多标签文本分类设计。）
 
 <details/>
-<summary/>Micro−F1</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Micro−F1</a></summary><blockquote><p align="justify">
 The Micro−F1 is a measure that considers the overall accuracy and recall of alllabels. The Micro−F1is defined as
 </p></blockquote></details>
 
 
 <details/>
-<summary/>Macro−F1</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Macro−F1</a></summary><blockquote><p align="justify">
 The Macro−F1 calculates the average F1 of all labels. Unlike Micro−F1, which setseven weight to every example, Macro−F1 sets the same weight to all labels in the average process. Formally, Macro−F1is defined as
 </p></blockquote></details>
 
 In addition to the above evaluation metrics, there are some rank-based evaluation metrics forextreme multi-label classification tasks, including P@K and NDCG@K.
 
 <details/>
-<summary/>Precision at Top K (P@K)</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Precision at Top K (P@K)</a></summary><blockquote><p align="justify">
 The P@K is the precision at the top k. ForP@K, each text has a set of L ground truth labels Lt={l0,l1,l2...,lL−1}, in order of decreasing probability Pt=p0,p1,p2...,pQ−1.The precision at k is
 </p></blockquote></details>
 
 <details/>
-<summary/>Normalized Discounted Cummulated Gains (NDCG@K)</summary><blockquote><p align="justify">
+<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Normalized Discounted Cummulated Gains (NDCG@K)</a></summary><blockquote><p align="justify">
 The NDCG at k is
 </p></blockquote></details>
 
