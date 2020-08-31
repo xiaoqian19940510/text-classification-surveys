@@ -77,23 +77,43 @@ Text classification is the most fundamental and essential task in natural langua
 ## Deep Learning Models 深度学习模型
 [:arrow_up:](#table-of-contents)
 
+### 2011
+ 
+  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> RAE (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
+
+</p></blockquote></details>
+
+### 2012
+ 
+  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> MV-RNN (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
+
+</p></blockquote></details>
+
+### 2013
+ 
+  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> RNTN (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
+
+</p></blockquote></details>
+
 ### 2014
+ 
+  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> Paragraph-Vec (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
 
+</p></blockquote></details>
 
-
-#<details>
-<summary>1. 
-  
+### 2014
+ 
   <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Convolutional Neural Networks for Sentence Classification</a> TextCNN (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
 We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks. We show that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks. Learning task-specific vectors through fine-tuning offers further gains in performance. We additionally propose a simple modification to the architecture to allow for the use of both task-specific and static vectors. The CNN models discussed herein improve upon the state of the art on 4 out of 7 tasks, which include sentiment analysis and question classification.
+  本文报告了一系列卷积神经网络(CNN)的实验，这些网络是在预先训练好的单词向量上训练的，用于句子级别的分类任务。我们证明了一个简单的CNN具有小的超参数调优和静态向量在多个基准测试中取得了很好的结果。通过微调学习特定任务向量可以进一步提高性能。此外，我们还建议对架构进行简单修改，以允许同时使用特定于任务的和静态向量。本文讨论的CNN模型在7项任务中的4项上改进了现有的技术，其中包括情绪分析和问题分类。
 </p></blockquote></details>
 
 
 
-## Data
+## Data 数据
 [:arrow_up:](#table-of-contents)
 
-### Sentiment Analysis (SA)
+### Sentiment Analysis (SA) 情感分析
 SA is the process of analyzing and reasoning the subjective text withinemotional color. It is crucial to get information on whether it supports a particular point of view fromthe text that is distinct from the traditional text classification that analyzes the objective content ofthe text. SA can be binary or multi-class. Binary SA is to divide the text into two categories, includingpositive and negative. Multi-class SA classifies text to multi-level or fine-grained labels. 
 
 情感分析是对带有情感色彩的主观文本进行分析和推理的过程。从文本中获取是否支持特定观点的信息是至关重要的，而传统的文本分类是分析文本的客观内容。情感分析可以是二进制的或多类的。二元情感分类是将文本分为正反两类。多类情感分类将文本分类为多层或细粒度的标签。
