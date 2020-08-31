@@ -379,37 +379,58 @@ Single-label text classification divides the text into one of the most likelycat
 <details/>
 <summary/> Accuracy and Error Rate</summary><blockquote><p align="justify">
 Accuracy and Error Rate are the fundamental metrics for a text classi-fication model. The Accuracy and Error Rate are respectively defined as
+</p></blockquote></details>
+
+<details/>
+<summary/> Precision, Recall and F1</summary><blockquote><p align="justify">
+These are vital metrics utilized for unbalanced test sets regardless ofthe standard type and error rate. For example, most of the test samples have a class label. F1 is theharmonic average of Precision and Recall. Accuracy, Recall, and F1 as defined
+  
+  The desired results will be obtained when the accuracy, F1 and recall value reach 1. On the contrary,when the values become 0, the worst result is obtained. For the multi-class classification problem,the precision and recall value of each class can be calculated separately, and then the performanceof the individual and whole can be analyzed.
+</p></blockquote></details>
+
+<details/>
+<summary/>Exact Match (EM)</summary><blockquote><p align="justify">
+The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
 
 </p></blockquote></details>
 
 
-Accuracy and Error Rate. Accuracy and Error Rate are the fundamental metrics for a text classi-fication model. The Accuracy and Error Rate are respectively defined as
+<details/>
+<summary/>Mean Reciprocal Rank (MRR)</summary><blockquote><p align="justify">
+The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
+</p></blockquote></details>
 
-Precision, Recall and F1.These are vital metrics utilized for unbalanced test sets regardless ofthe standard type and error rate. For example, most of the test samples have a class label. F1 is theharmonic average of Precision and Recall. Accuracy, Recall, and F1 as defined
-
-
-The desired results will be obtained when the accuracy, F1 and recall value reach 1. On the contrary,when the values become 0, the worst result is obtained. For the multi-class classification problem,the precision and recall value of each class can be calculated separately, and then the performanceof the individual and whole can be analyzed.
-
-Exact Match (EM).The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
-
-Mean Reciprocal Rank (MRR).The MRR is usually applied for assessing the performanceof ranking algorithms on QA and Information Retrieval (IR) tasks. 
-
-Hamming-loss (HL).The HL assesses the score of misclassified instance-label pairs wherea related label is omitted or an unrelated is predicted.
+<details/>
+<summary/>Hamming-loss (HL)</summary><blockquote><p align="justify">
+The HL assesses the score of misclassified instance-label pairs wherea related label is omitted or an unrelated is predicted.
+</p></blockquote></details>
 
 
 ### Multi-label metrics 多标签评价指标
 Compared with single-label text classification, multi-label text classifica-tion divides the text into multiple category labels, and the number of category labels is variable. These metrics are designed for single label text classification, which are not suitable for multi-label tasks. Thus, there are some metrics designed for multi-label text classification.
 
+<details/>
+<summary/>Micro−F1</summary><blockquote><p align="justify">
+The Micro−F1 is a measure that considers the overall accuracy and recall of alllabels. The Micro−F1is defined as
+</p></blockquote></details>
 
-Micro−F1. The Micro−F1 is a measure that considers the overall accuracy and recall of alllabels. The Micro−F1is defined as
 
-Macro−F1. The Macro−F1 calculates the average F1 of all labels. Unlike Micro−F1, which setseven weight to every example, Macro−F1 sets the same weight to all labels in the average process. Formally, Macro−F1is defined as
+<details/>
+<summary/>Macro−F1</summary><blockquote><p align="justify">
+The Macro−F1 calculates the average F1 of all labels. Unlike Micro−F1, which setseven weight to every example, Macro−F1 sets the same weight to all labels in the average process. Formally, Macro−F1is defined as
+</p></blockquote></details>
 
 In addition to the above evaluation metrics, there are some rank-based evaluation metrics forextreme multi-label classification tasks, including P@K and NDCG@K.
 
-Precision at Top K (P@K).The P@K is the precision at the top k. ForP@K, each text has a set of L ground truth labels Lt={l0,l1,l2...,lL−1}, in order of decreasing probability Pt=p0,p1,p2...,pQ−1.The precision at k is
+<details/>
+<summary/>Precision at Top K (P@K)</summary><blockquote><p align="justify">
+The P@K is the precision at the top k. ForP@K, each text has a set of L ground truth labels Lt={l0,l1,l2...,lL−1}, in order of decreasing probability Pt=p0,p1,p2...,pQ−1.The precision at k is
+</p></blockquote></details>
 
-Normalized Discounted Cummulated Gains (NDCG@K).The NDCG at k is
+<details/>
+<summary/>Normalized Discounted Cummulated Gains (NDCG@K)</summary><blockquote><p align="justify">
+The NDCG at k is
+</p></blockquote></details>
 
 
 ## Tools and Repos
