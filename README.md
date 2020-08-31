@@ -121,33 +121,42 @@ News content is one of the most crucial information sources which hasa critical 
 
 * <a href="http://ana.cachopo.org/datasets-for-single-label-text-categorization">20 Newsgroups (20NG)</a></summary><blockquote><p align="justify">
  The 20NG is a newsgroup text dataset. It has 20 categories withthe same number of each category and includes 18,846 texts.
+ 20NG是一个新闻组文本数据集。它有20个类别，每个类别的数目相同，包括18,846个文本。
 </p></blockquote></details>
 
 * <a href="http://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html">AG News (AG)</a></summary><blockquote><p align="justify">
 The AG News is a search engine for news from academia, choosingthe four largest classes. It uses the title and description fields of each news. AG contains 120,000texts for training and 7,600 texts for testing.
+ AG新闻是一个搜索来自学术界的新闻的引擎，选择了四个最大的类别。它使用每个新闻的标题和描述字段。AG包含120,000篇训练文本和7,600篇测试文本。
 </p></blockquote></details>
 
 * <a href="https://www.cs.umb.edu/~smimarog/textmining/datasets/">R8 and R52</a></summary><blockquote><p align="justify">
 R8 and R52 are two subsets which are the subset of Reuters. R8 has 8categories, divided into 2,189 test files and 5,485 training courses. R52 has 52 categories, split into6,532 training files and 2,568 test files.
+ R8和R52是两个子集，它们是Reuters的子集。R8有8个类别，分为2189个测试文件和5485个训练文件。R52有52个类别，分为6,532个训练文件和2,568个测试文件。
 </p></blockquote></details>
 
-* <a href="https://dblp.org/rec/conf/cncl/SunQXH19.bib">Sogou News (Sogou)</a></summary><blockquote><p align="justify">
+* <a href="https://dblp.org/rec/conf/cncl/SunQXH19.bib">Sogou News (Sogou) 搜狗新闻</a></summary><blockquote><p align="justify">
 The Sogou News combines two datasets, including SogouCA andSogouCS news sets. The label of each text is the domain names in the URL.
+ 搜狗新闻结合了两个数据集，包括SogouCA和sogoucs新闻集。每个文本的标签是URL中的域名。
 </p></blockquote></details>
 
-### Topic Labeling (TL)
+### Topic Labeling (TL) 话题标签
 The topic analysis attempts to get the meaning of the text by defining thesophisticated text theme. The topic labeling is one of the essential components of the topic analysistechnique, intending to assign one or more subjects for each document to simplify the topic analysis.
 
+主题分析试图通过对文本主题的界定来获得文本的意义。话题标签是主题分析技术的重要组成部分之一，用于为每个文档分配一个或多个主题，以简化主题分析。
+
 * <a href="https://dblp.org/rec/journals/semweb/LehmannIJJKMHMK15.bib">DBpedia</a></summary><blockquote><p align="justify">
-The DBpedia is a large-scale multi-lingual knowledge base generated usingWikipedia’s most ordinarily used infoboxes. It publishes DBpedia each month, adding or deletingclasses and properties in every version. DBpedia’s most prevalent version has 14 classes and isdivided into 560,000 training data and 70,000 test data.
+The DBpedia is a large-scale multi-lingual knowledge base generated usingWikipedia’s most ordinarily used infoboxes. It publishes DBpedia each month, adding or deletingclasses and properties in every version. DBpedia’s most prevalent version has 14 classes and isdivided into 560,000 training data and 70,000 test data. 
+ DBpedia是使用wikipedia最常用的信息框生成的大型多语言知识库。它每月发布DBpedia，在每个版本中添加或删除类和属性。DBpedia最流行的版本有14个类，分为560,000个训练数据和70,000个测试数据。
 </p></blockquote></details>
 
 * <a href="http://davis.wpi.edu/xmdv/datasets/ohsumed.html">Ohsumed</a></summary><blockquote><p align="justify">
 The Ohsumed belongs to the MEDLINE database. It includes 7,400 texts andhas 23 cardiovascular disease categories. All texts are medical abstracts and are labeled into one ormore classes.
+ Ohsumed属于MEDLINE数据库。它包括7400个文本，有23个心血管疾病类别。所有文本都是医学摘要，并被标记为一个或多个类。
 </p></blockquote></details>
 
-* <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Yahoo answers (YahooA)</a></summary><blockquote><p align="justify">
+* <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Yahoo answers (YahooA) 雅虎问答</a></summary><blockquote><p align="justify">
 The YahooA is a topic labeling task with 10 classes. It includes140,000 training data and 5,000 test data. All text contains three elements, being question titles,question contexts, and best answers, respectively.
+ YahooA是一个包含10个类的主题标记任务。它包括140,000个训练数据和5,000个测试数据。所有文本包含三个元素，分别是问题标题、问题上下文和最佳答案。
 </p></blockquote></details>
 
 
