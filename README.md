@@ -35,8 +35,7 @@ Text classification is the most fundamental and essential task in natural langua
 
 ### 1961 
 
-<details>
-<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">Automatic indexing: An experimental inquiry 采用贝叶斯公式进行文本分类</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://dl.acm.org/doi/10.1145/321075.321084">Automatic indexing: An experimental inquiry 采用贝叶斯公式进行文本分类</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
   This inquiry examines a technique for automatically classifying (indexing) documents according to their subject content. The task, in essence, is to have a computing machine read a document and on the basis of the occurrence of selected clue words decide to which of many subject categories the document in question belongs. This paper describes the design, execution and evaluation of a modest experimental study aimed at testing empirically one statistical technique for automatic indexing.
   这个调查研究了一种根据主题内容自动分类(索引)文档的技术。本质上，任务是让计算机读取文档，并根据所选线索词的出现情况来决定所涉文档属于哪个主题类别。本文描述了一个适度的实验研究的设计、执行和评估，旨在实证地测试一种统计技术的自动索引。
 </p></blockquote></details>
@@ -58,17 +57,22 @@ Text classification is the most fundamental and essential task in natural langua
 ### 1993
 
 <details>
-<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (C4.5)</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+<summary>1. <a href="https://dl.acm.org/doi/10.1145/321075.321084">C4.5: Programs for Machine Learning (C4.5)</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+  C4.5算法是由Ross Quinlan开发的用于产生决策树的算法，该算法是对Ross Quinlan之前开发的ID3算法的一个扩展。C4.5算法主要应用于统计分类中，主要是通过分析数据的信息熵建立和修剪决策树。
 </p></blockquote></details>
 
 ### 1998
 
-<a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (SVM)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://dl.acm.org/doi/10.1145/321075.321084">Text categorization with Support Vector Machines: Learning with many relevant features (SVM)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+  This paper explores the use of Support Vector Machines (SVMs) for learning text classifiers from examples. It analyzes the particular properties of learning with text data and identifies why SVMs are appropriate for this task. Empirical results support the theoretical findings. SVMs achieve substantial improvements over the currently best performing methods and behave robustly over a variety of different learning tasks. Furthermore they are fully automatic, eliminating the need for manual parameter tuning.
+  本文通过实例探讨了支持向量机在文本分类器学习中的应用。它分析了文本数据学习的特殊属性，并确定了支持向量机为什么适合这项任务。实证结果支持理论发现。支持向量机在当前性能最好的方法中取得了实质性的改进，并且在各种不同的学习任务中表现得很稳健。此外，它们是全自动的，不需要手动调整参数。
 </p></blockquote></details>
 
 ### 2001
 
- <a href="https://dl.acm.org/doi/10.1145/321075.321084">Naïve Bayes (RF)</a> (<a href="https://github.com/hexiaolang/RandomForest-In-text-classification">{Github}</a>) </summary><blockquote><p align="justify">
+ <a href="https://dl.acm.org/doi/10.1145/321075.321084">Random Forests (RF)</a> (<a href="https://github.com/hexiaolang/RandomForest-In-text-classification">{Github}</a>) </summary><blockquote><p align="justify">
+  Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund & R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148–156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression.
+  随机森林是树预测器的组合，因此每棵树都依赖于独立采样的随机向量的值，并且对森林中的所有树具有相同的分布。森林的泛化误差随着森林中树木数量的增加而收敛到一个极限。树分类器的森林泛化误差取决于森林中单个树的强度和它们之间的相关性。使用随机选择的特征来分割每个节点产生的错误率与Adaboost (Y. Freund & R. Schapire，机器学习:第十三届国际会议论文集，***，148-156)不相上下，但在噪声方面更健壮。内部估计监视错误、强度和相关性，这些用于显示对分割中使用的特性数量增加的响应。内部估计也被用来衡量变量的重要性。这些思想也适用于回归。
 </p></blockquote></details>
 
 ## Deep Learning Models
