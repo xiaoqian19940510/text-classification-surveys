@@ -21,7 +21,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 ## Surveys(综述论文)
 
 
-### 2020
+#### 2020
 
 <details/>
 <summary/>
@@ -35,7 +35,7 @@ Text classification is the most fundamental and essential task in natural langua
 ## Shallow Learning Models(浅层学习模型)
 [:arrow_up:](#table-of-contents)
 
-### 1961 
+#### 1961 
 
 <details/>
 <summary/>
@@ -44,7 +44,7 @@ Text classification is the most fundamental and essential task in natural langua
   这个调查研究了一种根据主题内容自动分类(索引)文档的技术。本质上，任务是让计算机读取文档，并根据所选线索词的出现情况来决定所涉文档属于哪个主题类别。本文描述了一个适度的实验研究的设计、执行和评估，旨在实证地测试一种统计技术的自动索引。
 </p></blockquote></details>
 
-### 1967
+#### 1967
 <details/>
 <summary/>
 <a href="https://dl.acm.org/doi/10.1145/321075.321084">Nearest neighbor pattern classification (k-nearest neighbor classification,KNN)</a> (<a href="https://github.com/raimonbosch/knn.classifier">{Github}</a>) </summary><blockquote><p align="justify">
@@ -52,7 +52,7 @@ Text classification is the most fundamental and essential task in natural langua
   最近邻决策规则将一组已分类点中最接近的分类分配给一个未分类的样本点。这个规则独立于底层的联合分布的采样点及其分类的概率,因此error R概率这样的规则必须至少一样伟大的贝叶斯概率error R ^ {\ ast},可以使误差概率最小决策规则考虑潜在的概率结构。然而，在一个大型样本分析中，我们将在它们-类别的情况下显示R^{\ast} \leq R \leq R^{\ast}/(2—MR^{\ast}/(M-1))，其中对于所有适当平滑的底层分布，这些边界是可能最紧的。因此，对于任意数量的类别，最近邻规则的错误概率是贝叶斯错误概率的两倍以上。从这个意义上说，可以说一个无限样本集中一半的分类信息都包含在最近邻中。
 </p></blockquote></details>
 
-### 1984
+#### 1984
 <details/>
 <summary/>
 <a href="https://dblp.org/img/paper.dark.empty.16x16.png">Classification and Regression Trees (CART)</a> (<a href="https://github.com/sayantann11/all-classification-templetes-for-ML">{Github}</a>) </summary><blockquote><p align="justify">
@@ -60,14 +60,14 @@ Text classification is the most fundamental and essential task in natural langua
 </p></blockquote></details>
 
 
-### 1993
+#### 1993
 <details/>
 <summary/>
 <a href="https://link.springer.com/article/10.1007/BF00993309">C4.5: Programs for Machine Learning (C4.5)</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
   C4.5算法是由Ross Quinlan开发的用于产生决策树的算法，该算法是对Ross Quinlan之前开发的ID3算法的一个扩展。C4.5算法主要应用于统计分类中，主要是通过分析数据的信息熵建立和修剪决策树。
 </p></blockquote></details>
 
-### 1998
+#### 1998
 <details/>
 <summary/>
 <a href="https://xueshu.baidu.com/usercenter/paper/show?paperid=58aa6cfa340e6ae6809c5deadd07d88e&site=xueshu_se">Text categorization with Support Vector Machines: Learning with many relevant features (SVM)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
@@ -75,7 +75,7 @@ Text classification is the most fundamental and essential task in natural langua
   本文通过实例探讨了支持向量机在文本分类器学习中的应用。它分析了文本数据学习的特殊属性，并确定了支持向量机为什么适合这项任务。实证结果支持理论发现。支持向量机在当前性能最好的方法中取得了实质性的改进，并且在各种不同的学习任务中表现得很稳健。此外，它们是全自动的，不需要手动调整参数。
 </p></blockquote></details>
 
-### 2001
+#### 2001
 <details/>
 <summary/>
  <a href="https://link.springer.com/article/10.1023%2FA%3A1010933404324">Random Forests (RF)</a> (<a href="https://github.com/hexiaolang/RandomForest-In-text-classification">{Github}</a>) </summary><blockquote><p align="justify">
@@ -86,7 +86,7 @@ Text classification is the most fundamental and essential task in natural langua
 ## Deep Learning Models 深度学习模型
 [:arrow_up:](#table-of-contents)
 
-### 2011
+#### 2011
  <details/>
 <summary/>
   <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> RAE (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
@@ -94,7 +94,7 @@ We introduce a novel machine learning frame-work based on recursive autoencoders
   提出了一种基于递归自动编码器的句子级情绪标签分布预测机器学习框架。我们的方法学习多词短语的向量空间扫描。在情绪预测任务中，这些代表在不使用任何预定义的情绪词汇或极性转换规则的情况下，在常用数据集(如电影评论)上胜过其他先进的应用程序。我们还评估了该模型预测情绪分布的能力，基于经验项目的告白。数据集由带有多个标签的个人用户故事组成，当聚合时，这些故事就形成了一个多项分布，可以捕捉人们的情绪反应。与几个有竞争力的基线相比，我们的算法可以更准确地预测这些标签的销量。
 </p></blockquote></details>
 
-### 2012
+#### 2012
  <details/>
 <summary/>
   <a href="https://www.aclweb.org/anthology/D12-1110/">Semantic compositionality through recursive matrix-vector spaces</a> MV-RNN (<a href="https://github.com/github-pengge/MV_RNN">Github</a>)</summary><blockquote><p align="justify">
@@ -102,7 +102,7 @@ Single-word vector space models have been very successful at learning lexical in
   单词向量空间模型在学习词汇信息方面非常成功。然而，他们不能捕捉长短语的组成意义，阻碍了他们对语言的更深的理解。我们介绍了一个递归神经网络(RNN)模型，学习组合向量表示的短语和句子的任意句法类型和长度。我们的模型为解析树中的每个节点分配一个向量和一个矩阵:向量捕获组成部分的内在含义，而矩阵捕获它如何改变邻近单词或短语的含义。该矩阵向量神经网络可以学习算子在命题逻辑和自然语言中的意义。该模型通过三个不同的实验得到艺术表现的状态:预测副词-形容词对的精细情绪分布;对电影评论的情感标签进行分类，利用名词之间的句法路径对名词之间的因果关系、主题信息等语义关系进行分类。
 </p></blockquote></details>
 
-### 2013
+#### 2013
  <details/>
 <summary/>
   <a href="https://www.aclweb.org/anthology/D13-1170/">Recursive deep models for semantic compositionality over a sentiment treebank</a> RNTN (<a href=" https://github.com/pondruska/DeepSentiment">Github</a>)</summary><blockquote><p align="justify">
@@ -110,7 +110,7 @@ Semantic word spaces have been very useful but cannot express the meaning of lon
   语义词空间已经非常有用，但不能以一种原则的方式表达较长的短语的意义。在情感检测等任务中进一步理解作文性，需要更丰富的监督训练和评估资源以及更强大的作文模型。为了解决这个问题，我们引入了一个情绪树银行。它为11,855个句子的解析树中的215,154个短语包含了细粒度的情绪标签，并对情绪的组合提出了新的挑战。为了解决这个问题，我们引入递归神经张量网络。当在新的treebank上进行训练时，这个模型在几个指标上都优于之前所有的方法。它将单句肯定/否定分类的技术水平从80%提升到85.4%。预测所有短语的精细情绪标签的准确率达到80.7%，比包特征基线提高了9.7%。最后，该模型是唯一能够准确地捕捉否定语句在不同树级上的影响及其范围的模型。
 </p></blockquote></details>
 
-### 2014
+#### 2014
  <details/>
 <summary/>
   <a href="http://proceedings.mlr.press/v32/le14.html">Distributed representations of sentences and documents</a> Paragraph-Vec (<a href="https://github.com/inejc/paragraph-vectors">Github</a>)</summary><blockquote><p align="justify">
@@ -118,7 +118,7 @@ Many machine learning algorithms require the input to be represented as a fixed 
   许多机器学习算法要求输入以固定长度的特征向量表示。说到文本，最常见的一种表现形式是词汇袋。尽管词包模型很流行，但它们有两个主要的弱点:它们失去了单词的顺序，而且它们还忽略了单词的语义。例如，“powerful”、“strong”和“Paris”的距离一样远。在本文中，我们提出了一种学习句子和文本文档的向量表示的无监督算法。该算法通过密集向量来表示每个文档，密集向量被训练用来预测文档中的单词。它的构造使我们的算法有可能克服单词包模型的缺点。实验结果表明，我们的技术在文本表示方面优于词汇袋模型和其他技术。最后，我们在几个文本分类和情绪分析任务上取得了最新的结果。
 </p></blockquote></details>
 
-### 2014
+#### 2014
  <details/>
 <summary/>
   <a href="https://doi.org/10.3115/v1/p14-1062">A convolutional neural network for modelling sentences</a> DCNN (<a href="https://github.com/kinimod23/ATS_Project">Github</a>)</summary><blockquote><p align="justify">
@@ -126,7 +126,6 @@ The ability to accurately represent sentences is central to language understandi
   准确表达句子的能力是语言理解的核心。我们描述了一种称为动态卷积神经网络(DCNN)的卷积架构，我们将其用于句子的语义建模。该网络使用动态k-Max池，一种线性序列上的全局池操作。该网络处理不同长度的输入句子，并在句子上归纳出一个特征图，能够明确地捕捉短关系和长关系。该网络不依赖于解析树，并且很容易适用于任何语言。我们通过四组实验对DCNN进行了测试:小尺度二值多类情绪预测、六向问题分类和推特远程监控情绪预测。该网络在前三个任务中都取得了优异的性能，在最后一个任务中相对于最强基线的误差减少了25%以上。
 </p></blockquote></details>
 
-### 2014
  <details/>
 <summary/>
   <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Convolutional Neural Networks for Sentence Classification</a> TextCNN (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
