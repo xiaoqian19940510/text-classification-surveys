@@ -198,9 +198,33 @@ We propose a hierarchical attention networkfor document classification.  Our mod
 </p></blockquote></details>
 
 
+#### 2015
+
+ <details/>
+<summary/>
+  <a href="http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification">Character-level convolutional networks for text classification</a> CharCNN (<a href="https://github.com/mhjabreel/CharCNN">Github</a>)</summary><blockquote><p align="justify">
+This article offers an empirical exploration on the use of character-level convolutional networks (ConvNets) for text classification. We constructed several large-scale datasets to show that character-level convolutional networks could achieve state-of-the-art or competitive results. Comparisons are offered against traditional models such as bag of words, n-grams and their TFIDF variants, and deep learning models such as word-based ConvNets and recurrent neural networks.
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://doi.org/10.3115/v1/p15-1150">Improved semantic representations from tree-structured long short-term memory networks</a> Tree-LSTM (<a href="https://github.com/stanfordnlp/treelstm">Github</a>)</summary><blockquote><p align="justify">
+Because  of  their  superior  ability  to  pre-serve   sequence   information   over   time,Long  Short-Term  Memory  (LSTM)  net-works,   a  type  of  recurrent  neural  net-work with a more complex computationalunit, have obtained strong results on a va-riety  of  sequence  modeling  tasks.Theonly underlying LSTM structure that hasbeen  explored  so  far  is  a  linear  chain.However,  natural  language  exhibits  syn-tactic properties that would naturally com-bine words to phrases.  We introduce theTree-LSTM, a generalization of LSTMs totree-structured network topologies.  Tree-LSTMs  outperform  all  existing  systemsand strong LSTM baselines on two tasks:predicting the semantic relatedness of twosentences  (SemEval  2014,  Task  1)  andsentiment  classification  (Stanford  Senti-ment Treebank).
+</p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a href="https://doi.org/10.3115/v1/p15-1162">Deep unordered composition rivals syntactic methods for text classification</a> DAN(<a href="https://github.com/miyyer/dan">Github</a>)</summary><blockquote><p align="justify">
+Many  existing  deep  learning  models  fornatural language processing tasks focus onlearning thecompositionalityof their in-puts, which requires many expensive com-putations. We present a simple deep neuralnetwork that competes with and, in somecases,  outperforms  such  models  on  sen-timent  analysis  and  factoid  question  an-swering tasks while taking only a fractionof the training time.  While our model issyntactically-ignorant, we show significantimprovements over previous bag-of-wordsmodels by deepening our network and ap-plying a novel variant of dropout.  More-over, our model performs better than syn-tactic models on datasets with high syn-tactic variance.  We show that our modelmakes similar errors to syntactically-awaremodels, indicating that for the tasks we con-sider, nonlinearly transforming the input ismore important than tailoring a network toincorporate word order and syntax.
+</p></blockquote></details>
 
+
+ <details/>
+<summary/>
+  <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745">Recurrent convolutional neural networks for text classification</a> TextRCNN(<a href="https://github.com/roomylee/rcnn-text-classification">Github</a>)</summary><blockquote><p align="justify">
+Text classification is a foundational task in many NLP applications. Traditional text classifiers often rely on many human-designed features, such as dictionaries, knowledge bases and special tree kernels. In contrast to traditional methods, we introduce a recurrent convolutional neural network for text classification without human-designed features. In our model, we apply a recurrent structure to capture contextual information as far as possible when learning word representations, which may introduce considerably less noise compared to traditional window-based neural networks. We also employ a max-pooling layer that automatically judges which words play key roles in text classification to capture the key components in texts. We conduct experiments on four commonly used datasets. The experimental results show that the proposed method outperforms the state-of-the-art methods on several datasets, particularly on document-level datasets.
+</p></blockquote></details>
 
 
 
