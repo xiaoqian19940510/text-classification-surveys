@@ -10,7 +10,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Deep Learning Models（深度学习模型）](#Deep-Learning-Models)
 - [Datasets（数据集）](#Datasets)
 - [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
-- [ Future Research Challenges（未来研究挑战）](# Future-Research-Challenges)
+- [Future Research Challenges（未来研究挑战）](# Future-Research-Challenges)
 - [Tools and Repos（工具与资源）](#tools-and-repos)
 </p></blockquote></details>
 
