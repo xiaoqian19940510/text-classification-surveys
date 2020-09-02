@@ -177,6 +177,28 @@ This paper explores a simple and efficient baseline for text classification. Our
 
 
 
+#### 2016
+
+ <details/>
+<summary/>
+  <a href="https://doi.org/10.18653/v1/d16-1053">Long short-term memory-networks for machine reading</a> LSTMN (<a href="https://github.com/JRC1995/Abstractive-Summarization">Github</a>)</summary><blockquote><p align="justify">
+In this paper we address the question of how to render sequence-level networks better at handling structured input. We propose a machine reading simulator which processes text incrementally from left to right and performs shallow reasoning with memory and attention. The reader extends the Long Short-Term Memory architecture with a memory network in place of a single memory cell. This enables adaptive memory usage during recurrence with neural attention, offering a way to weakly induce relations among tokens. The system is initially designed to process a single sequence but we also demonstrate how to integrate it with an encoder-decoder architecture. Experiments on language modeling, sentiment analysis, and natural language inference show that our model matches or outperforms the state of the art.
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://www.ijcai.org/Abstract/16/408">Recurrent neural network for text classification with multi-task learning</a> Multi-Task (<a href="https://github.com/baixl/text_classification">Github</a>)</summary><blockquote><p align="justify">
+Neural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks. Based on recurrent neural network, we propose three different mechanisms of sharing information to model text with task-specific and shared layers. The entire network is trained jointly on all these tasks. Experiments on four benchmark text classification tasks show that our proposed models can improve the performance of a task with the help of other related tasks.
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://doi.org/10.18653/v1/n16-1174">Hierarchical attention networks for document classification</a> HAN(<a href="https://github.com/richliao/textClassifier">Github</a>)</summary><blockquote><p align="justify">
+We propose a hierarchical attention networkfor document classification.  Our model hastwo distinctive characteristics: (i) it has a hier-archical structure that mirrors the hierarchicalstructure of documents; (ii) it has two levelsof attention mechanisms applied at the word-and sentence-level, enabling it to attend dif-ferentially to more and less important con-tent when constructing the document repre-sentation. Experiments conducted on six largescale text classification tasks demonstrate thatthe proposed architecture outperform previousmethods by a substantial margin. Visualiza-tion of the attention layers illustrates that themodel selects qualitatively informative wordsand sentences.
+</p></blockquote></details>
+
+
+
 
 
 
@@ -242,6 +264,12 @@ We introduce a novel machine learning frame-work based on recursive autoencoders
 Gradient Boosting Decision Tree (GBDT) is a popular machine learning algorithm, and has quite a few effective implementations such as XGBoost and pGBRT. Although many engineering optimizations have been adopted in these implementations, the efficiency and scalability are still unsatisfactory when the feature dimension is high and data size is large. A major reason is that for each feature, they need to scan all the data instances to estimate the information gain of all possible split points, which is very time consuming. To tackle this problem, we propose two novel techniques: \emph{Gradient-based One-Side Sampling} (GOSS) and \emph{Exclusive Feature Bundling} (EFB). With GOSS, we exclude a significant proportion of data instances with small gradients, and only use the rest to estimate the information gain. We prove that, since the data instances with larger gradients play a more important role in the computation of information gain, GOSS can obtain quite accurate estimation of the information gain with a much smaller data size. With EFB, we bundle mutually exclusive features (i.e., they rarely take nonzero values simultaneously), to reduce the number of features. We prove that finding the optimal bundling of exclusive features is NP-hard, but a greedy algorithm can achieve quite good approximation ratio (and thus can effectively reduce the number of features without hurting the accuracy of split point determination by much). We call our new GBDT implementation with GOSS and EFB \emph{LightGBM}. Our experiments on multiple public datasets show that, LightGBM speeds up the training process of conventional GBDT by up to over 20 times while achieving almost the same accuracy.
 </p></blockquote></details>
 
+#### 2016
+ <details/>
+<summary/>
+  <a href="https://dl.acm.org/doi/10.1145/2939672.2939785">Xgboost: A scalable tree boosting system</a> XGBoost(<a href="https://xgboost.readthedocs.io/en/latest">Github</a>)</summary><blockquote><p align="justify">
+Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.
+</p></blockquote></details>
 
 
 #### 2001
