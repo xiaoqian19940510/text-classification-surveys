@@ -30,7 +30,7 @@ Text classification is the most fundamental and essential task in natural langua
 
 ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/picture1.png)
 
-
+![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/picture1.png)
 
 ## Deep Learning Models（深度学习模型）
 [:arrow_up:](#table-of-contents)
