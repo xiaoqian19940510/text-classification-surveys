@@ -87,6 +87,8 @@ We introduce a new language representation model called BERT, which stands for B
   引入了一种新的语言表示模型BERT，它代表来自转换器的双向编码器表示。不同于最近的语言表示模型(Peters et al.， 2018a;(Radford et al.， 2018)， BERT被设计用于预训练未标记文本的深层双向表示，方法是联合作用于所有层中的左右上下文。因此，只需一个额外的输出层就可以对预先训练好的BERT模型进行微调，从而为广泛的任务创建最先进的模型，比如问题回答和语言推理，而无需对特定于任务的架构进行实质性的修改。伯特在概念上是简单的，在经验上是强大的。它获得新的先进的结果十一自然语言处理任务,包括推动胶分数80.5(7.7点绝对改进),MultiNLI精度86.7%绝对改善(4.6%),球队v1.1问答测试F1 93.2(1.5点绝对改进)和阵容v2.0测试F1到83.1(5.1点绝对改善)。
 </p></blockquote></details>
 
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/picture6.png)
+
  <details/>
 <summary/>
   <a href="https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4725">Graph convolutional networks for text classification</a> TextGCN (<a href="https://github.com/yao8839836/text_gcn">Github</a>)</summary><blockquote><p align="justify">
