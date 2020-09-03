@@ -42,6 +42,8 @@ Text classification is the most fundamental and essential task in natural langua
 We present SpanBERT, a pre-training method that is designed to better represent and predict spans of text. Our approach extends BERT by (1) masking contiguous random spans, rather than random tokens, and (2) training the span boundary representations to predict the entire content of the masked span, without relying on the individual token representations within it. SpanBERT consistently outperforms BERT and our better-tuned baselines, with substantial gains on span selection tasks such as question answering and coreference resolution. In particular, with the same training data and model size as BERT-Large, our single model obtains 94.6% and 88.7% F1 on SQuAD 1.1 and 2.0 respectively. We also achieve a new state of the art on the OntoNotes coreference resolution task (79.6% F1), strong performance on the TACRED relation extraction benchmark, and even gains on GLUE.
   提出了一种名为SpanBERT的预训练方法，旨在更好地表示和预测文本范围。我们的方法通过(1)屏蔽连续的随机跨度而不是随机标记来扩展BERT，以及(2)训练跨度边界表示来预测屏蔽跨度的整个内容，而不依赖于其中的单个标记表示。斯潘伯特的表现始终优于伯特和我们优化后的基线，在跨度选择任务(如问题回答和共参照解决)上取得了实质性的进展。特别是，在训练数据和模型尺寸与伯特- large相同的情况下，我们的单模型在1.1和2.0阵容上分别得到F1的94.6%和88.7%。我们还实现了OntoNotes共参考分辨率任务(79.6% F1)的新水平，在TACRED关系提取基准测试上的强劲性能，甚至在GLUE上也取得了进展。
   
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/picture3.png)
+  
 </p></blockquote></details>
 
  <details/>
@@ -65,6 +67,8 @@ Language model pretraining has led to significant performance gains but careful 
 With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining approaches based on autoregressive language modeling. However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation. Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into pretraining. Empirically, under comparable experiment setting, XLNet outperforms BERT on 20 tasks, often by a large margin, including question answering, natural language inference, sentiment analysis, and document ranking.
   由于具有双向上下文建模的能力，像BERT这样的基于自编码的去噪预训练方法的性能优于基于自回归语言建模的预训练方法。然而，BERT依靠用掩模破坏输入，忽略了掩模位置之间的依赖关系，并遭受了预训练-微调误差。鉴于这些优点和缺点，提出了XLNet，这是一种广义的自回归预训练方法，它(1)通过最大化因数分解顺序的所有排列的期望似然，使学习双向上下文成为可能;(2)由于它的自回归公式，克服了BERT的局限性。此外，XLNet将Transformer-XL(最先进的自回归模型)的思想集成到预训练中。从经验上看，在可比的实验设置下，XLNet在20项任务上的表现优于BERT，通常都是遥遥领先的，包括问题回答、自然语言推理、情感分析和文档排序。
 </p></blockquote></details>
+
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/picture3.png)
 
  <details/>
 <summary/>
