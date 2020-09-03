@@ -28,7 +28,7 @@ Text classification is the most fundamental and essential task in natural langua
   文本分类是自然语言处理中最基本的任务。由于深度学习的空前成功，过去十年中该领域的研究激增。已有的文献提出了许多方法，数据集和评估指标，从而需要对这些内容进行全面的总结。本文回顾1961年至2020年的文本分类方法，重点是从浅层学习到深度学习的模型。根据所涉及的文本以及用于特征提取和分类的模型创建用于文本分类的分类法。然后，详细讨论这些类别中的每一个类别，涉及支持预测测试的技术发展和基准数据集。并提供了不同技术之间的全面比较，确定了各种评估指标的优缺点。最后，通过总结关键含义，未来的研究方向以及研究领域面临的挑战进行总结。
 </p></blockquote></details>
 
-![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB.pptx)
+![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/picture1.png)
 
 
 
