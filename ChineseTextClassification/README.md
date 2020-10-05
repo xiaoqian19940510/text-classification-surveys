@@ -4,7 +4,7 @@
 中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention, DPCNN, Transformer, 基于pytorch，开箱即用。
 
 ## 介绍
-[//]: # (模型介绍、数据流动过程：[我的博客](https://zhuanlan.zhihu.com/p/73176084)  )
+[//]: # (模型介绍、数据流动过程： https://zhuanlan.zhihu.com/p/73176084 )
 
 [//]: # (哈哈我是注释，不会在浏览器中显示。)
 
