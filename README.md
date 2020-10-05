@@ -449,6 +449,8 @@ Gradient Boosting Decision Tree (GBDT) is a popular machine learning algorithm, 
 Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.
   
   树boosting是一种高效、应用广泛的机器学习方法。在本文中，我们描述了一个名为XGBoost的可扩展的端到端树形增强系统，该系统被数据科学家广泛使用，在许多机器学习挑战中取得了最新的成果。我们提出了一种新的稀疏数据稀疏感知算法和加权分位数草图的近似树学习。更重要的是，我们提供了关于缓存访问模式、数据压缩和分片的见解来构建一个可伸缩的树增强系统。通过结合这些见解，XGBoost可以使用比现有系统少得多的资源扩展数十亿个示例。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure33.png)
 </p></blockquote></details>
 
 
