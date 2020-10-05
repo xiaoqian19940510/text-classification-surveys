@@ -1,0 +1,17 @@
+{
+	"load": 1,
+	"type": "TextCNN",
+	"output_path": "../model/TextCNN",
+	"embedding_len" : 300,
+	"padding_len": 32,
+	"batch_size" : 128,
+	"num_epochs": 0,
+	"lr": 0.001,
+	"weight_decay": 0,
+	"display_per_batch": 100,
+	"model" : {
+		"out_channels": 256,
+		"kernal_size": [2, 3, 4],
+		"dropout": 0.5
+	}
+}

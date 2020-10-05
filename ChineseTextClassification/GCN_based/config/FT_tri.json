@@ -1,0 +1,17 @@
+{
+	"load": 1,
+	"type": "fastText",
+	"output_path": "../model/fastText",
+	"embedding_len" : 300,
+	"padding_len": 32,
+	"batch_size" : 30,
+	"num_epochs": 0,
+	"lr": 0.001,
+	"weight_decay": 0,
+	"display_per_batch": 500,
+	"model":{
+	"hidden": 256,
+	"dropout": 0.5,
+	"ngram": 3
+}
+}

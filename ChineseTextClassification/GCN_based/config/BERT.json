@@ -1,0 +1,15 @@
+{
+	"load": 1,
+	"type": "BERT",
+	"output_path": "../model/BERT",
+	"embedding_len" : 300,
+	"padding_len": 32,
+	"batch_size" : 16,
+	"num_epochs": 0,
+	"lr": 0.00002,
+	"weight_decay": 0,
+	"display_per_batch": 1000,
+	"model" : {
+		"hidden": 768
+	}
+}
