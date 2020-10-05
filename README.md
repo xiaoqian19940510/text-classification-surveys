@@ -118,7 +118,7 @@ Text classification is an important and classical problem in natural language pr
   
   文本分类是自然语言处理中的一个重要而经典的问题。已经有很多研究将卷积神经网络(规则网格上的卷积，例如序列)应用于分类。然而，只有有限的研究探索了更灵活的图形卷积神经网络(在非网格上卷积，如任意图)的任务。在这项工作中，我们提出使用图卷积网络来进行文本分类。基于词的共现关系和文档词的关系，为语料库构建单个文本图，然后学习用于语料库的文本图卷积网络(text GCN)。我们的文本GCN对word和document使用单热表示进行初始化，然后在已知文档类标签的监督下联合学习单词和文档的嵌入。我们在多个基准数据集上的实验结果表明，一个没有任何外部词嵌入或知识的普通文本GCN优于最先进的文本分类方法。另一方面，Text GCN也学习预测词和文档嵌入。此外，实验结果表明，当我们降低训练数据的百分比时，文本GCN相对于现有比较方法的改进更加显著，说明在文本分类中，文本GCN对较少的训练数据具有鲁棒性。
   
-![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/picture7.png)  
+![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure7.png)  
 
 </p></blockquote></details>
 
@@ -132,6 +132,8 @@ Text classification is an important and classical problem in natural language pr
 We propose a novel multi-grained attention network (MGAN) model for aspect level sentiment classification. Existing approaches mostly adopt coarse-grained attention mechanism, which may bring information loss if the aspect has multiple words or larger context. We propose a fine-grained attention mechanism, which can capture the word-level interaction between aspect and context. And then we leverage the fine-grained and coarse-grained attention mechanisms to compose the MGAN framework. Moreover, unlike previous works which train each aspect with its context separately, we design an aspect alignment loss to depict the aspect-level interactions among the aspects that have the same context. We evaluate the proposed approach on three datasets: laptop and restaurant are from SemEval 2014, and the last one is a twitter dataset. Experimental results show that the multi-grained attention network consistently outperforms the state-of-the-art methods on all three datasets. We also conduct experiments to evaluate the effectiveness of aspect alignment loss, which indicates the aspect-level interactions can bring extra useful information and further improve the performance.
   
   提出了一种新的面向级情绪分类的多粒度关注网络模型。现有的方法多采用粗粒度注意机制，如果方面有多个词或较大的上下文，可能会造成信息丢失。我们提出了一种精细的注意机制，可以捕捉到方面和上下文之间的字级交互。然后我们利用细粒度和粗粒度的注意机制来组成MGAN框架。此外，与之前用上下文分别训练每个方面的工作不同，我们设计了一个方面对齐损失来描述具有相同上下文的方面之间的方面级交互。我们在三个数据集上评估提出的方法:笔记本和餐厅来自2014年SemEval，最后一个数据集是twitter数据集。实验结果表明，在这三个数据集上，多粒度注意力网络的性能始终优于现有的方法。我们还进行了实验来评估方面对齐丢失的有效性，表明方面级交互可以带来额外的有用信息，并进一步提高性能。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure8.png)  
 </p></blockquote></details>
 
  <details/>
@@ -140,14 +142,20 @@ We propose a novel multi-grained attention network (MGAN) model for aspect level
 In this study, we explore capsule networks with dynamic routing for text classification. We propose three strategies to stabilize the dynamic routing process to alleviate the disturbance of some noise capsules which may contain “background” information or have not been successfully trained. A series of experiments are conducted with capsule networks on six text classification benchmarks. Capsule networks achieve state of the art on 4 out of 6 datasets, which shows the effectiveness of capsule networks for text classification. We additionally show that capsule networks exhibit significant improvement when transfer single-label to multi-label text classification over strong baseline methods. To the best of our knowledge, this is the first work that capsule networks have been empirically investigated for text modeling.
   
   在本研究中，我们探索带有动态路由的胶囊网络用于文本分类。我们提出了三种稳定动态路由过程的策略，以减轻一些可能包含“背景”信息或未成功训练的噪声胶囊的干扰。在六个文本分类基准上用胶囊网络进行了一系列的实验。胶囊网络在6个数据集中的4个数据集上达到了最新的分类水平，显示了胶囊网络在文本分类中的有效性。此外，我们还发现，与强基线方法相比，胶囊网络在将单标签转换为多标签文本分类时表现出了显著的改进。就我们所知，这是第一个工作胶囊网络已被实证研究文本建模。
+  
+    ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure9.png)  
 </p></blockquote></details>
+
 
  <details/>
 <summary/>
   <a href="https://doi.org/10.24963/ijcai.2018/584">Constructing narrative event evolutionary graph for script event prediction</a> SGNN (<a href="https://github.com/eecrazy/ConstructingNEEG_IJCAI_2018">Github</a>)</summary><blockquote><p align="justify">
 Script event prediction requires a model to predict the subsequent event given an existing event context. Previous models based on event pairs or event chains cannot make full use of dense event connections, which may limit their capability of event prediction. To remedy this, we propose constructing an event graph to better utilize the event network information for script event prediction. In particular, we first extract narrative event chains from large quantities of news corpus, and then construct a narrative event evolutionary graph (NEEG) based on the extracted chains. NEEG can be seen as a knowledge base that describes event evolutionary principles and patterns. To solve the inference problem on NEEG, we present a scaled graph neural network (SGNN) to model event interactions and learn better event representations. Instead of computing the representations on the whole graph, SGNN processes only the concerned nodes each time, which makes our model feasible to large-scale graphs. By comparing the similarity between input context event representations and candidate event representations, we can choose the most reasonable subsequent event. Experimental results on widely used New York Times corpus demonstrate that our model significantly outperforms state-of-the-art baseline methods, by using standard multiple choice narrative cloze evaluation.
-  
+
   脚本事件预测需要一个模型来预测给定现有事件上下文的后续事件。以往基于事件对或事件链的模型不能充分利用密集的事件连接，从而限制了它们对事件的预测能力。为了弥补这一点，我们提出构造一个事件图，以便更好地利用事件网络信息进行脚本事件预测。具体来说，我们首先从大量的新闻语料库中提取叙事事件链，然后基于提取的叙事事件链构造一个叙事事件演化图。NEEG可以看作是一个描述事件进化原理和模式的知识库。为了解决NEEG上的推理问题，我们提出了一种尺度图神经网络(SGNN)来建模事件交互并学习更好的事件表示。SGNN每次只处理相关节点，而不需要计算整个图的表示，这使得我们的模型对大规模图可行。通过比较输入上下文事件表示与候选事件表示的相似性，可以选择最合理的后续事件。在广泛使用的纽约时报语料库上的实验结果表明，通过使用标准的多项选择叙事完形填空评价，我们的模型显著优于目前最先进的基线方法。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure10.png)  
+    
 </p></blockquote></details>
 
  <details/>
@@ -156,6 +164,9 @@ Script event prediction requires a model to predict the subsequent event given a
 Multi-label classification is an important yet challenging task in natural language processing. It is more complex than single-label classification in that the labels tend to be correlated. Existing methods tend to ignore the correlations between labels. Besides, different parts of the text can contribute differently for predicting different labels, which is not considered by existing models. In this paper, we propose to view the multi-label classification task as a sequence generation problem, and apply a sequence generation model with a novel decoder structure to solve it. Extensive experimental results show that our proposed methods outperform previous work by a substantial margin. Further analysis of experimental results demonstrates that the proposed methods not only capture the correlations between labels, but also select the most informative words automatically when predicting different labels.
   
   多标签分类是自然语言处理中的一项重要而富有挑战性的任务。它比单标签分类更加复杂，因为标签往往是相关的。现有的方法往往忽略标签之间的相关性。此外，文本的不同部分对不同标签的预测有不同的贡献，现有的模型没有考虑到这一点。本文提出将多标号分类任务看作是一个序列生成问题，并应用序列生成模型和一种新的解码器结构来解决该问题。大量的实验结果表明，我们提出的方法比以前的工作有很大的优势。实验结果表明，该方法不仅能够捕获标签之间的相关性，而且能够在预测不同标签时自动选择信息最丰富的词语。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure11.png)  
+  
 </p></blockquote></details>
 
 
@@ -165,6 +176,8 @@ Multi-label classification is an important yet challenging task in natural langu
 Word embeddings are effective intermediate representations for capturing semantic regularities between words, when learning the representations of text sequences. We propose to view text classification as a label-word joint embedding problem: each label is embedded in the same space with the word vectors. We introduce an attention framework that measures the compatibility of embeddings between text sequences and labels. The attention is learned on a training set of labeled samples to ensure that, given a text sequence, the relevant words are weighted higher than the irrelevant ones. Our method maintains the interpretability of word embeddings, and enjoys a built-in ability to leverage alternative sources of information, in addition to input text sequences. Extensive results on the several large text datasets show that the proposed framework outperforms the state-of-the-art methods by a large margin, in terms of both accuracy and speed.
   
   在学习文本序列表示时，单词嵌入是捕获单词之间语义规律的有效中间表示。我们提出将文本分类看作是一个标签-单词联合嵌入问题:每个标签被嵌入到与单词向量相同的空间中。我们介绍了一个注意力框架，用来衡量文本序列和标签之间的嵌入的兼容性。注意力是在一组标记样本的训练集上学习的，以确保在给定的文本序列中，相关词的权重高于不相关词。我们的方法维护了单词嵌入的可解释性，并享有利用除了输入文本序列之外的其他信息源的内置能力。在几个大型文本数据集上的广泛结果表明，提出的框架在精度和速度方面都比最先进的方法有很大的优势。
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure12.png)  
 </p></blockquote></details>
 
  <details/>
@@ -173,6 +186,8 @@ Word embeddings are effective intermediate representations for capturing semanti
 Inductive transfer learning has greatly impacted computer vision, but existing approaches in NLP still require task-specific modifications and training from scratch. We propose Universal Language Model Fine-tuning (ULMFiT), an effective transfer learning method that can be applied to any task in NLP, and introduce techniques that are key for fine-tuning a language model. Our method significantly outperforms the state-of-the-art on six text classification tasks, reducing the error by 18-24% on the majority of datasets. Furthermore, with only 100 labeled examples, it matches the performance of training from scratch on 100 times more data. We open-source our pretrained models and code.
   
   归纳迁移学习对计算机视觉产生了很大的影响，但现有的神经语言处理方法仍需要对任务进行针对性的修改和从零开始的训练。我们提出了通用语言模型微调(ULMFiT)，一种有效的迁移学习方法，可以应用于NLP中的任何任务，并介绍了微调语言模型的关键技术。我们的方法在六个文本分类任务上显著优于最新的技术，在大多数数据集上减少了18-24%的错误。此外，由于只有100个带标签的例子，它可以在100倍以上的数据上匹配从零开始训练的性能。我们开放了预先训练好的模型和代码。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure13.png)  
 </p></blockquote></details>
 
  <details/>
@@ -200,6 +215,8 @@ We introduce a new type of deep contextualized word representation that models b
 We propose a novel framework based on neural networks to identify the sentiment of opinion targets in a comment/review. Our framework adopts multiple-attention mechanism to capture sentiment features separated by a long distance, so that it is more robust against irrelevant information. The results of multiple attentions are non-linearly combined with a recurrent neural network, which strengthens the expressive power of our model for handling more complications. The weighted-memory mechanism not only helps us avoid the labor-intensive feature engineering work, but also provides a tailor-made memory for different opinion targets of a sentence. We examine the merit of our model on four datasets: two are from SemEval2014, i.e. reviews of restaurants and laptops; a twitter dataset, for testing its performance on social media data; and a Chinese news comment dataset, for testing its language sensitivity. The experimental results show that our model consistently outperforms the state-of-the-art methods on different types of data.
   
   我们提出了一个基于神经网络的新框架来识别评论/评论中意见目标的情绪。我们的框架采用了多注意机制来捕获远距离分离的情绪特征，从而对无关信息具有更强的鲁棒性。多重关注的结果与递归神经网络进行非线性结合，这增强了我们的模型处理更多并发症的表达能力。加权记忆机制不仅帮助我们避免了劳动密集型的特征工程工作，而且为句子的不同观点目标提供了量身定制的记忆。我们在四个数据集上检验了我们的模型的优点:两个数据集来自2014年上半年，即对餐馆和笔记本电脑的评论;一个twitter数据集，用于测试其在社交媒体数据上的表现;以及一个中文新闻评论数据集，用于测试其语言敏感性。实验结果表明，我们的模型在不同类型的数据上始终优于最新的方法。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure14.png) 
 </p></blockquote></details>
 
  <details/>
@@ -208,6 +225,8 @@ We propose a novel framework based on neural networks to identify the sentiment 
 NLP tasks are often limited by scarcity of manually annotated data. In social media sentiment analysis and related tasks, researchers have therefore used binarized emoticons and specific hashtags as forms of distant supervision. Our paper shows that by extending the distant supervision to a more diverse set of noisy labels, the models can learn richer representations. Through emoji prediction on a dataset of 1246 million tweets containing one of 64 common emojis we obtain state-of-the-art performance on 8 benchmark datasets within emotion, sentiment and sarcasm detection using a single pretrained model. Our analyses confirm that the diversity of our emotional labels yield a performance improvement over previous distant supervision approaches.
   
   NLP任务常常受到手工注释数据稀缺的限制。因此，在社交媒体情绪分析和相关任务中，研究人员使用了二值化的表情符号和特定的标签作为远程监督的形式。我们的论文表明，通过将远程监控扩展到更多样化的噪声标签集合，模型可以学习更丰富的表示。通过对包含64个常见表情符号之一的1.46亿条推文数据集的表情符号预测，我们通过使用单一的预训练模型在8个基准数据集上获得了最先进的情绪、情绪和讽刺检测性能。我们的分析证实，情感标签的多样性比以前的远程监督方法产生了表现改善。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure15.png) 
 </p></blockquote></details>
 
  <details/>
@@ -216,6 +235,8 @@ NLP tasks are often limited by scarcity of manually annotated data. In social me
 Aspect-level sentiment classification aims at identifying the sentiment polarity of specific target in its context. Previous approaches have realized the importance of targets in sentiment classification and developed various methods with the goal of precisely modeling thier contexts via generating target-specific representations. However, these studies always ignore the separate modeling of targets. In this paper, we argue that both targets and contexts deserve special treatment and need to be learned their own representations via interactive learning. Then, we propose the interactive attention networks (IAN) to interactively learn attentions in the contexts and targets, and generate the representations for targets and contexts separately. With this design, the IAN model can well represent a target and its collocative context, which is helpful to sentiment classification. Experimental results on SemEval 2014 Datasets demonstrate the effectiveness of our model.
   
   方面级情绪分类旨在识别特定对象在其语境中的情绪极性。以往的方法已经认识到目标在情感分类中的重要性，并发展了各种方法，目的是通过生成特定于目标的表示来精确地建模它们的上下文。然而，这些研究往往忽略了目标的单独建模。在本文中，我们认为目标和语境都需要特殊对待，需要通过交互学习来学习它们各自的表征。在此基础上，我们提出了交互式注意网络(IAN)来交互地学习上下文和目标中的注意，并分别生成目标和上下文的表示。通过这样的设计，IAN模型可以很好地表示目标及其搭配语境，有利于情感分类。在SemEval 2014数据集上的实验结果证明了我们的模型的有效性。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure16.png) 
 </p></blockquote></details>
 
  <details/>
@@ -224,6 +245,8 @@ Aspect-level sentiment classification aims at identifying the sentiment polarity
 This paper proposes a low-complexity word-level deep convolutional neural network (CNN) architecture for text categorization that can efficiently represent long-range associations in text. In the literature, several deep and complex neural networks have been proposed for this task, assuming availability of relatively large amounts of training data. However, the associated computational complexity increases as the networks go deeper, which poses serious challenges in practical applications. Moreover, it was shown recently that shallow word-level CNNs are more accurate and much faster than the state-of-the-art very deep nets such as character-level CNNs even in the setting of large training data. Motivated by these findings, we carefully studied deepening of word-level CNNs to capture global representations of text, and found a simple network architecture with which the best accuracy can be obtained by increasing the network depth without increasing computational cost by much. We call it deep pyramid CNN. The proposed model with 15 weight layers outperforms the previous best models on six benchmark datasets for sentiment classification and topic categorization.
   
   本文提出了一种低复杂度的词级深度卷积神经网络(CNN)用于文本分类的架构，该架构可以有效地表示文本中的远程关联。在文献中，已经提出了几种深度和复杂的神经网络来完成这个任务，假设有相对大量的训练数据可用。然而，随着网络的深入，相关的计算复杂度增加，这在实际应用中提出了严重的挑战。此外，最近的研究表明，即使在设置大的训练数据时，浅词级的cnn网络也比目前最先进的深度网络(如字符级的cnn网络)更准确、更快。基于这些发现，我们仔细研究了单词级CNNs的加深以捕获文本的全局表示，并发现了一种简单的网络架构，通过增加网络深度，在不增加太多计算成本的情况下，可以获得最佳的精确度。我们称之为深度金字塔CNN。在情感分类和主题分类的六个基准数据集上，该模型在15个权重层上的表现优于以往的最佳模型。
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure17.png) 
 </p></blockquote></details>
 
 
@@ -233,6 +256,8 @@ This paper proposes a low-complexity word-level deep convolutional neural networ
 In this paper, we propose TopicRNN, a recurrent neural network (RNN)-based language model designed to directly capture the global semantic meaning relating words in a document via latent topics. Because of their sequential nature, RNNs are good at capturing the local structure of a word sequence – both semantic and syntactic – but might face difficulty remembering long-range dependencies. Intuitively, these long-range dependencies are of semantic nature. In contrast, latent topic models are able to capture the global underlying semantic structure of a document but do not account for word ordering. The proposed TopicRNN model integrates the merits of RNNs and latent topic models: it captures local (syntactic) dependencies using an RNN and global (semantic) dependencies using latent topics. Unlike previous work on contextual RNN language modeling, our model is learned end-to-end. Empirical results on word prediction show that TopicRNN outperforms existing contextual RNN baselines. In addition, TopicRNN can be used as an unsupervised feature extractor for documents. We do this for sentiment analysis on the IMDB movie review dataset and report an error rate of 6.28%. This is comparable to the state-of-the-art 5.91% resulting from a semi-supervised approach. Finally, TopicRNN also yields sensible topics, making it a useful alternative to document models such as latent Dirichlet allocation.
   
   本文提出一种基于递归神经网络(RNN)的语言模型TopicRNN，旨在通过潜在主题直接捕获文档中相关词的全局语义意义。由于它们的顺序性质，rnn善于捕捉单词序列的局部结构——包括语义和句法——但可能难以记住长期依赖关系。直观地说，这些长期依赖具有语义性质。相反，潜在主题模型能够捕获文档的全局底层语义结构，但不考虑单词排序。该模型集成了网络神经网络和潜在主题模型的优点:利用网络神经网络捕获局部(句法)依赖，利用潜在主题捕获全局(语义)依赖。与之前的上下文RNN语言建模不同，我们的模型是端到端学习的。在词汇预测方面的经验结果表明，TopicRNN的性能优于已有的上下文RNN基线。此外，TopicRNN还可以用作文档的无监督特性提取器。我们这样做是为了对IMDB电影评论数据集进行情感分析，并报告错误率为6.28%。这可与半监督方法所产生的5.91%的最先进水平相媲美。最后，TopicRNN还生成合理的主题，这使得它成为文档模型(如潜在的Dirichlet分配)的有用替代品。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure18.png) 
 </p></blockquote></details>
 
 
@@ -242,6 +267,8 @@ In this paper, we propose TopicRNN, a recurrent neural network (RNN)-based langu
 Adversarial training provides a means of regularizing supervised learning algorithms while virtual adversarial training is able to extend supervised learning algorithms to the semi-supervised setting. However, both methods require making small perturbations to numerous entries of the input vector, which is inappropriate for sparse high-dimensional inputs such as one-hot word representations. We extend adversarial and virtual adversarial training to the text domain by applying perturbations to the word embeddings in a recurrent neural network rather than to the original input itself. The proposed method achieves state of the art results on multiple benchmark semi-supervised and purely supervised tasks. We provide visualizations and analysis showing that the learned word embeddings have improved in quality and that while training, the model is less prone to overfitting.
   
   对抗式训练提供了一种规范监督学习算法的方法，而虚拟对抗式训练则能够将监督学习算法扩展到半监督环境中。然而，这两种方法都需要对输入向量的多个条目进行小的扰动，这对于稀疏高维输入(如单热字表示)是不合适的。我们将对敌训练和虚拟对敌训练扩展到文本领域，方法是对递归神经网络中的嵌入词施加扰动，而不是对原始输入本身施加扰动。该方法在多基准测试、半监督和纯监督任务上都取得了较好的效果。我们提供的可视化和分析显示，学习到的单词嵌入在质量上有了提高，而且在训练时，模型不太容易出现过拟合。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure19.png) 
 </p></blockquote></details>
 
 
@@ -251,6 +278,8 @@ Adversarial training provides a means of regularizing supervised learning algori
 This paper explores a simple and efficient baseline for text classification. Our experiments show that our fast text classifier fastText is often on par with deep learning classifiers in terms of accuracy, and many orders of magnitude faster for training and evaluation. We can train fastText on more than one billion words in less than ten minutes using a standard multicore CPU, and classify half a million sentences among 312K classes in less than a minute.
   
   本文探讨了一种简单有效的文本分类基准。我们的实验表明，我们的快速文本分类器在准确率方面与深度学习分类器相当，在训练和评估方面比深度学习分类器快很多个数量级。使用标准的多核CPU，我们可以在不到10分钟的时间内对fastText进行10亿个单词的训练，并在不到一分钟的时间内对312K个类中的50万个句子进行分类。
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure20.png) 
 </p></blockquote></details>
 
 
@@ -263,6 +292,8 @@ This paper explores a simple and efficient baseline for text classification. Our
 In this paper we address the question of how to render sequence-level networks better at handling structured input. We propose a machine reading simulator which processes text incrementally from left to right and performs shallow reasoning with memory and attention. The reader extends the Long Short-Term Memory architecture with a memory network in place of a single memory cell. This enables adaptive memory usage during recurrence with neural attention, offering a way to weakly induce relations among tokens. The system is initially designed to process a single sequence but we also demonstrate how to integrate it with an encoder-decoder architecture. Experiments on language modeling, sentiment analysis, and natural language inference show that our model matches or outperforms the state of the art.
   
   在本文中，我们讨论了如何渲染序列级网络来更好地处理结构化输入的问题。我们提出一种机器阅读模拟器，它可以从左向右逐步处理文本，并通过记忆和注意力进行浅层推理。读者扩展长短期记忆架构与记忆网络在一个单一的记忆细胞。这使得神经关注在递归期间能够自适应记忆使用，提供了一种方法来弱地诱导标记之间的关系。该系统最初设计用于处理单个序列，但我们也演示了如何将其与编码器-解码器体系结构集成。在语言建模、情感分析和自然语言推理方面的实验表明，我们的模型符合或优于当前的技术水平。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure21.png) 
 </p></blockquote></details>
 
  <details/>
@@ -271,6 +302,8 @@ In this paper we address the question of how to render sequence-level networks b
 Neural network based methods have obtained great progress on a variety of natural language processing tasks. However, in most previous works, the models are learned based on single-task supervised objectives, which often suffer from insufficient training data. In this paper, we use the multi-task learning framework to jointly learn across multiple related tasks. Based on recurrent neural network, we propose three different mechanisms of sharing information to model text with task-specific and shared layers. The entire network is trained jointly on all these tasks. Experiments on four benchmark text classification tasks show that our proposed models can improve the performance of a task with the help of other related tasks.
   
   基于神经网络的方法在各种自然语言处理任务中取得了很大进展。但是，在以往的工作中，大多数模型都是基于单任务监督目标学习的，这往往存在训练数据不足的问题。在本文中，我们使用多任务学习框架来共同学习多个相关的任务。基于递归神经网络，我们提出了三种不同的信息共享机制来对具有任务特定层和共享层的文本进行建模。整个网络共同接受所有这些任务的培训。在四个基准文本分类任务上的实验表明，我们所提出的模型可以在其他相关任务的帮助下提高任务的性能。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure22.png) 
 </p></blockquote></details>
 
  <details/>
@@ -279,6 +312,8 @@ Neural network based methods have obtained great progress on a variety of natura
 We propose a hierarchical attention networkfor document classification.  Our model hastwo distinctive characteristics: (i) it has a hier-archical structure that mirrors the hierarchicalstructure of documents; (ii) it has two levelsof attention mechanisms applied at the word-and sentence-level, enabling it to attend dif-ferentially to more and less important con-tent when constructing the document repre-sentation. Experiments conducted on six largescale text classification tasks demonstrate thatthe proposed architecture outperform previousmethods by a substantial margin. Visualiza-tion of the attention layers illustrates that themodel selects qualitatively informative wordsand sentences.
   
   提出了一种用于文档分类的分层关注网络。我们的模型有两个显著的特点:(1)它有一个更高级的结构，反映了文件的层次结构;(二)在词语和句子层面上有两种注意机制，使其在构建文件表达时，对重要的内容和次要的内容有不同程度的注意。在六个大规模文本分类任务上的实验表明，所提出的架构大大优于以前的方法。注意层的视觉化说明了该模式选择有定性信息的词和句子。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure23.png) 
 </p></blockquote></details>
 
 
@@ -290,6 +325,8 @@ We propose a hierarchical attention networkfor document classification.  Our mod
 This article offers an empirical exploration on the use of character-level convolutional networks (ConvNets) for text classification. We constructed several large-scale datasets to show that character-level convolutional networks could achieve state-of-the-art or competitive results. Comparisons are offered against traditional models such as bag of words, n-grams and their TFIDF variants, and deep learning models such as word-based ConvNets and recurrent neural networks.
   
   本文对使用字符级卷积网络(ConvNets)进行文本分类提供了一个经验探索。我们构建了几个大规模数据集来表明字符级卷积网络可以获得最先进的或有竞争力的结果。与传统的模型(如单词包、n-grams及其TFIDF变体)和深度学习模型(如基于单词的ConvNets和递归神经网络)进行比较。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure24.png) 
 </p></blockquote></details>
 
  <details/>
@@ -298,6 +335,8 @@ This article offers an empirical exploration on the use of character-level convo
 Because  of  their  superior  ability  to  pre-serve   sequence   information   over   time,Long  Short-Term  Memory  (LSTM)  net-works,   a  type  of  recurrent  neural  net-work with a more complex computationalunit, have obtained strong results on a va-riety  of  sequence  modeling  tasks.Theonly underlying LSTM structure that hasbeen  explored  so  far  is  a  linear  chain.However,  natural  language  exhibits  syn-tactic properties that would naturally com-bine words to phrases.  We introduce theTree-LSTM, a generalization of LSTMs totree-structured network topologies.  Tree-LSTMs  outperform  all  existing  systemsand strong LSTM baselines on two tasks:predicting the semantic relatedness of twosentences  (SemEval  2014,  Task  1)  andsentiment  classification  (Stanford  Senti-ment Treebank).
   
   长短期记忆(LSTM)网络是一种具有更复杂计算单元的循环神经网络，由于它们具有随时间预服务序列信息的卓越能力，因此在一系列序列建模任务中获得了强大的结果。到目前为止，我们研究的唯一底层LSTM结构是一个线性链。然而，自然语言表现出的句法策略特性会自然地将单词组合成短语。我们介绍了树- lstm，它是LSTMs树结构网络拓扑的一般化。在两项任务上，Tree-LSTMs的表现胜过所有现有系统，而且在两项任务上都有较强的LSTM基线:预测两个句子的语义相关性(SemEval 2014, Task 1)和情绪分类(Stanford Senti-ment Treebank)。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure25.png) 
 </p></blockquote></details>
 
 
@@ -307,6 +346,8 @@ Because  of  their  superior  ability  to  pre-serve   sequence   information   
 Many  existing  deep  learning  models  fornatural language processing tasks focus onlearning thecompositionalityof their in-puts, which requires many expensive com-putations. We present a simple deep neuralnetwork that competes with and, in somecases,  outperforms  such  models  on  sen-timent  analysis  and  factoid  question  an-swering tasks while taking only a fractionof the training time.  While our model issyntactically-ignorant, we show significantimprovements over previous bag-of-wordsmodels by deepening our network and ap-plying a novel variant of dropout.  More-over, our model performs better than syn-tactic models on datasets with high syn-tactic variance.  We show that our modelmakes similar errors to syntactically-awaremodels, indicating that for the tasks we con-sider, nonlinearly transforming the input ismore important than tailoring a network toincorporate word order and syntax.
   
   许多现有的用于自然语言处理任务的深度学习模型都关注于学习输入的组合性，这需要许多昂贵的组合。我们提出了一种简单的深层神经网络，它在感知分析和模拟问题转换任务上与这些模型竞争，并且在某些方面优于这些模型，而只需要训练时间的一小部分。虽然我们的模型在句法上是无知的，但我们通过深化我们的网络和使用dropout的新变体，显示了对以前的词汇包模型的重大改进。此外，我们的模型在具有高同步策略方差的数据集上的表现优于同步策略模型。我们发现我们的模型与句法认知模型犯了类似的错误，这表明对于我们所考虑的任务来说，非线性地转换输入比裁剪一个网络以包含词序和语法更重要。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure26.png) 
 </p></blockquote></details>
 
 
@@ -327,6 +368,8 @@ Text classification is a foundational task in many NLP applications. Traditional
 Many machine learning algorithms require the input to be represented as a fixed length feature vector. When it comes to texts, one of the most common representations is bag-of-words. Despite their popularity, bag-of-words models have two major weaknesses: they lose the ordering of the words and they also ignore semantics of the words. For example, "powerful," "strong" and "Paris" are equally distant. In this paper, we propose an unsupervised algorithm that learns vector representations of sentences and text documents. This algorithm represents each document by a dense vector which is trained to predict words in the document. Its construction gives our algorithm the potential to overcome the weaknesses of bag-of-words models. Empirical results show that our technique outperforms bag-of-words models as well as other techniques for text representations. Finally, we achieve new state-of-the-art results on several text classification and sentiment analysis tasks.
   
   许多机器学习算法要求输入以固定长度的特征向量表示。说到文本，最常见的一种表现形式是词汇袋。尽管词包模型很流行，但它们有两个主要的弱点:它们失去了单词的顺序，而且它们还忽略了单词的语义。例如，“powerful”、“strong”和“Paris”的距离一样远。在本文中，我们提出了一种学习句子和文本文档的向量表示的无监督算法。该算法通过密集向量来表示每个文档，密集向量被训练用来预测文档中的单词。它的构造使我们的算法有可能克服单词包模型的缺点。实验结果表明，我们的技术在文本表示方面优于词汇袋模型和其他技术。最后，我们在几个文本分类和情绪分析任务上取得了最新的结果。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure27.png)
 </p></blockquote></details>
 
  <details/>
@@ -335,6 +378,8 @@ Many machine learning algorithms require the input to be represented as a fixed 
 The ability to accurately represent sentences is central to language understanding. We describe a convolutional architecture dubbed the Dynamic Convolutional Neural Network (DCNN) that we adopt for the semantic modelling of sentences. The network uses Dynamic k-Max Pooling, a global pooling operation over linear sequences. The network handles input sentences of varying length and induces a feature graph over the sentence that is capable of explicitly capturing short and long-range relations. The network does not rely on a parse tree and is easily applicable to any language. We test the DCNN in four experiments: small scale binary and multi-class sentiment prediction, six-way question classification and Twitter sentiment prediction by distant supervision. The network achieves excellent performance in the first three tasks and a greater than 25% error reduction in the last task with respect to the strongest baseline.
   
   准确表达句子的能力是语言理解的核心。我们描述了一种称为动态卷积神经网络(DCNN)的卷积架构，我们将其用于句子的语义建模。该网络使用动态k-Max池，一种线性序列上的全局池操作。该网络处理不同长度的输入句子，并在句子上归纳出一个特征图，能够明确地捕捉短关系和长关系。该网络不依赖于解析树，并且很容易适用于任何语言。我们通过四组实验对DCNN进行了测试:小尺度二值多类情绪预测、六向问题分类和推特远程监控情绪预测。该网络在前三个任务中都取得了优异的性能，在最后一个任务中相对于最强基线的误差减少了25%以上。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure28.png)
 </p></blockquote></details>
 
  <details/>
@@ -343,6 +388,8 @@ The ability to accurately represent sentences is central to language understandi
 We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks. We show that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks. Learning task-specific vectors through fine-tuning offers further gains in performance. We additionally propose a simple modification to the architecture to allow for the use of both task-specific and static vectors. The CNN models discussed herein improve upon the state of the art on 4 out of 7 tasks, which include sentiment analysis and question classification.
   
   本文报告了一系列卷积神经网络(CNN)的实验，这些网络是在预先训练好的单词向量上训练的，用于句子级别的分类任务。我们证明了一个简单的CNN具有小的超参数调优和静态向量在多个基准测试中取得了很好的结果。通过微调学习特定任务向量可以进一步提高性能。此外，我们还建议对架构进行简单修改，以允许同时使用特定于任务的和静态向量。本文讨论的CNN模型在7项任务中的4项上改进了现有的技术，其中包括情绪分析和问题分类。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure29.png)
 </p></blockquote></details>
 
 #### 2013
@@ -352,6 +399,8 @@ We report on a series of experiments with convolutional neural networks (CNN) tr
 Semantic word spaces have been very useful but cannot express the meaning of longer phrases in a principled way. Further progress towards understanding compositionality in tasks such as sentiment detection requires richer supervised training and evaluation resources and more powerful models of composition. To remedy this, we introduce a Sentiment Treebank. It includes fine grained sentiment labels for 215,154 phrases in the parse trees of 11,855 sentences and presents new challenges for sentiment composition-ality. To address them, we introduce the Recursive Neural Tensor Network. When trained on the new treebank, this model outperforms all previous methods on several metrics. It pushes the state of the art in single sentence positive/negative classification from 80% up to 85.4%. The accuracy of predicting fine-grained sentiment labels for all phrases reaches 80.7%, an improvement of 9.7% over bag of features baselines. Lastly, it is the only model that can accurately capture the effects of negation and its scope at various tree levels for both positive and negative phrases.
   
   语义词空间已经非常有用，但不能以一种原则的方式表达较长的短语的意义。在情感检测等任务中进一步理解作文性，需要更丰富的监督训练和评估资源以及更强大的作文模型。为了解决这个问题，我们引入了一个情绪树银行。它为11,855个句子的解析树中的215,154个短语包含了细粒度的情绪标签，并对情绪的组合提出了新的挑战。为了解决这个问题，我们引入递归神经张量网络。当在新的treebank上进行训练时，这个模型在几个指标上都优于之前所有的方法。它将单句肯定/否定分类的技术水平从80%提升到85.4%。预测所有短语的精细情绪标签的准确率达到80.7%，比包特征基线提高了9.7%。最后，该模型是唯一能够准确地捕捉否定语句在不同树级上的影响及其范围的模型。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure30.png)
 </p></blockquote></details>
 
 
@@ -362,15 +411,20 @@ Semantic word spaces have been very useful but cannot express the meaning of lon
 Single-word vector space models have been very successful at learning lexical information. However, they cannot capture the compositional meaning of longer phrases, preventing them from a deeper understanding of language. We introduce a recursive neural network (RNN) model that learns compositional vector representations for phrases and sentences of arbitrary syntactic type and length. Our model assigns a vector and a matrix to every node in a parse tree: the vector captures the inherent meaning of the constituent, while the matrix captures how it changes the meaning of neighboring words or phrases. This matrix-vector RNN can learn the meaning of operators in propositional logic and natural language. The model obtains state of the art performance on three different experiments: predicting fine-grained sentiment distributions of adverb-adjective pairs; classifying sentiment labels of movie reviews and classifying semantic relationships such as cause-effect or topic-message between nouns using the syntactic path between them.
   
   单词向量空间模型在学习词汇信息方面非常成功。然而，他们不能捕捉长短语的组成意义，阻碍了他们对语言的更深的理解。我们介绍了一个递归神经网络(RNN)模型，学习组合向量表示的短语和句子的任意句法类型和长度。我们的模型为解析树中的每个节点分配一个向量和一个矩阵:向量捕获组成部分的内在含义，而矩阵捕获它如何改变邻近单词或短语的含义。该矩阵向量神经网络可以学习算子在命题逻辑和自然语言中的意义。该模型通过三个不同的实验得到艺术表现的状态:预测副词-形容词对的精细情绪分布;对电影评论的情感标签进行分类，利用名词之间的句法路径对名词之间的因果关系、主题信息等语义关系进行分类。
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure31.png)
 </p></blockquote></details>
 
 #### 2011
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D14-1181.pdf">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> RAE (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/D11-1014/">Semi-supervised recursive autoencoders forpredicting sentiment distributions</a> RAE (<a href="https://github.com/alexander-rakhlin/CNN-for-Sentence-Classification-in-Keras">Github</a>)</summary><blockquote><p align="justify">
 We introduce a novel machine learning frame-work based on recursive autoencoders for sentence-level prediction of sentiment labeldistributions. Our method learns vector spacerepresentations for multi-word phrases. In sentiment prediction tasks these represen-tations outperform other state-of-the-art ap-proaches on commonly used datasets, such asmovie reviews, without using any pre-definedsentiment lexica or polarity shifting rules. Wealso  evaluate  the  model’s  ability to predict sentiment distributions on a new dataset basedon confessions from the experience project. The dataset consists of personal user storiesannotated with multiple labels which, whenaggregated, form a multinomial distributionthat captures emotional reactions. Our algorithm can more accurately predict distri-butions over such labels compared to severalcompetitive baselines.
   
   提出了一种基于递归自动编码器的句子级情绪标签分布预测机器学习框架。我们的方法学习多词短语的向量空间扫描。在情绪预测任务中，这些代表在不使用任何预定义的情绪词汇或极性转换规则的情况下，在常用数据集(如电影评论)上胜过其他先进的应用程序。我们还评估了该模型预测情绪分布的能力，基于经验项目的告白。数据集由带有多个标签的个人用户故事组成，当聚合时，这些故事就形成了一个多项分布，可以捕捉人们的情绪反应。与几个有竞争力的基线相比，我们的算法可以更准确地预测这些标签的销量。
+  
+  ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/figure32.png)
+   
 </p></blockquote></details>
 
 
