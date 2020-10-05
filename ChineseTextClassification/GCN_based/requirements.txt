@@ -1,0 +1,6 @@
+numpy==1.18.3
+scipy==1.4.1
+networkx==2.4
+jieba==0.42.1
+torch==1.4.0
+scikit_learn==0.23.1
