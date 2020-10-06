@@ -19,7 +19,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 
 # Surveys
-[:arrow_up:](#surveys)
+[:arrow_up:](#table-of-contents)
 
 <details/>
 <summary/>
@@ -38,7 +38,7 @@ Text classification is the most fundamental and essential task in natural langua
 
 
 # Deep Learning Models
-[:arrow_up:](#deep-learning-models)
+[:arrow_up:](#table-of-contents)
 
 #### 2020
  <details/>
