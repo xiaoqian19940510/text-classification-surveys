@@ -22,11 +22,11 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 <details/>
 <summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey on Text Classification: From Shallow to Deep Learning（文本分类综述：从浅层模型到深度模型）,2020</a> by<i> Qian Li, Hao Peng, Jianxin Li, Congying Xia, Renyu Yang, Lichao Sun, Philip S. Yu, Lifang He
+<a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey on Text Classification: From Shallow to Deep Learning,2020</a> by<i> Qian Li, Hao Peng, Jianxin Li, Congying Xia, Renyu Yang, Lichao Sun, Philip S. Yu, Lifang He
 </a></summary><blockquote><p align="justify">
 Text classification is the most fundamental and essential task in natural language processing. The last decade has seen a surge of research in this area due to the unprecedented success of deep learning. Numerous methods, datasets, and evaluation metrics have been proposed in the literature, raising the need for a comprehensive and updated survey. This paper fills the gap by reviewing the state of the art approaches from 1961 to 2020, focusing on models from shallow to deep learning. We create a taxonomy for text classification according to the text involved and the models used for feature extraction and classification. We then discuss each of these categories in detail, dealing with both the technical developments and benchmark datasets that support tests of predictions. A comprehensive comparison between different techniques, as well as identifying the pros and cons of various evaluation metrics are also provided in this survey. Finally, we conclude by summarizing key implications, future research directions, and the challenges facing the research area.
   
-  文本分类是自然语言处理中最基本的任务。由于深度学习的空前成功，过去十年中该领域的研究激增。已有的文献提出了许多方法，数据集和评估指标，从而需要对这些内容进行全面的总结。本文回顾1961年至2020年的文本分类方法，重点是从浅层学习到深度学习的模型。根据所涉及的文本以及用于特征提取和分类的模型创建用于文本分类的分类法。然后，详细讨论这些类别中的每一个类别，涉及支持预测测试的技术发展和基准数据集。并提供了不同技术之间的全面比较，确定了各种评估指标的优缺点。最后，通过总结关键含义，未来的研究方向以及研究领域面临的挑战进行总结。
+  文本分类综述：从浅层模型到深度模型。文本分类是自然语言处理中最基本的任务。由于深度学习的空前成功，过去十年中该领域的研究激增。已有的文献提出了许多方法，数据集和评估指标，从而需要对这些内容进行全面的总结。本文回顾1961年至2020年的文本分类方法，重点是从浅层学习到深度学习的模型。根据所涉及的文本以及用于特征提取和分类的模型创建用于文本分类的分类法。然后，详细讨论这些类别中的每一个类别，涉及支持预测测试的技术发展和基准数据集。并提供了不同技术之间的全面比较，确定了各种评估指标的优缺点。最后，通过总结关键含义，未来的研究方向以及研究领域面临的挑战进行总结。
   
 ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/picture1.png)
 
@@ -42,8 +42,10 @@ Text classification is the most fundamental and essential task in natural langua
 #### 2020
  <details/>
 <summary/>
-  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Spanbert: Improving pre-training by representing and predicting spans</a>  --- SpanBERT主要贡献：Span Mask机制，不再对随机的单个token添加mask，随机对邻接分词添加mask；Span Boundary Objective(SBO)训练，使用分词边界表示预测被添加mask分词的内容；一个句子的训练效果更好 --- (<a href="https://github.com/facebookresearch/SpanBERT">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Spanbert: Improving pre-training by representing and predicting spans</a>  --- SpanBERT--- (<a href="https://github.com/facebookresearch/SpanBERT">Github</a>)</summary><blockquote><p align="justify">
 We present SpanBERT, a pre-training method that is designed to better represent and predict spans of text. Our approach extends BERT by (1) masking contiguous random spans, rather than random tokens, and (2) training the span boundary representations to predict the entire content of the masked span, without relying on the individual token representations within it. SpanBERT consistently outperforms BERT and our better-tuned baselines, with substantial gains on span selection tasks such as question answering and coreference resolution. In particular, with the same training data and model size as BERT-Large, our single model obtains 94.6% and 88.7% F1 on SQuAD 1.1 and 2.0 respectively. We also achieve a new state of the art on the OntoNotes coreference resolution task (79.6% F1), strong performance on the TACRED relation extraction benchmark, and even gains on GLUE.
+  
+  主要贡献：Span Mask机制，不再对随机的单个token添加mask，随机对邻接分词添加mask；Span Boundary Objective(SBO)训练，使用分词边界表示预测被添加mask分词的内容；一个句子的训练效果更好。
   
   提出了一种名为SpanBERT的预训练方法，旨在更好地表示和预测文本范围。我们的方法通过(1)屏蔽连续的随机跨度而不是随机标记来扩展BERT，以及(2)训练跨度边界表示来预测屏蔽跨度的整个内容，而不依赖于其中的单个标记表示。斯潘伯特的表现始终优于伯特和我们优化后的基线，在跨度选择任务(如问题回答和共参照解决)上取得了实质性的进展。特别是，在训练数据和模型尺寸与伯特- large相同的情况下，我们的单模型在1.1和2.0阵容上分别得到F1的94.6%和88.7%。我们还实现了OntoNotes共参考分辨率任务(79.6% F1)的新水平，在TACRED关系提取基准测试上的强劲性能，甚至在GLUE上也取得了进展。
  
@@ -55,8 +57,10 @@ We present SpanBERT, a pre-training method that is designed to better represent 
 
  <details/>
 <summary/>
-  <a href="https://openreview.net/forum?id=H1eA7AEtvS">ALBERT: A lite BERT for self-supervised learning of language representations</a> --- ALBERT论文主要贡献：瘦身成功版BERT，全新的参数共享机制。对embedding因式分解，隐层embedding带有上线文信息；跨层参数共享，全连接和attention层都进行参数共享，效果下降，参数减少，训练时间缩短；句间连贯 --- (<a href="https://github.com/google-research/ALBERT">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://openreview.net/forum?id=H1eA7AEtvS">ALBERT: A lite BERT for self-supervised learning of language representations</a> --- ALBERT--- (<a href="https://github.com/google-research/ALBERT">Github</a>)</summary><blockquote><p align="justify">
 Increasing model size when pretraining natural language representations often results in improved performance on downstream tasks. However, at some point further model increases become harder due to GPU/TPU memory limitations and longer training times. To address these problems,  we present two parameter-reduction techniques to lower memory consumption and increase the training speed of BERT~\citep{devlin2018bert}. Comprehensive empirical evidence shows that our proposed methods lead to models that scale much better compared to the original BERT. We also use a self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks with multi-sentence inputs. As a result, our best model establishes new state-of-the-art results on the GLUE, RACE, and \squad benchmarks while having fewer parameters compared to BERT-large. The code and the pretrained models are available at https://github.com/google-research/ALBERT.
+  
+  论文主要贡献：瘦身成功版BERT，全新的参数共享机制。对embedding因式分解，隐层embedding带有上线文信息；跨层参数共享，全连接和attention层都进行参数共享，效果下降，参数减少，训练时间缩短；句间连贯 
   
   在对自然语言表示进行预训练时增加模型大小通常会提高下游任务的性能。然而，在某种程度上，由于GPU/TPU内存的限制和更长的训练时间，进一步的模型增加会变得更加困难。为了解决这些问题，提出了两种参数减少技术来降低内存消耗和提高BERT的训练速度~\citep{devlin2018bert}。全面的经验证据表明，提出的方法导致的模型，规模比原来的BERT更好。还使用了一种关注于句子间连贯性建模的自我监督丢失，并表明它始终有助于多句子输入的下游任务。因此，最好的模型建立了新的最先进的结果在胶水，比赛，\队基准，而拥有更少的参数，比伯特-大。代码和预先训练的模型可以在https://github.com/google-research/ALBERT下载。
 </p></blockquote></details>
@@ -64,16 +68,20 @@ Increasing model size when pretraining natural language representations often re
 #### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Roberta: A robustly optimized BERT pretraining approach</a> --- Roberta主要贡献：更多训练数据、更大batch size、训练时间更长；去掉NSP；训练序列更长；动态调整Masking机制，数据copy十份，每句话会有十种不同的mask方式 --- (<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/abs/1907.11692">Roberta: A robustly optimized BERT pretraining approach</a> --- Roberta--- (<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
 Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.
+  
+  主要贡献：更多训练数据、更大batch size、训练时间更长；去掉NSP；训练序列更长；动态调整Masking机制，数据copy十份，每句话会有十种不同的mask方式。 
   
   语言模型预训练已经导致了显著的性能提高，但仔细比较不同的方法是具有挑战性的。训练的计算开销很大，通常是在不同大小的私有数据集上进行的，而且，正如我们将展示的，超参数的选择对最终结果有很大的影响。我们提出了一项BERT预训练的复制研究(Devlin et al.， 2019)，该研究仔细测量了许多关键超参数和训练数据大小的影响。我们发现BERT明显训练不足，可以匹配或超过其后发布的每个模型的性能。我们最好的模型在GLUE, RACE和SQuAD上达到了最先进的效果。这些结果突出了以前被忽略的设计选择的重要性，并对最近报告的改进的来源提出了疑问。我们发布我们的模型和代码。
 </p></blockquote></details>
 
  <details/>
 <summary/>
-  <a href="http://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding">Xlnet: Generalized autoregressive pretraining for language understanding</a> --- Xlnet主要贡献：采用自回归（AR）模型替代自编码（AE）模型，解决mask带来的负面影响；双流自注意力机制；引入transformer-xl，解决超长序列的依赖问题；采用相对位置编码 --- (<a href="https://github.com/zihangdai/xlnet">Github</a>)</summary><blockquote><p align="justify">
+  <a href="http://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding">Xlnet: Generalized autoregressive pretraining for language understanding</a> --- Xlnet--- (<a href="https://github.com/zihangdai/xlnet">Github</a>)</summary><blockquote><p align="justify">
 With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining approaches based on autoregressive language modeling. However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation. Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into pretraining. Empirically, under comparable experiment setting, XLNet outperforms BERT on 20 tasks, often by a large margin, including question answering, natural language inference, sentiment analysis, and document ranking.
+  
+  主要贡献：采用自回归（AR）模型替代自编码（AE）模型，解决mask带来的负面影响；双流自注意力机制；引入transformer-xl，解决超长序列的依赖问题；采用相对位置编码 
   
   由于具有双向上下文建模的能力，像BERT这样的基于自编码的去噪预训练方法的性能优于基于自回归语言建模的预训练方法。然而，BERT依靠用掩模破坏输入，忽略了掩模位置之间的依赖关系，并遭受了预训练-微调误差。鉴于这些优点和缺点，提出了XLNet，这是一种广义的自回归预训练方法，它(1)通过最大化因数分解顺序的所有排列的期望似然，使学习双向上下文成为可能;(2)由于它的自回归公式，克服了BERT的局限性。此外，XLNet将Transformer-XL(最先进的自回归模型)的思想集成到预训练中。从经验上看，在可比的实验设置下，XLNet在20项任务上的表现优于BERT，通常都是遥遥领先的，包括问题回答、自然语言推理、情感分析和文档排序。
   
@@ -86,8 +94,10 @@ With the capability of modeling bidirectional contexts, denoising autoencoding b
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P19-1441/">Multi-task deep neural networks for natural language understanding</a> --- MT-DNN主要贡献：多任务学习机制训练模型，提高模型的泛化性能 --- (<a href="https://github.com/namisan/mt-dnn">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P19-1441/">Multi-task deep neural networks for natural language understanding</a> --- MT-DNN--- (<a href="https://github.com/namisan/mt-dnn">Github</a>)</summary><blockquote><p align="justify">
 In this paper, we present a Multi-Task Deep Neural Network (MT-DNN) for learning representations across multiple natural language understanding (NLU) tasks. MT-DNN not only leverages large amounts of cross-task data, but also benefits from a regularization effect that leads to more general representations to help adapt to new tasks and domains. MT-DNN extends the model proposed in Liu et al. (2015) by incorporating a pre-trained bidirectional transformer language model, known as BERT (Devlin et al., 2018). MT-DNN obtains new state-of-the-art results on ten NLU tasks, including SNLI, SciTail, and eight out of nine GLUE tasks, pushing the GLUE benchmark to 82.7% (2.2% absolute improvement) as of February 25, 2019 on the latest GLUE test set. We also demonstrate using the SNLI and SciTail datasets that the representations learned by MT-DNN allow domain adaptation with substantially fewer in-domain labels than the pre-trained BERT representations. Our code and pre-trained models will be made publicly available.
+  
+  主要贡献：多任务学习机制训练模型，提高模型的泛化性能。 
   
   在本文中，提出了一个多任务深度神经网络(MT-DNN)，用于跨多个自然语言理解(NLU)任务学习表示。MT-DNN不仅利用了大量的跨任务数据，而且还受益于正则化效应，从而产生更通用的表示，以帮助适应新的任务和领域。MT-DNN扩展了Liu等人(2015)提出的模型，加入了一个预训练的双向transformer语言模型，称为BERT (Devlin et al.， 2018)。MT-DNN获得新的先进的结果十NLU任务,包括SNLI SciTail,和九胶水的任务,把胶水基准82.7%(2.2%绝对改进)2月25日,2019年最新胶水测试集。我们还演示使用SNLI和SciTail数据集,表示学习通过MT-DNN允许域适应在域标签明显少于pre-trained伯特表示。代码和预训练的模型将公开提供。
   
@@ -100,8 +110,10 @@ In this paper, we present a Multi-Task Deep Neural Network (MT-DNN) for learning
 
  <details/>
 <summary/>
-  <a href="https://doi.org/10.18653/v1/n19-1423">BERT: pre-training of deep bidirectional transformers for language understanding</a> --- BERT主要贡献：BERT是双向的Transformer block连接，增加词向量模型泛化能力，充分描述字符级、词级、句子级关系特征。真正的双向encoding，Masked LM类似完形填空；transformer做encoder实现上下文相关，而不是bi-LSTM，模型更深，并行性更好；学习句子关系表示，句子级负采样 --- (<a href="https://github.com/google-research/bert">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://doi.org/10.18653/v1/n19-1423">BERT: pre-training of deep bidirectional transformers for language understanding</a> --- BERT--- (<a href="https://github.com/google-research/bert">Github</a>)</summary><blockquote><p align="justify">
 We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
+  
+  主要贡献：BERT是双向的Transformer block连接，增加词向量模型泛化能力，充分描述字符级、词级、句子级关系特征。真正的双向encoding，Masked LM类似完形填空；transformer做encoder实现上下文相关，而不是bi-LSTM，模型更深，并行性更好；学习句子关系表示，句子级负采样 
   
   引入了一种新的语言表示模型BERT，它代表来自转换器的双向编码器表示。不同于最近的语言表示模型(Peters et al.， 2018a;(Radford et al.， 2018)， BERT被设计用于预训练未标记文本的深层双向表示，方法是联合作用于所有层中的左右上下文。因此，只需一个额外的输出层就可以对预先训练好的BERT模型进行微调，从而为广泛的任务创建最先进的模型，比如问题回答和语言推理，而无需对特定于任务的架构进行实质性的修改。伯特在概念上是简单的，在经验上是强大的。它获得新的先进的结果十一自然语言处理任务,包括推动胶分数80.5(7.7点绝对改进),MultiNLI精度86.7%绝对改善(4.6%),球队v1.1问答测试F1 93.2(1.5点绝对改进)和阵容v2.0测试F1到83.1(5.1点绝对改善)。
   
@@ -113,8 +125,10 @@ We introduce a new language representation model called BERT, which stands for B
 
  <details/>
 <summary/>
-  <a href="https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4725">Graph convolutional networks for text classification</a> --- TextGCN主要贡献：构建基于文本和词的异构图，在GCN上进行半监督文本分类，包含文本节点和词节点，document-word边的权重是TF-IDF，word-word边的权重是PMI，即词的共现频率 --- (<a href="https://github.com/yao8839836/text_gcn">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4725">Graph convolutional networks for text classification</a> --- TextGCN--- (<a href="https://github.com/yao8839836/text_gcn">Github</a>)</summary><blockquote><p align="justify">
 Text classification is an important and classical problem in natural language processing. There have been a number of studies that applied convolutional neural networks (convolution on regular grid, e.g., sequence) to classification. However, only a limited number of studies have explored the more flexible graph convolutional neural networks (convolution on non-grid, e.g., arbitrary graph) for the task. In this work, we propose to use graph convolutional networks for text classification. We build a single text graph for a corpus based on word co-occurrence and document word relations, then learn a Text Graph Convolutional Network (Text GCN) for the corpus. Our Text GCN is initialized with one-hot representation for word and document, it then jointly learns the embeddings for both words and documents, as supervised by the known class labels for documents. Our experimental results on multiple benchmark datasets demonstrate that a vanilla Text GCN without any external word embeddings or knowledge outperforms state-of-the-art methods for text classification. On the other hand, Text GCN also learns predictive word and document embeddings. In addition, experimental results show that the improvement of Text GCN over state-of-the-art comparison methods become more prominent as we lower the percentage of training data, suggesting the robustness of Text GCN to less training data in text classification.
+  
+  主要贡献：构建基于文本和词的异构图，在GCN上进行半监督文本分类，包含文本节点和词节点，document-word边的权重是TF-IDF，word-word边的权重是PMI，即词的共现频率。 
   
   文本分类是自然语言处理中的一个重要而经典的问题。已经有很多研究将卷积神经网络(规则网格上的卷积，例如序列)应用于分类。然而，只有有限的研究探索了更灵活的图形卷积神经网络(在非网格上卷积，如任意图)的任务。在这项工作中，我们提出使用图卷积网络来进行文本分类。基于词的共现关系和文档词的关系，为语料库构建单个文本图，然后学习用于语料库的文本图卷积网络(text GCN)。我们的文本GCN对word和document使用单热表示进行初始化，然后在已知文档类标签的监督下联合学习单词和文档的嵌入。我们在多个基准数据集上的实验结果表明，一个没有任何外部词嵌入或知识的普通文本GCN优于最先进的文本分类方法。另一方面，Text GCN也学习预测词和文档嵌入。此外，实验结果表明，当我们降低训练数据的百分比时，文本GCN相对于现有比较方法的改进更加显著，说明在文本分类中，文本GCN对较少的训练数据具有鲁棒性。
   
@@ -128,8 +142,10 @@ Text classification is an important and classical problem in natural language pr
 
  <details/>
 <summary/>
-  <a href="https://doi.org/10.18653/v1/d18-1380">Multi-grained attention network for aspect-level sentiment classification</a> --- MGAN主要贡献：多粒度注意力网络，结合粗粒度和细粒度注意力来捕捉aspect和上下文在词级别上的交互；aspect对齐损失来描述拥有共同上下文的aspect之间的aspect级别上的相互影响。 --- (<a href="https://github.com/songyouwei/ABSA-PyTorch">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://doi.org/10.18653/v1/d18-1380">Multi-grained attention network for aspect-level sentiment classification</a> --- MGAN --- (<a href="https://github.com/songyouwei/ABSA-PyTorch">Github</a>)</summary><blockquote><p align="justify">
 We propose a novel multi-grained attention network (MGAN) model for aspect level sentiment classification. Existing approaches mostly adopt coarse-grained attention mechanism, which may bring information loss if the aspect has multiple words or larger context. We propose a fine-grained attention mechanism, which can capture the word-level interaction between aspect and context. And then we leverage the fine-grained and coarse-grained attention mechanisms to compose the MGAN framework. Moreover, unlike previous works which train each aspect with its context separately, we design an aspect alignment loss to depict the aspect-level interactions among the aspects that have the same context. We evaluate the proposed approach on three datasets: laptop and restaurant are from SemEval 2014, and the last one is a twitter dataset. Experimental results show that the multi-grained attention network consistently outperforms the state-of-the-art methods on all three datasets. We also conduct experiments to evaluate the effectiveness of aspect alignment loss, which indicates the aspect-level interactions can bring extra useful information and further improve the performance.
+  
+  主要贡献：多粒度注意力网络，结合粗粒度和细粒度注意力来捕捉aspect和上下文在词级别上的交互；aspect对齐损失来描述拥有共同上下文的aspect之间的aspect级别上的相互影响。
   
   提出了一种新的面向级情绪分类的多粒度关注网络模型。现有的方法多采用粗粒度注意机制，如果方面有多个词或较大的上下文，可能会造成信息丢失。我们提出了一种精细的注意机制，可以捕捉到方面和上下文之间的字级交互。然后我们利用细粒度和粗粒度的注意机制来组成MGAN框架。此外，与之前用上下文分别训练每个方面的工作不同，我们设计了一个方面对齐损失来描述具有相同上下文的方面之间的方面级交互。我们在三个数据集上评估提出的方法:笔记本和餐厅来自2014年SemEval，最后一个数据集是twitter数据集。实验结果表明，在这三个数据集上，多粒度注意力网络的性能始终优于现有的方法。我们还进行了实验来评估方面对齐丢失的有效性，表明方面级交互可以带来额外的有用信息，并进一步提高性能。
   
@@ -138,7 +154,7 @@ We propose a novel multi-grained attention network (MGAN) model for aspect level
 
  <details/>
 <summary/>
-  <a href="https://doi.org/10.18653/v1/d18-1350">Investigating capsule networks with dynamic routing for text classification</a> --- TextCapsule主要贡献： --- (<a href="https://github.com/andyweizhao/capsule_text_classification">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://doi.org/10.18653/v1/d18-1350">Investigating capsule networks with dynamic routing for text classification</a> --- TextCapsule--- (<a href="https://github.com/andyweizhao/capsule_text_classification">Github</a>)</summary><blockquote><p align="justify">
 In this study, we explore capsule networks with dynamic routing for text classification. We propose three strategies to stabilize the dynamic routing process to alleviate the disturbance of some noise capsules which may contain “background” information or have not been successfully trained. A series of experiments are conducted with capsule networks on six text classification benchmarks. Capsule networks achieve state of the art on 4 out of 6 datasets, which shows the effectiveness of capsule networks for text classification. We additionally show that capsule networks exhibit significant improvement when transfer single-label to multi-label text classification over strong baseline methods. To the best of our knowledge, this is the first work that capsule networks have been empirically investigated for text modeling.
   
   在本研究中，我们探索带有动态路由的胶囊网络用于文本分类。我们提出了三种稳定动态路由过程的策略，以减轻一些可能包含“背景”信息或未成功训练的噪声胶囊的干扰。在六个文本分类基准上用胶囊网络进行了一系列的实验。胶囊网络在6个数据集中的4个数据集上达到了最新的分类水平，显示了胶囊网络在文本分类中的有效性。此外，我们还发现，与强基线方法相比，胶囊网络在将单标签转换为多标签文本分类时表现出了显著的改进。就我们所知，这是第一个工作胶囊网络已被实证研究文本建模。
