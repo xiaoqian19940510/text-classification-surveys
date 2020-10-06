@@ -42,7 +42,8 @@ Text classification is the most fundamental and essential task in natural langua
 #### 2020
  <details/>
 <summary/>
-  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Spanbert: Improving pre-training by representing and predicting spans</a>  --- SpanBERT--- (<a href="https://github.com/facebookresearch/SpanBERT">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Spanbert: Improving pre-training by representing and predicting spans</a>  --- SpanBERT--- by<i> Qian Li, Hao Peng, Jianxin Li, Congying Xia, Renyu Yang, Lichao Sun, Philip S. Yu, Lifang He
+</a>(<a href="https://github.com/facebookresearch/SpanBERT">Github</a>)</summary><blockquote><p align="justify">
 We present SpanBERT, a pre-training method that is designed to better represent and predict spans of text. Our approach extends BERT by (1) masking contiguous random spans, rather than random tokens, and (2) training the span boundary representations to predict the entire content of the masked span, without relying on the individual token representations within it. SpanBERT consistently outperforms BERT and our better-tuned baselines, with substantial gains on span selection tasks such as question answering and coreference resolution. In particular, with the same training data and model size as BERT-Large, our single model obtains 94.6% and 88.7% F1 on SQuAD 1.1 and 2.0 respectively. We also achieve a new state of the art on the OntoNotes coreference resolution task (79.6% F1), strong performance on the TACRED relation extraction benchmark, and even gains on GLUE.
   
   主要贡献：Span Mask机制，不再对随机的单个token添加mask，随机对邻接分词添加mask；Span Boundary Objective(SBO)训练，使用分词边界表示预测被添加mask分词的内容；一个句子的训练效果更好。
@@ -516,10 +517,10 @@ Tree boosting is a highly effective and widely used machine learning method. In 
 
 <details/>
 <summary/>
-<a href="https://dl.acm.org/doi/10.1145/321075.321084">Automatic indexing: An experimental inquiry 采用贝叶斯公式进行文本分类</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://dl.acm.org/doi/10.1145/321075.321084">Automatic indexing: An experimental inquiry</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
   This inquiry examines a technique for automatically classifying (indexing) documents according to their subject content. The task, in essence, is to have a computing machine read a document and on the basis of the occurrence of selected clue words decide to which of many subject categories the document in question belongs. This paper describes the design, execution and evaluation of a modest experimental study aimed at testing empirically one statistical technique for automatic indexing.
   
-  这个调查研究了一种根据主题内容自动分类(索引)文档的技术。本质上，任务是让计算机读取文档，并根据所选线索词的出现情况来决定所涉文档属于哪个主题类别。本文描述了一个适度的实验研究的设计、执行和评估，旨在实证地测试一种统计技术的自动索引。
+   采用贝叶斯公式进行文本分类。这个调查研究了一种根据主题内容自动分类(索引)文档的技术。本质上，任务是让计算机读取文档，并根据所选线索词的出现情况来决定所涉文档属于哪个主题类别。本文描述了一个适度的实验研究的设计、执行和评估，旨在实证地测试一种统计技术的自动索引。
 </p></blockquote></details>
 
 
@@ -532,7 +533,7 @@ Tree boosting is a highly effective and widely used machine learning method. In 
 #### Sentiment Analysis (SA) 情感分析
 SA is the process of analyzing and reasoning the subjective text withinemotional color. It is crucial to get information on whether it supports a particular point of view fromthe text that is distinct from the traditional text classification that analyzes the objective content ofthe text. SA can be binary or multi-class. Binary SA is to divide the text into two categories, includingpositive and negative. Multi-class SA classifies text to multi-level or fine-grained labels. 
 
-（情感分析是对带有情感色彩的主观文本进行分析和推理的过程。从文本中获取是否支持特定观点的信息是至关重要的，而传统的文本分类是分析文本的客观内容。情感分析可以是二进制的或多类的。二元情感分类是将文本分为正反两类。多类情感分类将文本分类为多层或细粒度的标签。）
+情感分析是对带有情感色彩的主观文本进行分析和推理的过程。从文本中获取是否支持特定观点的信息是至关重要的，而传统的文本分类是分析文本的客观内容。情感分析可以是二进制的或多类的。二元情感分类是将文本分为正反两类。多类情感分类将文本分类为多层或细粒度的标签。
 
 <details/>
 <summary/> <a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/">Movie Review (MR) 电影评论数据集</a></summary><blockquote><p align="justify">
