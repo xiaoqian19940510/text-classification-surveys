@@ -9,7 +9,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Surveys](#surveys)
 - [Deep Learning Models](#deep-learning-models)
 - [Shallow Learning Models](#shallow-learning-models)
-- [Datasets](#Datasets)
+- [Datasets](#datasets)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Future Research Challenges](#future-research-challenges)
 - [Tools and Repos](#tools-and-repos)
