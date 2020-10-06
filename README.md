@@ -487,7 +487,8 @@ We introduce a novel machine learning frame-work based on recursive autoencoders
 #### 2017
  <details/>
 <summary/>
-  <a href="http://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree">Lightgbm: A highly efficient gradient boosting decision tree</a> LightGBM (<a href="https://github.com/creatist/text_classify">Github</a>)</summary><blockquote><p align="justify">
+  <a href="http://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree">Lightgbm: A highly efficient gradient boosting decision tree</a> --- LightGBM --- by<i> Guolin Ke, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, Tie-Yan Liu
+</a>(<a href="https://github.com/creatist/text_classify">Github</a>)</summary><blockquote><p align="justify">
 Gradient Boosting Decision Tree (GBDT) is a popular machine learning algorithm, and has quite a few effective implementations such as XGBoost and pGBRT. Although many engineering optimizations have been adopted in these implementations, the efficiency and scalability are still unsatisfactory when the feature dimension is high and data size is large. A major reason is that for each feature, they need to scan all the data instances to estimate the information gain of all possible split points, which is very time consuming. To tackle this problem, we propose two novel techniques: \emph{Gradient-based One-Side Sampling} (GOSS) and \emph{Exclusive Feature Bundling} (EFB). With GOSS, we exclude a significant proportion of data instances with small gradients, and only use the rest to estimate the information gain. We prove that, since the data instances with larger gradients play a more important role in the computation of information gain, GOSS can obtain quite accurate estimation of the information gain with a much smaller data size. With EFB, we bundle mutually exclusive features (i.e., they rarely take nonzero values simultaneously), to reduce the number of features. We prove that finding the optimal bundling of exclusive features is NP-hard, but a greedy algorithm can achieve quite good approximation ratio (and thus can effectively reduce the number of features without hurting the accuracy of split point determination by much). We call our new GBDT implementation with GOSS and EFB \emph{LightGBM}. Our experiments on multiple public datasets show that, LightGBM speeds up the training process of conventional GBDT by up to over 20 times while achieving almost the same accuracy.
   
   梯度增强决策树(Gradient Boosting Decision Tree, GBDT)是一种流行的机器学习算法，它有很多有效的实现，如XGBoost和pGBRT。虽然在这些实现中采用了很多工程优化，但在特征维数高、数据量大的情况下，效率和可伸缩性仍然不能令人满意。一个主要原因是对于每个特征，他们需要扫描所有的数据实例来估计所有可能的分割点的信息增益，这是非常耗时的。为了解决这一问题，我们提出了两种新技术:基于梯度的单边采样}(GOSS)和专属特性绑定}(EFB)。使用GOSS，我们排除了具有小梯度的大量数据实例，只使用其余部分来估计信息增益。我们证明了，由于梯度较大的数据实例在信息增益的计算中起着更重要的作用，高斯函数可以在数据量小得多的情况下获得相当准确的信息增益估计。使用EFB，我们捆绑互斥的特性(即，它们很少同时取非零值)，以减少特性的数量。我们证明了寻找唯一特征的最优捆绑是np困难的，但贪婪算法可以达到很好的逼近率(从而在不影响分割点确定精度的前提下有效地减少特征的数量)。我们使用GOSS和EFB \emph{LightGBM}调用我们的新GBDT实现。我们在多个公共数据集上的实验表明，LightGBM将传统GBDT的训练过程提高了20多倍，同时达到几乎相同的准确率。
@@ -496,7 +497,8 @@ Gradient Boosting Decision Tree (GBDT) is a popular machine learning algorithm, 
 #### 2016
  <details/>
 <summary/>
-  <a href="https://dl.acm.org/doi/10.1145/2939672.2939785">Xgboost: A scalable tree boosting system</a> XGBoost(<a href="https://xgboost.readthedocs.io/en/latest">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://dl.acm.org/doi/10.1145/2939672.2939785">Xgboost: A scalable tree boosting system</a> --- XGBoost ---  by<i> Tianqi Chen, Carlos Guestrin
+</a>(<a href="https://xgboost.readthedocs.io/en/latest">Github</a>)</summary><blockquote><p align="justify">
 Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.
   
   树boosting是一种高效、应用广泛的机器学习方法。在本文中，我们描述了一个名为XGBoost的可扩展的端到端树形增强系统，该系统被数据科学家广泛使用，在许多机器学习挑战中取得了最新的成果。我们提出了一种新的稀疏数据稀疏感知算法和加权分位数草图的近似树学习。更重要的是，我们提供了关于缓存访问模式、数据压缩和分片的见解来构建一个可伸缩的树增强系统。通过结合这些见解，XGBoost可以使用比现有系统少得多的资源扩展数十亿个示例。
@@ -508,7 +510,8 @@ Tree boosting is a highly effective and widely used machine learning method. In 
 #### 2001
 <details/>
 <summary/>
- <a href="https://link.springer.com/article/10.1023%2FA%3A1010933404324">Random Forests (RF)</a> (<a href="https://github.com/hexiaolang/RandomForest-In-text-classification">{Github}</a>) </summary><blockquote><p align="justify">
+ <a href="https://link.springer.com/article/10.1023%2FA%3A1010933404324"> --- Random Forests (RF) --- by<i> Leo Breiman 
+</a></a> (<a href="https://github.com/hexiaolang/RandomForest-In-text-classification">{Github}</a>) </summary><blockquote><p align="justify">
   Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund & R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148–156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression.
   
   随机森林是树预测器的组合，因此每棵树都依赖于独立采样的随机向量的值，并且对森林中的所有树具有相同的分布。森林的泛化误差随着森林中树木数量的增加而收敛到一个极限。树分类器的森林泛化误差取决于森林中单个树的强度和它们之间的相关性。使用随机选择的特征来分割每个节点产生的错误率与Adaboost (Y. Freund & R. Schapire，机器学习:第十三届国际会议论文集，***，148-156)不相上下，但在噪声方面更健壮。内部估计监视错误、强度和相关性，这些用于显示对分割中使用的特性数量增加的响应。内部估计也被用来衡量变量的重要性。这些思想也适用于回归。
@@ -517,7 +520,8 @@ Tree boosting is a highly effective and widely used machine learning method. In 
 #### 1998
 <details/>
 <summary/>
-<a href="https://xueshu.baidu.com/usercenter/paper/show?paperid=58aa6cfa340e6ae6809c5deadd07d88e&site=xueshu_se">Text categorization with Support Vector Machines: Learning with many relevant features (SVM)</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://xueshu.baidu.com/usercenter/paper/show?paperid=58aa6cfa340e6ae6809c5deadd07d88e&site=xueshu_se">Text categorization with Support Vector Machines: Learning with many relevant features (SVM)</a>  by<i> JOACHIMS,T.
+</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
   This paper explores the use of Support Vector Machines (SVMs) for learning text classifiers from examples. It analyzes the particular properties of learning with text data and identifies why SVMs are appropriate for this task. Empirical results support the theoretical findings. SVMs achieve substantial improvements over the currently best performing methods and behave robustly over a variety of different learning tasks. Furthermore they are fully automatic, eliminating the need for manual parameter tuning.
   
   本文通过实例探讨了支持向量机在文本分类器学习中的应用。它分析了文本数据学习的特殊属性，并确定了支持向量机为什么适合这项任务。实证结果支持理论发现。支持向量机在当前性能最好的方法中取得了实质性的改进，并且在各种不同的学习任务中表现得很稳健。此外，它们是全自动的，不需要手动调整参数。
@@ -526,21 +530,24 @@ Tree boosting is a highly effective and widely used machine learning method. In 
 #### 1993
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">C4.5: Programs for Machine Learning (C4.5)</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://link.springer.com/article/10.1007/BF00993309">C4.5: Programs for Machine Learning (C4.5)</a> by<i> Steven L. Salzberg 
+</a>  (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
   C4.5算法是由Ross Quinlan开发的用于产生决策树的算法，该算法是对Ross Quinlan之前开发的ID3算法的一个扩展。C4.5算法主要应用于统计分类中，主要是通过分析数据的信息熵建立和修剪决策树。
 </p></blockquote></details>
 
 #### 1984
 <details/>
 <summary/>
-<a href="https://dblp.org/img/paper.dark.empty.16x16.png">Classification and Regression Trees (CART)</a> (<a href="https://github.com/sayantann11/all-classification-templetes-for-ML">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://dblp.org/img/paper.dark.empty.16x16.png">Classification and Regression Trees (CART)</a> by<i> Chyon-HwaYeh
+</a> (<a href="https://github.com/sayantann11/all-classification-templetes-for-ML">{Github}</a>) </summary><blockquote><p align="justify">
   分类与回归树CART是由Loe Breiman等人在1984年提出的，自提出后被广泛的应用。CART既能用于分类也能用于回归，和决策树相比较，CART把选择最优特征的方法从信息增益（率）换成了基尼指数。
 </p></blockquote></details>
 
 #### 1967
 <details/>
 <summary/>
-<a href="https://dl.acm.org/doi/10.1145/321075.321084">Nearest neighbor pattern classification (k-nearest neighbor classification,KNN)</a> (<a href="https://github.com/raimonbosch/knn.classifier">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://dl.acm.org/doi/10.1145/321075.321084">Nearest neighbor pattern classification (k-nearest neighbor classification,KNN)</a> by<i> M. E. Maron
+</a> (<a href="https://github.com/raimonbosch/knn.classifier">{Github}</a>) </summary><blockquote><p align="justify">
   The nearest neighbor decision rule assigns to an unclassified sample point the classification of the nearest of a set of previously classified points. This rule is independent of the underlying joint distribution on the sample points and their classifications, and hence the probability of errorRof such a rule must be at least as great as the Bayes probability of errorR^{\ast}--the minimum probability of error over all decision rules taking underlying probability structure into account. However, in a large sample analysis, we will show in theM-category case thatR^{\ast} \leq R \leq R^{\ast}(2 --MR^{\ast}/(M-1)), where these bounds are the tightest possible, for all suitably smooth underlying distributions. Thus for any number of categories, the probability of error of the nearest neighbor rule is bounded above by twice the Bayes probability of error. In this sense, it may be said that half the classification information in an infinite sample set is contained in the nearest neighbor.
   
   最近邻决策规则将一组已分类点中最接近的分类分配给一个未分类的样本点。这个规则独立于底层的联合分布的采样点及其分类的概率,因此error R概率这样的规则必须至少一样伟大的贝叶斯概率error R ^ {\ ast},可以使误差概率最小决策规则考虑潜在的概率结构。然而，在一个大型样本分析中，我们将在它们-类别的情况下显示R^{\ast} \leq R \leq R^{\ast}/(2—MR^{\ast}/(M-1))，其中对于所有适当平滑的底层分布，这些边界是可能最紧的。因此，对于任意数量的类别，最近邻规则的错误概率是贝叶斯错误概率的两倍以上。从这个意义上说，可以说一个无限样本集中一半的分类信息都包含在最近邻中。
@@ -551,7 +558,8 @@ Tree boosting is a highly effective and widely used machine learning method. In 
 
 <details/>
 <summary/>
-<a href="https://dl.acm.org/doi/10.1145/321075.321084">Automatic indexing: An experimental inquiry</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://dl.acm.org/doi/10.1145/321075.321084">Automatic indexing: An experimental inquiry</a> by<i> M. E. Maron
+</a> (<a href="https://github.com/Gunjitbedi/Text-Classification">{Github}</a>) </summary><blockquote><p align="justify">
   This inquiry examines a technique for automatically classifying (indexing) documents according to their subject content. The task, in essence, is to have a computing machine read a document and on the basis of the occurrence of selected clue words decide to which of many subject categories the document in question belongs. This paper describes the design, execution and evaluation of a modest experimental study aimed at testing empirically one statistical technique for automatic indexing.
   
    采用贝叶斯公式进行文本分类。这个调查研究了一种根据主题内容自动分类(索引)文档的技术。本质上，任务是让计算机读取文档，并根据所选线索词的出现情况来决定所涉文档属于哪个主题类别。本文描述了一个适度的实验研究的设计、执行和评估，旨在实证地测试一种统计技术的自动索引。
