@@ -842,17 +842,21 @@ Single-label text classification divides the text into one of the most likelycat
 
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Accuracy and Error Rate</a></summary><blockquote><p align="justify">
+<summary/> <a>Accuracy and Error Rate</a></summary><blockquote><p align="justify">
 Accuracy and Error Rate are the fundamental metrics for a text classification model. The Accuracy and Error Rate are respectively defined as
   
   准确率和错误率是文本分类模型的基本指标。准确率和错误率分别定义为
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/1.png)
 </p></blockquote></details>
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Precision, Recall and F1</a></summary><blockquote><p align="justify">
+<summary/> <a >Precision, Recall and F1</a></summary><blockquote><p align="justify">
 These are vital metrics utilized for unbalanced test sets regardless ofthe standard type and error rate. For example, most of the test samples have a class label. F1 is theharmonic average of Precision and Recall. Accuracy, Recall, and F1 as defined
   
   无论标准类型和错误率如何，这些都是用于非平衡测试集的重要量度。例如，大多数测试示例都有一个类标签。F1是精度和召回率的调和平均值。准确性、召回率和F1的定义
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/2.png)
   
   The desired results will be obtained when the accuracy, F1 and recall value reach 1. On the contrary,when the values become 0, the worst result is obtained. For the multi-class classification problem,the precision and recall value of each class can be calculated separately, and then the performanceof the individual and whole can be analyzed.
   
@@ -860,7 +864,7 @@ These are vital metrics utilized for unbalanced test sets regardless ofthe stand
   </p></blockquote></details>
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Exact Match (EM)</a></summary><blockquote><p align="justify">
+<summary/> <a>Exact Match (EM)</a></summary><blockquote><p align="justify">
 The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
   
 EM是QA任务的一个度量指标，它度量与所有真实答案精确匹配的预测。它是使用在球队数据集上的主要指标。
@@ -868,14 +872,14 @@ EM是QA任务的一个度量指标，它度量与所有真实答案精确匹配�
 
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Mean Reciprocal Rank (MRR)</a></summary><blockquote><p align="justify">
+<summary/> <a >Mean Reciprocal Rank (MRR)</a></summary><blockquote><p align="justify">
 The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
   
   EM是QA任务的一个度量指标，它度量与所有真实答案精确匹配的预测。它是使用在球队数据集上的主要指标。
 </p></blockquote></details>
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Hamming-loss (HL)</a></summary><blockquote><p align="justify">
+<summary/> <a >Hamming-loss (HL)</a></summary><blockquote><p align="justify">
 The HL assesses the score of misclassified instance-label pairs wherea related label is omitted or an unrelated is predicted.
   
   HL评估被错误分类的实例-标签对的得分，其中相关的标签被省略或不相关的标签被预测。
@@ -888,18 +892,24 @@ Compared with single-label text classification, multi-label text classifica-tion
 与单标签文本分类相比，多标签文本分类将文本分为多个类别标签，类别标签的数量是可变的。这些度量标准是针对单标签文本分类而设计的，不适用于多标签任务。因此，有一些度量标准为多标签文本分类设计。
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Micro−F1</a></summary><blockquote><p align="justify">
+<summary/> <a >Micro−F1</a></summary><blockquote><p align="justify">
 The Micro−F1 is a measure that considers the overall accuracy and recall of alllabels. The Micro−F1is defined as
   
   F1是一种衡量标准，考虑了所有标签的整体准确性和召回情况。Micro- F1的定义为
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/3.png)
+    ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/4.png)
 </p></blockquote></details>
 
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Macro−F1</a></summary><blockquote><p align="justify">
+<summary/> <a >Macro−F1</a></summary><blockquote><p align="justify">
 The Macro−F1 calculates the average F1 of all labels. Unlike Micro−F1, which setseven weight to every example, Macro−F1 sets the same weight to all labels in the average process. Formally, Macro−F1is defined as
   
   Macro−F1计算所有标签的平均F1值。与Micro−F1不同的是，它为每个示例设置7个重量，Macro−F1为平均过程中的所有标签设置相同的重量。在形式上，Macro−F1的定义为
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/5.png)
+    ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/6.png)
 </p></blockquote></details>
 
 In addition to the above evaluation metrics, there are some rank-based evaluation metrics forextreme multi-label classification tasks, including P@K and NDCG@K.
@@ -907,17 +917,22 @@ In addition to the above evaluation metrics, there are some rank-based evaluatio
 除了上述评价指标，还有一些基于排序的多标签分类任务评价指标，包括P@K和NDCG@K。
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Precision at Top K (P@K)</a></summary><blockquote><p align="justify">
+<summary/> <a >Precision at Top K (P@K)</a></summary><blockquote><p align="justify">
 The P@K is the precision at the top k. ForP@K, each text has a set of L ground truth labels Lt={l0,l1,l2...,lL−1}, in order of decreasing probability Pt=p0,p1,p2...,pQ−1.The precision at k is
   
   其中P@K为排名第k处的准确率。P@K，每个文本有一组L个全局真标签Lt={l0,l1,l2...,lL−1}, 为了减少概率Pt=p0,p1,p2...,pQ−1。第k处的准确率为
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/7.png)
 </p></blockquote></details>
 
 <details/>
-<summary/> <a href="https://dblp.org/rec/bib/conf/nips/ZhangZL15">Normalized Discounted Cummulated Gains (NDCG@K)</a></summary><blockquote><p align="justify">
+<summary/> <a>Normalized Discounted Cummulated Gains (NDCG@K)</a></summary><blockquote><p align="justify">
 The NDCG at k is
   
   排名第k处的NDCG值
+  
+   ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/9.png)
+  
 </p></blockquote></details>
 
 
@@ -937,25 +952,25 @@ The NDCG at k is
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">Zero-shot/Few-shot learning</a> </summary><blockquote><p align="justify">
+<a >Zero-shot/Few-shot learning</a> </summary><blockquote><p align="justify">
   当前的深度学习模型过于依赖大量标记数据。这些模型的性能在零镜头或少镜头学习中受到显着影响。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">外部知识</a>  </summary><blockquote><p align="justify">
+<a >外部知识</a>  </summary><blockquote><p align="justify">
   我们都知道，输入的有益信息越多，DNN的性能就越好。因此，认为添加外部知识(知识库或知识图)是提高模型性能的有效途径。然而，如何添加以及添加什么仍然是一个挑战。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">多标签文本分类任务</a>  </summary><blockquote><p align="justify">
+<a >多标签文本分类任务</a>  </summary><blockquote><p align="justify">
   多标签文本分类需要充分考虑标签之间的语义关系，并且模型的嵌入和编码是有损压缩的过程。因此，如何减少训练过程中层次语义的丢失以及如何保留丰富而复杂的文档语义信息仍然是一个亟待解决的问题。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">具有许多术语词汇的特殊领域</a> </summary><blockquote><p align="justify">
+<a >具有许多术语词汇的特殊领域</a> </summary><blockquote><p align="justify">
   特定领域的文本（例如金融和医学文本）包含许多特定的单词或领域专家，可理解的语，缩写等，这使现有的预训练单词向量难以使用。
 </p></blockquote></details>
 
@@ -970,13 +985,13 @@ The NDCG at k is
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">模型的语义鲁棒性</a>  </summary><blockquote><p align="justify">
+<a >模型的语义鲁棒性</a>  </summary><blockquote><p align="justify">
   近年来，研究人员设计了许多模型来增强文本分类模型的准确性。但是，如果数据集中有一些对抗性样本，则模型的性能会大大降低。因此，如何提高模型的鲁棒性是当前研究的热点和挑战。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">模型的可解释性</a> </summary><blockquote><p align="justify">
+<a >模型的可解释性</a> </summary><blockquote><p align="justify">
   DNN在特征提取和语义挖掘方面具有独特的优势，并且已经完成了出色的文本分类任务。但是，深度学习是一个黑盒模型，训练过程难以重现，隐式语义和输出可解释性很差。它对模型进行了改进和优化，丢失了明确的准则。此外，我们无法准确解释为什么该模型可以提高性能。
 </p></blockquote></details>
 
