@@ -15,7 +15,6 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Tools and Repos](#tools-and-repos)
 </p></blockquote></details>
 
----
 
 
 # Surveys
