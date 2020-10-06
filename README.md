@@ -3,21 +3,8 @@
 This repository contains resources for Natural Language Processing (NLP) with a focus on the task of Text Classification. The content is mainly from paper 《A Survey on Text Classification: From Shallow to Deep Learning》
 （该repository主要总结自然语言处理（NLP）中文本分类任务的资料。内容主要来自文本分类综述论文《A Survey on Text Classification: From Shallow to Deep Learning》）
 
-# Table of Contents 目录
 
-- [Surveys（综述论文）](##Surveys)
-- [Shallow Learning Models（浅层学习模型）](##Shallow-Learning-Models)
-- [Deep Learning Models（深度学习模型）](##Deep-Learning-Models)
-- [Datasets（数据集）](#Datasets)
-- [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
-- [Future Research Challenges（未来研究挑战）](#Future-Research-Challenges)
-- [Tools and Repos（工具与资源）](#tools-and-repos)
-</p></blockquote></details>
-
----
-
-
-# Table of Contents 目录
+# Table of Contents
 
 - [Surveys](#surveys)
 - [Deep Learning Models](#deep-learning-models)
@@ -32,7 +19,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 
 # Surveys
-[:arrow_up:](#table-of-contents)
+[:arrow_up:](#surveys)
 
 <details/>
 <summary/>
@@ -51,7 +38,7 @@ Text classification is the most fundamental and essential task in natural langua
 
 
 # Deep Learning Models
-[:arrow_up:](#table-of-contents)
+[:arrow_up:](#deep-learning-models)
 
 #### 2020
  <details/>
