@@ -19,19 +19,19 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 # Table of Contents 目录
 
-- [Surveys（综述论文）](#surveys)
-- [Shallow Learning Models](#shallow-learning-models)
+- [Surveys](#surveys)
 - [Deep Learning Models](#deep-learning-models)
-- [Datasets（数据集）](#Datasets)
-- [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
-- [Future Research Challenges（未来研究挑战）](#Future-Research-Challenges)
-- [Tools and Repos（工具与资源）](#tools-and-repos)
+- [Shallow Learning Models](#shallow-learning-models)
+- [Datasets](#Datasets)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Future Research Challenges](#future-research-challenges)
+- [Tools and Repos](#tools-and-repos)
 </p></blockquote></details>
 
 ---
 
 
-# Surveys（综述论文）
+# Surveys
 [:arrow_up:](#table-of-contents)
 
 <details/>
@@ -495,7 +495,7 @@ We introduce a novel machine learning frame-work based on recursive autoencoders
 
 
 
-## Shallow Learning Models(浅层学习模型)
+# Shallow Learning Models
 [:arrow_up:](#table-of-contents)
 
 #### 2017
@@ -583,7 +583,7 @@ Tree boosting is a highly effective and widely used machine learning method. In 
 
 
 
-## Data（数据）
+# Data
 [:arrow_up:](#table-of-contents)
 
 #### Sentiment Analysis (SA) 情感分析
@@ -842,7 +842,7 @@ There are some datasets for other applications, such as Geonames toponyms, Twitt
 
 还有一些用于其他应用程序的数据集，比如Geonames toponyms、Twitter帖子等等。
 
-## Evaluation Metrics（评价指标）
+# Evaluation Metrics
 [:arrow_up:](#table-of-contents)
 
 In terms of evaluating text classification models, accuracy and F1 score are the most used to assessthe text classification methods. Later, with the increasing difficulty of classification tasks or theexistence of some particular tasks, the evaluation metrics are improved. For example, evaluationmetrics such as P@K and Micro-F1 are used to evaluate multi-label text classification performance,and MRR is usually used to estimate the performance of QA tasks.
@@ -950,7 +950,7 @@ The NDCG at k is
 </p></blockquote></details>
 
 
-## Future Research Challenges（未来研究挑战）
+# Future Research Challenges
 [:arrow_up:](#table-of-contents)
 
 文本分类-作为有效的信息检索和挖掘技术-在管理文本数据中起着至关重要的作用。它使用NLP，数据挖掘，机器学习和其他技术来自动分类和发现不同的文本类型。文本分类将多种类型的文本作为输入，并且文本由预训练模型表示为矢量。然后将向量馈送到DNN中进行训练，直到达到终止条件为止，最后，下游任务验证了训练模型的性能。现有的模型已经显示出它们在文本分类中的有用性，但是仍有许多可能的改进需要探索。尽管一些新的文本分类模型反复擦写了大多数分类任务的准确性指标，但它无法指示模型是否像人类一样从语义层面“理解”文本。此外，随着噪声样本的出现，小的样本噪声可能导致决策置信度发生实质性变化，甚至导致决策逆转。因此，需要在实践中证明该模型的语义表示能力和鲁棒性。此外，由词向量表示的预训练语义表示模型通常可以提高下游NLP任务的性能。关于上下文无关单词向量的传输策略的现有研究仍是相对初步的。因此，我们从数据，模型和性能的角度得出结论，文本分类主要面临以下挑战：
@@ -1010,7 +1010,7 @@ The NDCG at k is
 </p></blockquote></details>
 
 
-## Tools and Repos（工具与资源）
+# Tools and Repos
 [:arrow_up:](#table-of-contents)
 
 
