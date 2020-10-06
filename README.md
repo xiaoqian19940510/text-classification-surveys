@@ -31,7 +31,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 ---
 
 
-## Surveys
+##Surveys
 [:arrow_up:](#table-of-contents)
 
 <details/>
