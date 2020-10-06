@@ -19,9 +19,9 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 # Table of Contents 目录
 
-- [Surveys](##surveys)
-- [Shallow Learning Models](##shallow-learning-models)
-- [Deep Learning Models](##deep-learning-models)
+- [Surveys](#surveys)
+- [Shallow Learning Models](#shallow-learning-models)
+- [Deep Learning Models](#deep-learning-models)
 - [Datasets（数据集）](#Datasets)
 - [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
 - [Future Research Challenges（未来研究挑战）](#Future-Research-Challenges)
@@ -31,7 +31,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 ---
 
 
-##Surveys
+# Surveys
 [:arrow_up:](#table-of-contents)
 
 <details/>
@@ -50,7 +50,7 @@ Text classification is the most fundamental and essential task in natural langua
 
 
 
-## Deep Learning Models
+# Deep Learning Models
 [:arrow_up:](#table-of-contents)
 
 #### 2020
