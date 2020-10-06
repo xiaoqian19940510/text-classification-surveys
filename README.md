@@ -929,25 +929,25 @@ The NDCG at k is
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">Zero-shot/Few-shot learning</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://link.springer.com/article/10.1007/BF00993309">Zero-shot/Few-shot learning</a> </summary><blockquote><p align="justify">
   当前的深度学习模型过于依赖大量标记数据。这些模型的性能在零镜头或少镜头学习中受到显着影响。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">外部知识</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://link.springer.com/article/10.1007/BF00993309">外部知识</a>  </summary><blockquote><p align="justify">
   我们都知道，输入的有益信息越多，DNN的性能就越好。因此，认为添加外部知识(知识库或知识图)是提高模型性能的有效途径。然而，如何添加以及添加什么仍然是一个挑战。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">多标签文本分类任务</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://link.springer.com/article/10.1007/BF00993309">多标签文本分类任务</a>  </summary><blockquote><p align="justify">
   多标签文本分类需要充分考虑标签之间的语义关系，并且模型的嵌入和编码是有损压缩的过程。因此，如何减少训练过程中层次语义的丢失以及如何保留丰富而复杂的文档语义信息仍然是一个亟待解决的问题。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">具有许多术语词汇的特殊领域</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://link.springer.com/article/10.1007/BF00993309">具有许多术语词汇的特殊领域</a> </summary><blockquote><p align="justify">
   特定领域的文本（例如金融和医学文本）包含许多特定的单词或领域专家，可理解的语，缩写等，这使现有的预训练单词向量难以使用。
 </p></blockquote></details>
 
@@ -962,13 +962,13 @@ The NDCG at k is
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">模型的语义鲁棒性</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://link.springer.com/article/10.1007/BF00993309">模型的语义鲁棒性</a>  </summary><blockquote><p align="justify">
   近年来，研究人员设计了许多模型来增强文本分类模型的准确性。但是，如果数据集中有一些对抗性样本，则模型的性能会大大降低。因此，如何提高模型的鲁棒性是当前研究的热点和挑战。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a href="https://link.springer.com/article/10.1007/BF00993309">模型的可解释性</a> (<a href="https://github.com/Cater5009/Text-Classify">{Github}</a>) </summary><blockquote><p align="justify">
+<a href="https://link.springer.com/article/10.1007/BF00993309">模型的可解释性</a> </summary><blockquote><p align="justify">
   DNN在特征提取和语义挖掘方面具有独特的优势，并且已经完成了出色的文本分类任务。但是，深度学习是一个黑盒模型，训练过程难以重现，隐式语义和输出可解释性很差。它对模型进行了改进和优化，丢失了明确的准则。此外，我们无法准确解释为什么该模型可以提高性能。
 </p></blockquote></details>
 
