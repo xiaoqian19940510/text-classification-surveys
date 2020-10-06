@@ -42,7 +42,7 @@ Text classification is the most fundamental and essential task in natural langua
 #### 2020
  <details/>
 <summary/>
-  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Spanbert: Improving pre-training by representing and predicting spans</a>  --- SpanBERT--- by<i> Qian Li, Hao Peng, Jianxin Li, Congying Xia, Renyu Yang, Lichao Sun, Philip S. Yu, Lifang He
+  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Spanbert: Improving pre-training by representing and predicting spans</a>  --- SpanBERT--- by<i> Mandar Joshi, Danqi Chen, Yinhan Liu, Daniel S. Weld, Luke Zettlemoyer, Omer Levy
 </a>(<a href="https://github.com/facebookresearch/SpanBERT">Github</a>)</summary><blockquote><p align="justify">
 We present SpanBERT, a pre-training method that is designed to better represent and predict spans of text. Our approach extends BERT by (1) masking contiguous random spans, rather than random tokens, and (2) training the span boundary representations to predict the entire content of the masked span, without relying on the individual token representations within it. SpanBERT consistently outperforms BERT and our better-tuned baselines, with substantial gains on span selection tasks such as question answering and coreference resolution. In particular, with the same training data and model size as BERT-Large, our single model obtains 94.6% and 88.7% F1 on SQuAD 1.1 and 2.0 respectively. We also achieve a new state of the art on the OntoNotes coreference resolution task (79.6% F1), strong performance on the TACRED relation extraction benchmark, and even gains on GLUE.
   
@@ -58,7 +58,8 @@ We present SpanBERT, a pre-training method that is designed to better represent 
 
  <details/>
 <summary/>
-  <a href="https://openreview.net/forum?id=H1eA7AEtvS">ALBERT: A lite BERT for self-supervised learning of language representations</a> --- ALBERT--- (<a href="https://github.com/google-research/ALBERT">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://openreview.net/forum?id=H1eA7AEtvS">ALBERT: A lite BERT for self-supervised learning of language representations</a> --- ALBERT--- by<i> Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, Radu Soricut
+</a> (<a href="https://github.com/google-research/ALBERT">Github</a>)</summary><blockquote><p align="justify">
 Increasing model size when pretraining natural language representations often results in improved performance on downstream tasks. However, at some point further model increases become harder due to GPU/TPU memory limitations and longer training times. To address these problems,  we present two parameter-reduction techniques to lower memory consumption and increase the training speed of BERT~\citep{devlin2018bert}. Comprehensive empirical evidence shows that our proposed methods lead to models that scale much better compared to the original BERT. We also use a self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks with multi-sentence inputs. As a result, our best model establishes new state-of-the-art results on the GLUE, RACE, and \squad benchmarks while having fewer parameters compared to BERT-large. The code and the pretrained models are available at https://github.com/google-research/ALBERT.
   
   论文主要贡献：瘦身成功版BERT，全新的参数共享机制。对embedding因式分解，隐层embedding带有上线文信息；跨层参数共享，全连接和attention层都进行参数共享，效果下降，参数减少，训练时间缩短；句间连贯 
@@ -69,7 +70,8 @@ Increasing model size when pretraining natural language representations often re
 #### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Roberta: A robustly optimized BERT pretraining approach</a> --- Roberta--- (<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/abs/1907.11692">Roberta: A robustly optimized BERT pretraining approach</a> --- Roberta--- by<i> Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, Veselin Stoyanov
+</a>  (<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
 Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.
   
   主要贡献：更多训练数据、更大batch size、训练时间更长；去掉NSP；训练序列更长；动态调整Masking机制，数据copy十份，每句话会有十种不同的mask方式。 
@@ -79,7 +81,8 @@ Language model pretraining has led to significant performance gains but careful 
 
  <details/>
 <summary/>
-  <a href="http://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding">Xlnet: Generalized autoregressive pretraining for language understanding</a> --- Xlnet--- (<a href="https://github.com/zihangdai/xlnet">Github</a>)</summary><blockquote><p align="justify">
+  <a href="http://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding">Xlnet: Generalized autoregressive pretraining for language understanding</a> --- Xlnet--- by<i> Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ R. Salakhutdinov, Quoc V. Le
+</a>  (<a href="https://github.com/zihangdai/xlnet">Github</a>)</summary><blockquote><p align="justify">
 With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining approaches based on autoregressive language modeling. However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation. Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into pretraining. Empirically, under comparable experiment setting, XLNet outperforms BERT on 20 tasks, often by a large margin, including question answering, natural language inference, sentiment analysis, and document ranking.
   
   主要贡献：采用自回归（AR）模型替代自编码（AE）模型，解决mask带来的负面影响；双流自注意力机制；引入transformer-xl，解决超长序列的依赖问题；采用相对位置编码 
@@ -95,7 +98,8 @@ With the capability of modeling bidirectional contexts, denoising autoencoding b
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P19-1441/">Multi-task deep neural networks for natural language understanding</a> --- MT-DNN--- (<a href="https://github.com/namisan/mt-dnn">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P19-1441/">Multi-task deep neural networks for natural language understanding</a> --- MT-DNN--- by<i> Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao
+</a>  (<a href="https://github.com/namisan/mt-dnn">Github</a>)</summary><blockquote><p align="justify">
 In this paper, we present a Multi-Task Deep Neural Network (MT-DNN) for learning representations across multiple natural language understanding (NLU) tasks. MT-DNN not only leverages large amounts of cross-task data, but also benefits from a regularization effect that leads to more general representations to help adapt to new tasks and domains. MT-DNN extends the model proposed in Liu et al. (2015) by incorporating a pre-trained bidirectional transformer language model, known as BERT (Devlin et al., 2018). MT-DNN obtains new state-of-the-art results on ten NLU tasks, including SNLI, SciTail, and eight out of nine GLUE tasks, pushing the GLUE benchmark to 82.7% (2.2% absolute improvement) as of February 25, 2019 on the latest GLUE test set. We also demonstrate using the SNLI and SciTail datasets that the representations learned by MT-DNN allow domain adaptation with substantially fewer in-domain labels than the pre-trained BERT representations. Our code and pre-trained models will be made publicly available.
   
   主要贡献：多任务学习机制训练模型，提高模型的泛化性能。 
@@ -111,7 +115,8 @@ In this paper, we present a Multi-Task Deep Neural Network (MT-DNN) for learning
 
  <details/>
 <summary/>
-  <a href="https://doi.org/10.18653/v1/n19-1423">BERT: pre-training of deep bidirectional transformers for language understanding</a> --- BERT--- (<a href="https://github.com/google-research/bert">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://doi.org/10.18653/v1/n19-1423">BERT: pre-training of deep bidirectional transformers for language understanding</a> --- BERT--- by<i> Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+</a> (<a href="https://github.com/google-research/bert">Github</a>)</summary><blockquote><p align="justify">
 We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
   
   主要贡献：BERT是双向的Transformer block连接，增加词向量模型泛化能力，充分描述字符级、词级、句子级关系特征。真正的双向encoding，Masked LM类似完形填空；transformer做encoder实现上下文相关，而不是bi-LSTM，模型更深，并行性更好；学习句子关系表示，句子级负采样 
