@@ -48,7 +48,7 @@ We present SpanBERT, a pre-training method that is designed to better represent 
   
   主要贡献：Span Mask机制，不再对随机的单个token添加mask，随机对邻接分词添加mask；Span Boundary Objective(SBO)训练，使用分词边界表示预测被添加mask分词的内容；一个句子的训练效果更好。
   
-  提出了一种名为SpanBERT的预训练方法，旨在更好地表示和预测文本范围。我们的方法通过(1)屏蔽连续的随机跨度而不是随机标记来扩展BERT，以及(2)训练跨度边界表示来预测屏蔽跨度的整个内容，而不依赖于其中的单个标记表示。斯潘伯特的表现始终优于伯特和我们优化后的基线，在跨度选择任务(如问题回答和共参照解决)上取得了实质性的进展。特别是，在训练数据和模型尺寸与伯特- large相同的情况下，我们的单模型在1.1和2.0阵容上分别得到F1的94.6%和88.7%。我们还实现了OntoNotes共参考分辨率任务(79.6% F1)的新水平，在TACRED关系提取基准测试上的强劲性能，甚至在GLUE上也取得了进展。
+  提出了一种名为SpanBERT的预训练方法，旨在更好地表示和预测文本范围。我们的方法通过(1)屏蔽连续的随机跨度而不是随机标记来扩展BERT，以及(2)训练跨度边界表示来预测屏蔽跨度的整个内容，而不依赖于其中的单个标记表示。SpanBERT的表现始终优于BERT和我们优化后的baseline，在跨度选择任务(如问题回答和共参照解决)上取得了实质性的进展。特别是，在训练数据和模型尺寸与BERT-large相同的情况下，我们的单模型在1.1和2.0上得到F1的值分别是94.6%和88.7%。
  
 ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/figures/picture3.png)
 
@@ -64,7 +64,7 @@ Increasing model size when pretraining natural language representations often re
   
   论文主要贡献：瘦身成功版BERT，全新的参数共享机制。对embedding因式分解，隐层embedding带有上线文信息；跨层参数共享，全连接和attention层都进行参数共享，效果下降，参数减少，训练时间缩短；句间连贯 
   
-  在对自然语言表示进行预训练时增加模型大小通常会提高下游任务的性能。然而，在某种程度上，由于GPU/TPU内存的限制和更长的训练时间，进一步的模型增加会变得更加困难。为了解决这些问题，提出了两种参数减少技术来降低内存消耗和提高BERT的训练速度~\citep{devlin2018bert}。全面的经验证据表明，提出的方法导致的模型，规模比原来的BERT更好。还使用了一种关注于句子间连贯性建模的自我监督丢失，并表明它始终有助于多句子输入的下游任务。因此，最好的模型建立了新的最先进的结果在胶水，比赛，\队基准，而拥有更少的参数，比伯特-大。代码和预先训练的模型可以在https://github.com/google-research/ALBERT下载。
+  在对自然语言表示进行预训练时增加模型大小通常会提高下游任务的性能。然而，在某种程度上，由于GPU/TPU内存的限制和更长的训练时间，进一步的模型增加会变得更加困难。为了解决这些问题，提出了两种参数减少技术来降低内存消耗和提高BERT的训练速度~\citep{devlin2018bert}。全面的经验表明，提出的方法规模比原来的BERT更好。还使用了一种关注于句子间连贯性建模的自我监督损失，并表明它始终有助于多句子输入的下游任务。因此，在 GLUE, RACE,和baseline上获得最先进的结果，且有更少的参数，单参数量比BERT大。代码和预训练的模型可以在https://github.com/google-research/ALBERT下载。
 </p></blockquote></details>
 
 #### 2019
@@ -74,9 +74,9 @@ Increasing model size when pretraining natural language representations often re
 </a>  (<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
 Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.
   
-  主要贡献：更多训练数据、更大batch size、训练时间更长；去掉NSP；训练序列更长；动态调整Masking机制，数据copy十份，每句话会有十种不同的mask方式。 
+  主要贡献：更多训练数据、更大batch size、训练时间更长；去掉NSP；训练序列更长；动态调整Masking机制，数据拷贝十份，每句话会有十种不同的mask方式。 
   
-  语言模型预训练已经导致了显著的性能提高，但仔细比较不同的方法是具有挑战性的。训练的计算开销很大，通常是在不同大小的私有数据集上进行的，而且，正如我们将展示的，超参数的选择对最终结果有很大的影响。我们提出了一项BERT预训练的复制研究(Devlin et al.， 2019)，该研究仔细测量了许多关键超参数和训练数据大小的影响。我们发现BERT明显训练不足，可以匹配或超过其后发布的每个模型的性能。我们最好的模型在GLUE, RACE和SQuAD上达到了最先进的效果。这些结果突出了以前被忽略的设计选择的重要性，并对最近报告的改进的来源提出了疑问。我们发布我们的模型和代码。
+  语言模型预训练已经导致了显著的性能提高，但仔细比较不同的方法是具有挑战性的。训练的计算开销很大，通常是在不同大小的私有数据集上进行的，而且，正如我们将展示的，超参数的选择对最终结果有很大的影响。我们提出了一项基于BERT预训练的研究，该研究仔细测量了许多关键超参数和训练数据大小的影响。我们发现BERT明显训练不足，可以匹配或超过其后发布的每个模型的性能。我们最好的模型在GLUE, RACE和SQuAD上达到了最先进的效果。这些结果突出了以前被忽略的设计选择的重要性，并对最近报告的改进的来源提出了疑问。我们发布我们的模型和代码。
 </p></blockquote></details>
 
  <details/>
