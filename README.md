@@ -872,9 +872,9 @@ EM是QA任务的度量标准，用于测量精确匹配所有正确答案的预�
 
 <details/>
 <summary/> <a >Mean Reciprocal Rank (MRR)</a></summary><blockquote><p align="justify">
-The EM is a metric for QA tasks measuring the prediction that matches all theground-truth answers precisely. It is the primary metric utilized on the SQuAD dataset.
+The MRR is usually applied for assessing the performance of ranking algorithms on QA and Information Retrieval (IR) tasks.
   
-  EM是QA任务的一个度量指标，它度量与所有真实答案精确匹配的预测。它是使用在球队数据集上的主要指标。
+  MRR通常用于评估在问答(QA)和信息检索(IR)任务中排序算法的性能。
 </p></blockquote></details>
 
 <details/>
